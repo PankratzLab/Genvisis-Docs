@@ -139,7 +139,7 @@ The Genvisis workflow depends on the platform of your original data and on the t
     * (Illumina only) If available, the **SNP_Map.csv** file that was produced by GenomeStudio at the same time as the reports. This is necessary only if your manifest does not contain probe sequences.
 5. Once the directories are set up and the necessary files are in place, run **genvisis.jar**
     * Linux/Mac:
-        * Open a terminal and run **java -Xmx#g -jar [path]/genvisis.jar **
+        * Open a terminal and run **java -Xmx#g -jar [path]/genvisis.jar**
         * #g is the number of gigabytes of memory
         * [path] is the location of the genvisis.jar file
         * e.g., **java -Xmx24g -jar ~/genvisis.jar** (if **genvisis.jar** is saved in your home directory)
@@ -171,13 +171,13 @@ The Genvisis workflow depends on the platform of your original data and on the t
         * APT results
             * Must have the same name as the **Project Name**
 14. **Genome Build** allows you to specify which version of the human genome to run the project in (e.g., **[Genome Reference Consortium Human Build 38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/)** aka **GRCh38**). 
-    * Unless there is a specific need to use an older version of the genome, set **Genome Build** to **hg38**, even if the manifest is in an older build. Genvisis can liftover marker positions to **hg38 **in the [Create Marker Positions](#bookmark=id.n8xlweakplyx) step of the Workflow.
-    * To determine which version of the genome your data is in, check the **GenomeBuild **column of your manifest.
+    * Unless there is a specific need to use an older version of the genome, set **Genome Build** to **hg38**, even if the manifest is in an older build. Genvisis can liftover marker positions to **hg38** in the [Create Marker Positions](#bookmark=id.n8xlweakplyx) step of the Workflow.
+    * To determine which version of the genome your data is in, check the **GenomeBuild** column of your manifest.
 15. Select locations for the following files:
     * **Pedigree file**
     * **Sample ID linker file**
     * **Batch file**
-    * **Marker subset file [optional] **
+    * **Marker subset file [optional]**
         * Used only if you are not analyzing all markers in the manifest
 16. If using Illumina reports, **Create** will launch the **Validation Review** window. Fields will be automatically populated from the source files.
     * **Allele 1/2 - Genotype:** These are important when combining data sets from multiple sources. In that case, a reference genome with a reference allele and an alternate allele are necessary. Illumina doesn't use that designation, so the categories used here for Illumina reports don't matter too much (can be forward allele or top allele designations).
