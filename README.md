@@ -350,10 +350,7 @@ Illumina and Affymetrix are processed the same from here on in the workflow.
 
 
 
-5. 
-Compute GCMODEL File
-
-
+5. Compute GCMODEL File
     * Computes the guanine and cytosine ontent around a marker. A lot of G's and C's in a row means that a portion of the double helix is more tightly bound and takes more energy to separate due to G and C having 3 hydrogen bonds instead of 2 (as with A and T). Regions with a lot of G's and C's have properties that are detected downstream, such as how tightly something is hybridizing to it, the degree of intensity (X and Y), and is a problem when the sample is of low quality.
     * This option computes the average GC content at each location and corrects for it.
     * Requires a file that is relative to the genome build (eg. hg18_gc5base.txt) that should automatically download from the Genvisis website. The file downloads to **.genvisis/resources/Genome/**
