@@ -1,4 +1,3 @@
-### Illumina Data Sets
+### Parse Sample Files (Illumina)
 
-2. Parse Sample Files
-    * Convert the .csv report files into a Genvisis native format
+Convert the .csv report files into a Genvisis native format.
