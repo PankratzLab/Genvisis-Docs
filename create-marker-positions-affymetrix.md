@@ -1,6 +1,6 @@
 ### Create Marker Positions (Affymetrix)
 
-Requires an Affymetrix Manifest file
+This step requires an Affymetrix manifest file.
 
 **.genvisis/resources/Arrays/AffySnp6/GenomeWideSNP_6.na35.annot.csv** will automatically load from the pre-existing Genvisis resources.
 
