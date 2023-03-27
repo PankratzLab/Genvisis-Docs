@@ -1,6 +1,6 @@
 ### Create Marker Positions (Illumina)
 
-This step uses a manifest file to determine where probes lie in the genome.
+This step uses an Illumina manifest file to determine where probes lie in the genome.
 
 Choose the [.csv version of the manifest](https://docs.google.com/document/d/1BMu1zp8er9NY-QFRh-7ZOeX1HnGj_yAYYh3BarASwPY/edit?pli=1#bookmark=id.e14mve4bgxmr) used to create the original project in GenomeStudio. This file should already be in **[ProjectDir]**.
 
