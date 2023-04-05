@@ -29,6 +29,7 @@ In **hhall.hmm**, copy number 2 homozygous is turned off by being set to 100 bec
 ### 3.2 GCMODEL File Must Exist
 
 ### 4 CNV Calling Scope
+There are three options for this step:
 * **BOTH (default):** Calls **AUTOSOMAL** and **SEX CHROMOSOMES** 
 * **AUTOSOMAL:** Chromosomes 1 to 22
 * **SEX CHROMOSOMES:** Chromosomes 23 (X) and 24 (Y)
