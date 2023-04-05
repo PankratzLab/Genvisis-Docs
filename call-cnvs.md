@@ -3,12 +3,20 @@
 ### 1.1 Hidden Markov Model (HMM) File Must Exist
 The HMM looks for change states; a change in intensity may indicate a deletion or a duplication.
 
-The model parameters (mean and standard deviation values that indicate the number of copies of an allele) are stored in an **.hmm** file. Genvisis automatically downloads **.genvisis/resources/CNV/hhall.hmm**, which is the default model. Another option is **hh550.hmm**, which is for the Illumina 550 array. (The PennCNV algorithm was originally written for the 550 array; Genvisis uses the same CNV calling algorithm as PennCNV.) A third option is the .hmm file created in **Step 21: Process CNVs and Create HMM File**, which can be used here to call CNVs a second time with an .hmm file that is customized to the dataset (the **Create HMM File** step also has an option to recall CNVs automatically).
+The model parameters (mean and standard deviation values that indicate the number of copies of an allele) are stored in an **.hmm** file. Genvisis automatically downloads **.genvisis/resources/CNV/hhall.hmm**, which is the default model. Another option is **hh550.hmm**, which is for the Illumina 550 array. (The PennCNV algorithm was originally written for the 550 array; Genvisis uses the same CNV calling algorithm as PennCNV.) A third option is the **.hmm** file created in **Step 21: Process CNVs and Create HMM File**, which can be used here to call CNVs a second time with an **.hmm** file that is customized to the dataset (the **Create HMM File** step also has an option to recall CNVs automatically).
 
-B1 is for the log R ratio and B2 is for the B allele frequency. Values were derived empirically from an array. For **hhall.hmm***, the first six numbers are as follows:
--3.5 (for copy number 0 [homozygous deletion])	-0.66 (for copy number 1)	0	(for copy number 2 heterozygous) 100 (for copy number 2 homozygous)	0.4 (for copy number 3 [duplication]) 	0.68 (for copy number 4 [triplication])
+B1 is for the log R ratio and B2 is for the B allele frequency. Values were derived empirically from an array. The first six numbers are as follows:
 
-Copy number 2 homozygous is turned off by being set to 100 because values that high will never be seen. **hh550.hmm** has homozygous set to 0.0.
+| Value in **hhall.hmm** | Value in **hh550.hmm** | For copy number |
+| ----- | ----- | -----|
+| -3.5 | -3.5 | 0 (homozygous deletion) |
+| -0.66 | -0.66 | 1 |
+| 0 | 0 | 2 heterozygous |
+| 100 | 0.0 | 2 homozygous |
+| 0.4 | 0.4 | 3 (duplication) |
+| 0.68 | 0.68 | 4 (triplication) |
+
+In **hhall.hmm**, copy number 2 homozygous is turned off by being set to 100 because values that high will never be seen.
 
 ### 1.2 Use locally available array-specific Hidden Markov Model resource file
 
