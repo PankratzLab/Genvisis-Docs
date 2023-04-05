@@ -5,10 +5,11 @@ The HMM looks for change states; a change in intensity may indicate a deletion o
 
 The model parameters (mean and standard deviation values that indicate the number of copies of an allele) are stored in an **.hmm** file. Genvisis automatically downloads **.genvisis/resources/CNV/hhall.hmm**, which is the default model. Another option is **hh550.hmm**, which is for the Illumina 550 array. (The PennCNV algorithm was originally written for the 550 array; Genvisis uses the same CNV calling algorithm as PennCNV.) A third option is the **.hmm** file created in **Step 21: Process CNVs and Create HMM File**, which can be used here to call CNVs a second time with an **.hmm** file that is customized to the dataset (the **Create HMM File** step also has an option to recall CNVs automatically).
 
+
 B1 is for the log R ratio and B2 is for the B allele frequency. Values were derived empirically from an array. The first six numbers are as follows:
 
 | Value in **hhall.hmm** | Value in **hh550.hmm** | For copy number |
-| ----- | ----- | -----|
+| ---: | ---: | ---|
 | -3.5 | -3.5 | 0 (homozygous deletion) |
 | -0.66 | -0.66 | 1 |
 | 0 | 0 | 2 heterozygous |
