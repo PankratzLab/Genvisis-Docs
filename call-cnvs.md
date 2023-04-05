@@ -1,4 +1,7 @@
-### Call CNVs
+## Call CNVs
+
+### 1.1 Hidden Markov Model (HMM) File Must Exist
+
 
 Part 1.1 takes an .hmm file, which contains the parameters for a Hidden Markov Model
 * The model parameters are stored in **.genvisis/resources/CNV/hhall.hmm**, which Genvisis automatically downloads.
@@ -13,7 +16,28 @@ Part 1.1 takes an .hmm file, which contains the parameters for a Hidden Markov M
   * Copy number 2 homozygous is turned off by being set to 100 because values that high will never be seen. hh550.hmm has homozygous set to 0.0.
 * The .hmm file created in **Step 21: Process CNVs and Create HMM File**, can also be used here to call CNVs a second time with an .hmm file customized to the dataset (the **Create HMM File** step also has an option to recall CNVs automatically).
 
-Part 4: CNV Calling Scope (three options)
+
+### 1.2 Use locally available array-specific Hidden Markov Model resource file
+
+### 2.1 Computer Population BAF Files step [compute-pfb] must have been run already or must be selected
+
+### 2.2 PFB File Must Exist
+
+### 3.1 Comptuer GCMODEL File step [gcmodel] must have been run already or must be selected
+
+### 3.2 GCMODEL File Must Exist
+
+### 4 CNV Calling Scope
 * **BOTH (default):** Calls **AUTOSOMAL** and **SEX CHROMOSOMES** 
 * **AUTOSOMAL:** Chromosomes 1 to 22
 * **SEX CHROMOSOMES:** Chromosomes 23 (X) and 24 (Y)
+
+### 5 (optional) If calling chromosomal CNVs, use sex-specific centroids to recalculate LRR/BAF values?
+
+### 6.1 (optional) Use Genvisis-generated list of markers to ignore (if it exists)
+
+### 6.2 (optional) File of problematic or dropped markers to ignore in CNV calling
+
+### 7 Number of threads
+
+### 8 Output filename (must not already exist)
