@@ -8,7 +8,7 @@ The model parameters (mean and standard deviation values that indicate the numbe
 B1 is for the log R ratio and B2 is for the B allele frequency. Values were derived empirically from an array.
 
 | For copy number | Value in **hhall.hmm** | Value in **hh550.hmm** |
-| ---: | ---: | ---|
+| :--- | ---: | ---: |
 | 0 (homozygous deletion) | -3.5 | -3.5 |
 | 1 | -0.66 | -0.66 |
 | 2 heterozygous | 0 | 0 |
