@@ -1,5 +1,7 @@
 ## Parse Sample Files (Illumina)
 
-#### 1.1 Marker Position file must already exist.
+This step converts the .csv report files into a native format for Genvisis.
 
-Convert the .csv report files into a Genvisis native format.
+#### 1.1: Marker Position file must already exist.
+
+#### 1.2: Create Marker Positions step [illumina-markers] must have been run already or must be selected.
