@@ -1,13 +1,16 @@
-### Identify Excluded Samples
+## Identify Excluded Samples
 
 This option loads **lrr_sd.xln** and filters out low quality samples.
 
-The user sets thresholds for filtering. Default values are 0.32 for **LRR SD**, 0.95 for **Callrate**, and 3 for **BAF SD**.
-- **LRR SD**
-  - Phase 2: Set **LRR SD** to 0.5 for SNP analysis.
-  - Phase 3: Keep **LRR SD** at the default of 0.32 for CNV analysis.
-- **Callrate**
-  - 0.98 is the standard **Callrate** for Illumina data.
-  - 0.95 is the standard **Callrate** for Affymetrix data.
-- **BAF SD** 
-  - Can remain at the default of 3 for most projects.
+#### 1: Compute Sample QC Metrics step [sample-qc] must have been run already or must be selected
+
+#### 2: LRR SD Threshold
+The default value is 0.32. For Phase 2 (SNP) analysis, set to 0.5 for SNP analysis. FOr Phase 3 (CNV) analysis, use the default value of 0.32.
+
+#### 3: Callrate Threshold
+The default value is 0.95. Use 0.98 for Illumina data and 0.95 for Affymetrix data.
+
+#### 4: BAF SD Threshold Multiplier
+The default value is 3, which is appropriate for most projects.
+
+#### 5: (optional) File of additional samples to exclude regardless of quality
