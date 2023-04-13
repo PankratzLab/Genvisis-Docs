@@ -1,15 +1,18 @@
 ## Process Affymetrix CEL Files 
 
-Directory with Affy Power Tools executables
-* Files beginning with **apt-**, such as **apt-probeset-genotype** 
-* Available at [http://www.affymetrix.com/](http://www.affymetrix.com/)
+#### 1: Create Marker Positions step [affy-markers] must have been run already or must be selected
 
-Directory with Affy Power Tools library files
-* Files beginning with **GenomeWideSNP_6**, such as **GenomeWideSNP_6.cdf**
-* Available at [http://www.affymetrix.com/](http://www.affymetrix.com/)
+#### 2: Directory with Affy Power Tools executables (should contain apt-probset-genotype, etc. Available at http://www.affymetrix.com/)
+These files begin with **apt-**, such as **apt-probeset-genotype**.
 
-A target sketch file such as **hapmap.quant-norm.normalization-target.txt**
+#### 3: Directory with Affy Power Tools library files (should contain GenomeWideSNP_6.cdf, etc. Available at http://www.affymetrix.com/)
+These files begin with **GenomeWideSNP_6**, such as **GenomeWideSNP_6.cdf**.
 
-If you are examining mitochondrial DNA copy number, there is an option to use the full affymetrix cdf, which contains more mitochondrial probe sets
+#### 4: A target sketch file (such as hapmap.quant-norm.normalization-target.txt)
 
-Number of threads
+#### 5: (optional) Use the full affymetrix cdf, which contains more mitochondrial probesets
+This option may be of interest if you are examining mitochondrial DNA copy number.
+
+#### 6: (optional) Sample name override file containing the following two columns: CurrentID, DesiredID
+
+#### 7: Number of threads
