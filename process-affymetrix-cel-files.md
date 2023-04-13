@@ -1,4 +1,4 @@
-### Process Affymetrix CEL Files 
+## Process Affymetrix CEL Files 
 
 Directory with Affy Power Tools executables
 * Files beginning with **apt-**, such as **apt-probeset-genotype** 
