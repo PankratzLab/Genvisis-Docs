@@ -16,7 +16,7 @@ B1 is for the log R ratio and B2 is for the B allele frequency. Values were deri
 | 3 (duplication) | 0.4 | 0.4 |
 | 4 (triplication) | 0.68 | 0.68 |
 
-In **hhall.hmm**, copy number 2 homozygous is turned off by being set to 100 because values that high will never be seen.
+In **hhall.hmm**, copy number 2 homozygous is turned off by being set to 100 because values that large will never be seen.
 
 #### 1.2 Use locally available array-specific Hidden Markov Model resource file
 
@@ -29,7 +29,6 @@ In **hhall.hmm**, copy number 2 homozygous is turned off by being set to 100 bec
 #### 3.2 GCMODEL File Must Exist
 
 #### 4 CNV Calling Scope
-
 * AUTOSOMAL: Chromosomes 1 to 22
 * SEX CHROMOSOMES: Chromosomes 23 (X) and 24 (Y)
 * BOTH (default): Calls AUTOSOMAL and SEX CHROMOSOMES
