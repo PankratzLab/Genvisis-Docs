@@ -3,7 +3,7 @@
 #### 1: An Affymetrix Manifest file
 This step uses an Affymetrix manifest file to determine where probes lie in the genome.
 
-**.genvisis/resources/Arrays/AffySnp6/GenomeWideSNP_6.na35.annot.csv** will automatically load from the pre-existing Genvisis resources. This file uses an hg19 array.
+**.genvisis/resources/Arrays/AffySnp6/GenomeWideSNP_6.na35.annot.csv** will automatically load from the pre-existing Genvisis resources. This file uses an **hg19** array.
 
 Choose the [.csv version of the manifest](https://docs.google.com/document/d/1BMu1zp8er9NY-QFRh-7ZOeX1HnGj_yAYYh3BarASwPY/edit?pli=1#bookmark=id.e14mve4bgxmr) used to create the original project in GenomeStudio. This file should already be saved in the project directory.
 
