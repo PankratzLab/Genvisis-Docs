@@ -12,7 +12,7 @@ BLAST will run on the marker positions in markerPositions.txt.
 You must provide a manifest with probe sequences.
 
 #### 4: (optional) Marker positions file to override MarkerSet positions with (e.g. for a different genome build) (e.g. markerPositions.txt)
-Use this option if you want to BLAST on a different genome build than that of your project. For example, if the project was created in hg37 and the positions in markerPositions.txt are hg37, you can provide an alternative markerPositions file with positions in **hg38** for this part.
+Use this option if you want to BLAST on a different genome build than that of your project. For example, if the project was created in **hg37** and the positions in **markerPositions.txt** are **hg37**, you can provide an alternative markerPositions file with positions in **hg38** for this part.
 
 #### 5: Number of threads
 
