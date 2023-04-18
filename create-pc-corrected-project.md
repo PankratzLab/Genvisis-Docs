@@ -1,4 +1,19 @@
-### Create PC-Corrected Project
+## Create PC-Corrected Project
+
+#### 1.1: Generate Principal Components step [generate-pcs] must have been run already or must be selected
+
+#### 1.2 File path (relative to project directory) and filename prefix for principal components correction files
+
+#### 2: Number of principal components for correction
+
+#### 3: Correction Type
+
+#### 4: Sex Chromosome Strategy
+
+#### 5: Number of threads
+
+#### 6: (optional) Create script with steps to process corrected data and call CNVs?
+
     * This step will create a new Genvisis project where X and Y are transformed based on the nearest genotype cluster using the principal components generated in the previous step. LRR and BAF are then recomputed based on the new X and Y values.
     * The button **Review PCs Plot** will show a scatterplot of Singular Value vs number of Principal Components
         * As the number of PCs increases, the amount of variation in the data they explain falls. This is described by the Singular Value, which decreases with each additional PC added.
