@@ -21,6 +21,8 @@ Getting Started
 %Genvisis Resources
 
 Running the Genvisis Workflow
+%Introduction to the Workflow
+
 %Illumina Data Sets
 %%Create Marker Positions (Illumina)
 %%Parse Sample Files (Illumina)
