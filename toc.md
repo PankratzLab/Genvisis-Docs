@@ -1,5 +1,4 @@
 **Questions for JZ: 
-titles with semicolon
 added "(Illumina)"/"(Affymetrix)"
 PC-Corrected Project (change to something like "Example of a PC-Corrected Project?)
 Toolbar vs Toolbar Icons?
@@ -31,7 +30,7 @@ Running the Genvisis Workflow
 %%Transpose Data into Marker-Dominant Files (Illumina)
 
 %Affymetrix Data Sets
-%%Create Marker Positions (Affymetrix)
+%%Create Marker Positions (Affymetrix) create-marker-positions-affymetrix.md
 %%Process Affymetrix CEL Files (Affymetrix)
 %%Transpose Marker Files to Sample Files (Affymetrix)
 %%Run Marker BLAST Annotation (Affymetrix)
@@ -43,7 +42,7 @@ Running the Genvisis Workflow
 %%Run Sex Checks
 %%Generate AB Lookup File
 %%Create PLINK Genotype Files
-%%Run GWAS QC
+%%Run GWAS QC 
 %%Run Ancestry Checks
 %%Annotate Sample Data File
 %%Computer Population BAF Files
