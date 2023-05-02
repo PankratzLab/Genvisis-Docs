@@ -2,6 +2,7 @@
 titles with semicolon
 added "(Illumina)"/"(Affymetrix)"
 PC-Corrected Project (change to something like "Example of a PC-Corrected Project?)
+Toolbar vs Toolbar Icons?
 
 
 Table of contents
