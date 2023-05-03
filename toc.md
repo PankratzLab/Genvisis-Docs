@@ -3,13 +3,13 @@
 Table of contents
 
 Getting Started
-%Genvisis Downloads
+%Software Download
 %Required Raw Data Files
 %%For Affymetrix Data (Affy6/Axiom)
 %%For Illumina GWAS Array Data
-%Files for a New Genvisis Project
+%Required Files for a New Genvisis Project
 %Pedigree and Linker Setup
-%Creating a New Project
+%New Project Creation
 %Import an Existing Project Into Genvisis
 
 Running the Genvisis Workflow
