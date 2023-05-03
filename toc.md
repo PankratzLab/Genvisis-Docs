@@ -1,39 +1,32 @@
-**Questions for JZ: 
-added "(Illumina)"/"(Affymetrix)"
-PC-Corrected Project (change to something like "Example of a PC-Corrected Project?)
-Toolbar vs Toolbar Icons?
-
+**Need sub-headers under all headers... (no content in headers)
 
 Table of contents
 
-Required Raw Data Files
-%For Affymetrix Data (Affy6/Axiom)
-%For Illumina GWAS Array Data
-
-Quick Reference
-%Genvisis Downloads
-%Genvisis Workflow Checklist
-%Files for a New Genvisis Project
-
 Getting Started
-%Creating a New Project
+%Genvisis Downloads
+%Required Raw Data Files
+%%For Affymetrix Data (Affy6/Axiom)
+%%For Illumina GWAS Array Data
+%Files for a New Genvisis Project
 %Pedigree and Linker Setup
-%Genvisis Resources
+%Creating a New Project
+%Import an Existing Project Into Genvisis
+
 
 Running the Genvisis Workflow
 %Introduction to the Workflow
 
 %Illumina Data Sets
-%%Create Marker Positions (Illumina)
-%%Parse Sample Files (Illumina)
-%%Run Marker BLAST Annotation (Illumina)
-%%Transpose Data into Marker-Dominant Files (Illumina)
+%%Create Marker Positions
+%%Parse Sample Files
+%%Run Marker BLAST Annotation
+%%Transpose Data into Marker-Dominant Files
 
 %Affymetrix Data Sets
-%%Create Marker Positions (Affymetrix) create-marker-positions-affymetrix.md
-%%Process Affymetrix CEL Files (Affymetrix)
-%%Transpose Marker Files to Sample Files (Affymetrix)
-%%Run Marker BLAST Annotation (Affymetrix)
+%%Create Marker Positions {create-marker-positions-affymetrix.md}
+%%Process Affymetrix CEL Files 
+%%Transpose Marker Files to Sample Files
+%%Run Marker BLAST Annotation
 
 %All Data Sets
 %%Compute GCMODEL File
@@ -60,22 +53,16 @@ Running the Genvisis Workflow
 %%Create Mitochondrial Copy-Number Estimates File
 %%Create VCF Files for Imputation
 
-%PC-Corrected Project
+Running a PC-Corrected Project
+%Overview
+%Workflow
 
-%PC-Corrected Project Workflow
+Interpreting Results
+%Illumina Data Sets
+%Affymetrix Data Sets
+%All Data Sets
 
-Running Genvisis Via Script
-
-Running Genvisis From the Command Line
-
-Import an Existing Project Into Genvisis
-
-Toolbar
-
-Toolbar Icons
-%Project Properties Editor
-%Refresh
-%Genvisis Project Workflow
+Visualizing Reults
 %ScatterPlot
 %TrailerPlot
 %CompPlot
@@ -87,45 +74,22 @@ Toolbar Icons
 %ForestPlot
 %ManhattanPlot
 
-Workflow Output and How to Interpret Results
-%Illumina Data Sets
-%%Create Marker Positions (Illumina)
-%%Parse Sample Files (Illumina)
-%%Run Marker BLAST Annotation (Illumina)
-%%Transpose Data into Marker-Dominant Files (Illumina)
 
-%Affymetrix Data Sets
-%%Create Marker Positions (Affymetrix)
-%%Process Affymetrix CEL Files (Affymetrix)
-%%Transpose Marker Files to Sample Files (Affymetrix)
-%%Run Marker BLAST Annotation (Affymetrix)
-
-%All Data Sets
-%%Compute GCMODEL File
-%%Compute SampleQC Metrics
-%%Identify Excluded Samples
-%%Run Sex Checks
-%%Generate AB Lookup File
-%%Create PLINK Genotype Files
-%%Run GWAS QC
-%%Run Ancestry Checks
-%%Annotate Sample Data File
-%%Computer Population BAF Files
-%%Create Sex-Specific Centroids; Filter PFB File
-%%Call CNVs
-%%Filter CNVs
-%%Process CNVs and Create HMM File
-%%Generate Genotype Mask
-%%Run Marker QC Metrics
-%%Run Further Analysis QC
-%%Identify Mosaic Chromosomal Arms
-%%Identify Problematic Markers
-%%Generate Principal Components
-%%Create PC-Corrected Project
-%%Create Mitochondrial Copy-Number Estimates File
-%%Create VCF Files for Imputation
-
-CNV Analysis Pipeline
+Running the CNV Analysis Pipeline
 %Running CNV Analysis
 %Analyzing Results
 %Visualizing Results
+
+Scripting
+
+Command Line
+
+Resources Directory
+
+Menu
+
+Toolbar
+%Introduction to the Toolbar
+%Project Properties Editor
+%Refresh
+%Genvisis Project Workflow
