@@ -12,12 +12,11 @@ Getting Started
 %Creating a New Project
 %Import an Existing Project Into Genvisis
 
-
 Running the Genvisis Workflow
 %Introduction to the Workflow
 
 %Illumina Data Sets
-%%Create Marker Positions
+%%Create Marker Positions {create-marker-positions-illumina.md}
 %%Parse Sample Files
 %%Run Marker BLAST Annotation
 %%Transpose Data into Marker-Dominant Files
