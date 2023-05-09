@@ -16,8 +16,4 @@ Genvisis projects require a **pedigree.txt** file containing unique subject ids 
     * The **DNA** column must match the **Sample ID** used in GenomeStudio. The GenomeStudio **Sample ID** is used to name the **.sampRAF** files and Genvisis matches the **DNA** column in **Linker.txt** to the **.sampRAFs**.
     * **FID** and **IID** can have duplicates, but each **DNA** ID must be unique.
     * If making a **Linker.txt** file in Excel, set the format of the columns to **Text** before adding the IDs (the default is **General**, where Excel will guess the format of each value). IDs that are solely numbers will have leading zeros removed by Excel in this situation, which will lead to Genvisis not being able to match those rows in the **Linker.txt** file with the corresponding **.sampRAFs**. It is best to copy **Sample IDs** directly from the GenomeStudio project and not the **Sample_Map.csv** that is produced with reports, as opening **Sample_Map.csv** in Excel automatically removes leading zeros.
-3. Genvisis projects created prior to August 2021 may have issues using linker and pedigree.
-    * **relationshipChecks.xln**
-    1. This may cause a checksums failure when loading linker or pedigree
-    2. Resolve by re-running GWAS_QC step - it should add a checksum to the first line of the relationshipChecks.xln file
-    3. You may need to remove/back-up your existing relationship checks
+3. Genvisis projects created prior to August 2021 may have issues using linker and pedigree, specifically, you may see a checksums failure when loading linker or pedigree. To resolve this issue, re-run the GWAS_QC step of the workflow. Genvisis should add a checksum to the first line of the relationshipChecks.xln file. You may need to remove/back-up your existing relationship checks.
