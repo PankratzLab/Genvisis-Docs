@@ -1,7 +1,7 @@
 ## Required Files for a New Genvisis Project 
 
 * **00src/** 
-    * Directory containing GenomeStudio FinalReport files for Illumina data or CEL files for Affymetrix data
+    * Directory containing GenomeStudio Final Report files for Illumina data or CEL files for Affymetrix data
 * **data/[pedigree.txt](#bookmark=id.3wqz7fyhw1k7)** 
     * Identical to a plink.fam file
     * For some projects everyone will be listed as unrelated
