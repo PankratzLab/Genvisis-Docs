@@ -1,6 +1,8 @@
+# New Project Creation
+
 1. Create a directory for your project (written as **[ProjectDir]** for the rest of this documentation).
 2. Within **[ProjectDir]**, create a subdirectory for the raw data; internally we use the naming convention **00src** (i.e., **[ProjectDir]/00src**), but this is not mandatory.
-3. Within **00src**, place either the FinalReport files from GenomeStudio (either **.csv** or **.csv.gz** format) or Affymetrix .CEL files. Only FinalReport or .CEL files should be in this directory. [Click here](https://docs.google.com/document/d/1BMu1zp8er9NY-QFRh-7ZOeX1HnGj_yAYYh3BarASwPY/edit#bookmark=id.2ab481w48low) for a tutorial on how to process a project using GenomeStudio. [Click here](https://docs.google.com/document/d/1BMu1zp8er9NY-QFRh-7ZOeX1HnGj_yAYYh3BarASwPY/edit#bookmark=kix.rnqrxmj63otl) for a tutorial on how to recluster data using only the high-quality samples as seeds. Best practices recommend reclustering the data, even if the project was already processed through GenomeStudio.
+3. Within **00src**, place either the FinalReport files from GenomeStudio (either **.csv** or **.csv.gz** format) or Affymetrix .CEL files. Only Final Report or .CEL files should be in this directory. [Click here](https://docs.google.com/document/d/1BMu1zp8er9NY-QFRh-7ZOeX1HnGj_yAYYh3BarASwPY/edit#bookmark=id.2ab481w48low) for a tutorial on how to process a project using GenomeStudio. [Click here](https://docs.google.com/document/d/1BMu1zp8er9NY-QFRh-7ZOeX1HnGj_yAYYh3BarASwPY/edit#bookmark=kix.rnqrxmj63otl) for a tutorial on how to recluster data using only the high-quality samples as seeds. Best practices recommend reclustering the data even if the project was previously processed through GenomeStudio.
 4. In **[ProjectDir]**, place
     * (Illumina only) The **.csv** version of the project’s **manifest file** (with probe sequences)
     * [**pedigree.txt** and **linker.txt**](#bookmark=id.3wqz7fyhw1k7) (within a data subdirectory (i.e., **[ProjectDir]/data**))
@@ -40,7 +42,7 @@
 6. In the Genvisis window that opens, click **File** → **New Project**
 7. Enter a **Project Name**
 8. Click **...** next to **Project Directory**
-9. Choose the **[ProjectDir]** -> **Select**
+9. Choose the **[ProjectDir]** → **Select**
 10. Click **...** next to **Source File Directory**
 11. Choose the **00src** directory created earlier → **Select**
 12. Genvisis will automatically detect the number of source files and the extension (eg. .csv, .csv.gz, .CEL, etc.).
@@ -75,4 +77,4 @@
 17. If the reports don’t have consistent headers, there will be a separate validation review window for each group of reports.
 18. Click **OK. **A new window will appear: **[Genvisis Project Workflow](#bookmark=id.s30o3wuyykva)**
 19. If using Affymetrix CEL files, there will be no Validation Review and Genvisis will go directly to the Project Workflow.
-20. Inside **[ProjectDir]**, two new directories will appear: **data/ **and **logs/**. A file named **source_headers.ser** will also appear in **[ProjectDir]**.
+20. Inside **[ProjectDir]**, two new directories will appear: **data/** and **logs/**. A file named **source_headers.ser** will also appear in **[ProjectDir]**.
