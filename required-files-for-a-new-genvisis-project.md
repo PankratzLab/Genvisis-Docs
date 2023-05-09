@@ -1,4 +1,4 @@
-## Required Files for a New Genvisis Project 
+# Required Files for a New Genvisis Project 
 
 * **00src/** 
     * Directory containing GenomeStudio Final Report files for Illumina data or CEL files for Affymetrix data
@@ -9,7 +9,8 @@
     * Text file that maps the Sample ID in Illumina’s GenomeStudio or Affymetrix Power Tools to a family ID (FID) and individual ID (IID)
     * Also delineates who is a duplicate
 * **data/batch.txt** 
-    * Optional: If samples were genotyped in batches, this is the way to delineate the groups
+    * Optional
+    * If samples were genotyped in batches, this file allows you to delineate the groups
     * This allows Genvisis to detect whether a batch has such significant batch effects that it should be reclustered by itself
 * **Manifest (Illumina data)**
     * .csv version with probe sequences
