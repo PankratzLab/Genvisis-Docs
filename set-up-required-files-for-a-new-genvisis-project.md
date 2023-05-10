@@ -1,4 +1,4 @@
-# Required Files for a New Genvisis Project 
+# Set Up Required Files for a New Genvisis Project 
 
 * **00src/** 
     * Directory containing GenomeStudio Final Report files for Illumina data or CEL files for Affymetrix data
