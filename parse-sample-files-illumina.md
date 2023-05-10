@@ -1,4 +1,4 @@
-## Parse Sample Files (Illumina)
+## Parse Sample Files
 This step converts the .csv report files into a native format for Genvisis.
 
 #### 1.1: Marker Position file must already exist
