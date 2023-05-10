@@ -1,4 +1,4 @@
-## Create Marker Positions (Affymetrix)
+## Create Marker Positions
 
 This step uses an Affymetrix manifest file to determine where probes lie in the genome.
 
