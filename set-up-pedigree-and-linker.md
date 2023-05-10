@@ -1,4 +1,4 @@
-# Pedigree and Linker Setup
+# Set Up Pedigree and Linker
 
 Genvisis projects require a **pedigree.txt** file containing unique subject ids and a **linker.txt** file that identifies duplicate subjects.
 
