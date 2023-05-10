@@ -9,35 +9,24 @@
     * If your samples were processed in batches, **batch.text** [within a data subdirectory (i.e., **[ProjectDir]/data**)] listing sample IDs and batch names (no header) so Genvisis can control for batch effects. For example:
 
             ID001	California
-
-
             ID002 California
-
-
             ID003	NBS
-
-
             ID004	NBS
-
-
             ID005	COG
-
-
             ID006	COG
 
     * (Illumina only) If available, the **SNP_Map.csv** file that was produced by GenomeStudio at the same time as the reports. This is necessary only if your manifest does not contain probe sequences.
-5. Once the directories are set up and the necessary files are in place, run **genvisis.jar**
-    * Linux/Mac:
+5. Once the directories are set up and the necessary files are in place, run **genvisis.jar**.
+    * Linux/Mac
         * Open a terminal and run **java -Xmx#g -jar [path]/genvisis.jar**
-        * #g is the number of gigabytes of memory
-        * [path] is the location of the genvisis.jar file
-        * e.g., **java -Xmx24g -jar ~/genvisis.jar** (if **genvisis.jar** is saved in your home directory)
-        * Alternatively, locate **genvisis.jar **within a file manager and double-click on 
-        * the Genvisis icon
-    * Windows:
-        * Open a text file and write inside: **java -Xmx#g -jar genvisis.jar**
-        * #g is the number of gigabytes of memory
-        * Save the text file as **vis.bat **in the same directory as **genvisis.jar**
+         * #g is the number of gigabytes of memory
+         * [path] is the location of the genvisis.jar file
+         * e.g., **java -Xmx24g -jar ~/genvisis.jar** (if **genvisis.jar** is saved in your home directory)
+        * Alternatively, locate **genvisis.jar** within a file manager and double-click on the Genvisis icon
+    * Windows
+        * Open a text file and write **java -Xmx#g -jar genvisis.jar**
+         * #g is the number of gigabytes of memory
+        * Save the text file as **vis.bat** in the same directory as **genvisis.jar**
         * Double-click **vis.bat**
 6. In the Genvisis window that opens, click **File** → **New Project**
 7. Enter a **Project Name**
