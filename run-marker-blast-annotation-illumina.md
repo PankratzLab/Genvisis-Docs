@@ -1,4 +1,4 @@
-## Run Marker BLAST Annotation (Illumina)
+## Run Marker BLAST Annotation
 
 BLAST (Basic Local Alignment Search Tool) determines if markers are useful by aligning the probe sequences to the genome. A marker is not useful if it aligns to multiple locations on a genome.
 
