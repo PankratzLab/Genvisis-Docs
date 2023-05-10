@@ -1,4 +1,4 @@
-# New Project Creation
+# Create a New Project
 
 1. Create a directory for your project (written as **[ProjectDir]** for the rest of this documentation).
 2. Within **[ProjectDir]**, create a subdirectory for the raw data; internally we use the naming convention **00src** (i.e., **[ProjectDir]/00src**), but this is not mandatory.
