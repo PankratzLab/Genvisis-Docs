@@ -1,4 +1,4 @@
-## Toolbar
+## Introduction to the Toolbar
 
 1. File
     * New Project
