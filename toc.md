@@ -1,5 +1,3 @@
-Table of contents
-
 Get Started
 %Download Genvisis
 %Find Required Raw Data Files
