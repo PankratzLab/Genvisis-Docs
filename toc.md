@@ -1,31 +1,29 @@
-**Need sub-headers under all headers... (no content in headers)
-
 Table of contents
 
-Getting Started
-%Software Download
-%Required Raw Data Files
-%%For Affymetrix Data (Affy6/Axiom)
+Get Started
+%Download Genvisis
+%Find Required Raw Data Files
+%%For Affymetrix Data (Affy6/Axiom) {for-affymetrix-data.md}
 %%For Illumina GWAS Array Data
-%Required Files for a New Genvisis Project
-%Pedigree and Linker Setup
-%New Project Creation
+%Set Up Required Files for a New Genvisis Project
+%Set Up Pedigree and Linker
+%Create a New Project
 %Import an Existing Project Into Genvisis
 
-Running the Genvisis Workflow
+Run the Genvisis Workflow
 %Introduction to the Workflow
 
 %Illumina Data Sets
 %%Create Marker Positions {create-marker-positions-illumina.md}
-%%Parse Sample Files
-%%Run Marker BLAST Annotation
-%%Transpose Data into Marker-Dominant Files
+%%Parse Sample Files {parse-sample-files-illumina.md}
+%%Run Marker BLAST Annotation {run-marker-blast-annotation-illumina.md}
+%%Transpose Data into Marker-Dominant Files {transpose-data-illumina.md}
 
 %Affymetrix Data Sets
 %%Create Marker Positions {create-marker-positions-affymetrix.md}
 %%Process Affymetrix CEL Files 
 %%Transpose Marker Files to Sample Files
-%%Run Marker BLAST Annotation
+%%Run Marker BLAST Annotation {run-marker-blast-annotation-affymetrix.md}
 
 %All Data Sets
 %%Compute GCMODEL File
@@ -52,16 +50,16 @@ Running the Genvisis Workflow
 %%Create Mitochondrial Copy-Number Estimates File
 %%Create VCF Files for Imputation
 
-Running a PC-Corrected Project
+Run a PC-Corrected Project
 %Overview
 %Workflow
 
-Interpreting Results
+Interpret Results
 %Illumina Data Sets
 %Affymetrix Data Sets
 %All Data Sets
 
-Visualizing Reults
+Visualize Reults
 %ScatterPlot
 %TrailerPlot
 %CompPlot
@@ -73,8 +71,7 @@ Visualizing Reults
 %ForestPlot
 %ManhattanPlot
 
-
-Running the CNV Analysis Pipeline
+Run the CNV Analysis Pipeline
 %Running CNV Analysis
 %Analyzing Results
 %Visualizing Results
