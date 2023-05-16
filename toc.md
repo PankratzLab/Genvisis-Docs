@@ -78,7 +78,7 @@ Scripting
 
 Command Line
 
-Resources Directory
+Resources
 
 Menu
 
