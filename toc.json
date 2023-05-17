@@ -1,0 +1,111 @@
+{
+  "Get Started": [
+    {
+      "Download Genvisis": "placeholder.md",
+      "Find Required Raw Data Files": [
+        {
+          "For Affymetrix Data (Affy6/Axiom)": "for-affymetrix-data.md",
+          "For Illumina GWAS Array Data": "placeholder.md"
+        }
+      ],
+      "Set Up Required Files for a New Genvisis Project": "placeholder.md",
+      "Set Up Pedigree and Linker": "placeholder.md",
+      "Create a New Project": "placeholder.md",
+      "Import an Existing Project into Genvisis": "placeholder.md"
+    }
+  ],
+  "Run the Genvisis Workflow": [
+    {
+      "Introduction to the Workflow": "placeholder.md",
+      "Illumina Data Sets": [
+        {
+          "Create Marker Positions": "create-marker-positions-illumina.md",
+          "Parse Sample Files": "parse-sample-files-illumina.md",
+          "Run Marker BLAST Annotation": "run-marker-blast-annotation-illumina.md",
+          "Transpose Data into Marker-Dominant Files": "transpose-data-illumina.md"
+        }
+      ],
+      "Affymetrix Data Sets": [
+        {
+          "Create Marker Positions": "create-marker-positions-affymetrix.md",
+          "Process Affymetrix CEL Files": "placeholder.md",
+          "Transpose Marker Files to Sample Files": "placeholder.md",
+          "Run Marker BLAST Annotation": "run-marker-blast-annotation-affymetrix.md"
+        }
+      ],
+      "All Data Sets": [
+        {
+          "Compute GCMODEL File": "placeholder.md",
+          "Compute SampleQC Metrics": "placeholder.md",
+          "Identify Excluded Samples": "placeholder.md",
+          "Run Sex Checks": "placeholder.md",
+          "Generate AB Lookup File": "placeholder.md",
+          "Create PLINK Genotype Files": "placeholder.md",
+          "Run GWAS QC": "placeholder.md",
+          "Run Ancestry Checks": "placeholder.md",
+          "Annotate Sample Data File": "placeholder.md",
+          "Computer Population BAF Files": "placeholder.md",
+          "Create Sex-Specific Centroids and Filter PFB File": "placeholder.md",
+          "Call CNVs": "placeholder.md",
+          "Filter CNVs": "placeholder.md",
+          "Process CNVs and Create HMM File": "placeholder.md",
+          "Generate Genotype Mask": "placeholder.md",
+          "Run Marker QC Metrics": "placeholder.md",
+          "Run Further Analysis QC": "placeholder.md",
+          "Identify Mosaic Chromosomal Arms": "placeholder.md",
+          "Identify Problematic Markers": "placeholder.md",
+          "Generate Principal Components": "placeholder.md",
+          "Create PC-Corrected Project": "placeholder.md",
+          "Create Mitochondrial Copy-Number Estimates File": "placeholder.md",
+          "Create VCF Files for Imputation": "placeholder.md"
+        }
+      ]
+    }
+  ],
+  "Run a PC-Corrected Project": [
+    {
+      "Overview": "placeholder.md",
+      "Workflow": "placeholder.md"
+    }
+  ],
+  "Interpret Results": [
+    {
+      "Illumina Data Sets": "placeholder.md",
+      "Affymetrix Data Sets": "placeholder.md",
+      "All Data Sets": "placeholder.md"
+    }
+  ],
+  "Visualize Results": [
+    {
+      "Scatter Plot": "placeholder.md",
+      "Trailer Plot": "placeholder.md",
+      "Comp Plot": "placeholder.md",
+      "Mosaic Plot": "placeholder.md",
+      "Ancestry Plot": "placeholder.md",
+      "Sex Plot": "placeholder.md",
+      "2D Plot": "placeholder.md",
+      "QQ Plot": "placeholder.md",
+      "Forest Plot": "placeholder.md",
+      "Manhattan Plot": "placeholder.md"
+    }
+  ],
+  "Run the CNV Analysis Pipeline":[
+    {
+      "Running CNV Analysis": "placeholder.md",
+      "Analyzing Results": "placeholder.md",
+      "Visualizing Results": "placeholder.md",
+    }
+  ],
+  "Scripting": "placeholder.md",
+  "Command Line": "placeholder.md",
+  "Resources": "placeholder.md",
+  "Menu": "placeholder.md",
+  "Toolbar": [
+    {
+      "Introduction to the Toolbar": "placeholder.md",
+      "Project Properties Editor": "placeholder.md",
+      "Refresh": "placeholder.md",
+      "Genvisis Project Workflow": "placeholder.md"
+    }
+  ]
+}
