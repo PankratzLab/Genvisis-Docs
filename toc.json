@@ -68,14 +68,14 @@
       "Workflow": "placeholder.md"
     }
   ],
-  "Interpret Results": [
+  "Interpret Workflow Results": [
     {
       "Illumina Data Sets": "placeholder.md",
       "Affymetrix Data Sets": "placeholder.md",
       "All Data Sets": "placeholder.md"
     }
   ],
-  "Visualize Results": [
+  "Visualize Workflow Results": [
     {
       "Scatter Plot": "placeholder.md",
       "Trailer Plot": "placeholder.md",
@@ -89,23 +89,23 @@
       "Manhattan Plot": "placeholder.md"
     }
   ],
-  "Run the CNV Analysis Pipeline":[
+  "Analyze CNVs":[
     {
-      "Running CNV Analysis": "placeholder.md",
-      "Analyzing Results": "placeholder.md",
-      "Visualizing Results": "placeholder.md",
+      "CNV Analysis Pipeline": "placeholder.md",
+      "CNV Analysis Output Files": "placeholder.md",
+      "CNV Analysis Visuals": "placeholder.md",
     }
   ],
   "Scripting": "placeholder.md",
   "Command Line": "placeholder.md",
-  "Resources": "placeholder.md",
+  "Resources Directory": "placeholder.md",
   "Menu": "placeholder.md",
   "Toolbar": [
     {
       "Introduction to the Toolbar": "placeholder.md",
-      "Project Properties Editor": "placeholder.md",
-      "Refresh": "placeholder.md",
-      "Genvisis Project Workflow": "placeholder.md"
+      "Properties Editor": "placeholder.md",
+      "Project Workflow": "placeholder.md"
     }
-  ]
+  ],
+  "Amazon S3": "placeholder.md"
 }
