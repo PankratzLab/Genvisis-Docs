@@ -1,70 +1,70 @@
 {
   "Get Started": [
     {
-      "Download Genvisis": "placeholder.md",
+      "Download Genvisis": "GetStarted/download-genvisis.md",
       "Find Required Raw Data Files": [
         {
-          "For Affymetrix Data (Affy6/Axiom)": "for-affymetrix-data.md",
-          "For Illumina GWAS Array Data": "placeholder.md"
+          "For Affymetrix Data (Affy6/Axiom)": "GetStarted/for-affymetrix-data.md",
+          "For Illumina GWAS Array Data": "GetStarted/for-illumina-gwas-array-data.md"
         }
       ],
-      "Set Up Required Files for a New Genvisis Project": "placeholder.md",
-      "Set Up Pedigree and Linker": "placeholder.md",
-      "Create a New Project": "placeholder.md",
-      "Import an Existing Project into Genvisis": "placeholder.md"
+      "Set Up Required Files for a New Genvisis Project": "GetStarted/set-up-required-files-for-a-new-genvisis-project.md",
+      "Set Up Pedigree and Linker": "GetStarted/set-up-pedigree-and-linker.md",
+      "Create a New Project": "GetStarted/create-a-new-project.md",
+      "Import an Existing Project into Genvisis": "GetStarted/import-an-existing-project-into-genvisis.md"
     }
   ],
   "Run the Genvisis Workflow": [
     {
-      "Introduction to the Workflow": "placeholder.md",
+      "Introduction to the Workflow": "RunTheGenvisisWorkflow/introduction-to-the-workflow.md",
       "Illumina Data Sets": [
         {
-          "Create Marker Positions": "create-marker-positions-illumina.md",
-          "Parse Sample Files": "parse-sample-files-illumina.md",
-          "Run Marker BLAST Annotation": "run-marker-blast-annotation-illumina.md",
-          "Transpose Data into Marker-Dominant Files": "transpose-data-illumina.md"
+          "Create Marker Positions": "RunTheGenvisisWorkflow/create-marker-positions-illumina.md",
+          "Parse Sample Files": "RunTheGenvisisWorkflow/parse-sample-files-illumina.md",
+          "Run Marker BLAST Annotation": "RunTheGenvisisWorkflow/run-marker-blast-annotation-illumina.md",
+          "Transpose Data into Marker-Dominant Files": "RunTheGenvisisWorkflow/transpose-data-illumina.md"
         }
       ],
       "Affymetrix Data Sets": [
         {
-          "Create Marker Positions": "create-marker-positions-affymetrix.md",
-          "Process Affymetrix CEL Files": "placeholder.md",
-          "Transpose Marker Files to Sample Files": "placeholder.md",
-          "Run Marker BLAST Annotation": "run-marker-blast-annotation-affymetrix.md"
+          "Create Marker Positions": "RunTheGenvisisWorkflow/create-marker-positions-affymetrix.md",
+          "Process Affymetrix CEL Files": "RunTheGenvisisWorkflow/process-affymetrix-cel-files.md",
+          "Transpose Marker Files to Sample Files": "RunTheGenvisisWorkflow/transpose-marker-files-affymetrix.md",
+          "Run Marker BLAST Annotation": "RunTheGenvisisWorkflow/run-marker-blast-annotation-affymetrix.md"
         }
       ],
       "All Data Sets": [
         {
-          "Compute GCMODEL File": "placeholder.md",
-          "Compute SampleQC Metrics": "placeholder.md",
-          "Identify Excluded Samples": "placeholder.md",
-          "Run Sex Checks": "placeholder.md",
-          "Generate AB Lookup File": "placeholder.md",
-          "Create PLINK Genotype Files": "placeholder.md",
-          "Run GWAS QC": "placeholder.md",
-          "Run Ancestry Checks": "placeholder.md",
-          "Annotate Sample Data File": "placeholder.md",
-          "Computer Population BAF Files": "placeholder.md",
-          "Create Sex-Specific Centroids and Filter PFB File": "placeholder.md",
-          "Call CNVs": "placeholder.md",
-          "Filter CNVs": "placeholder.md",
-          "Process CNVs and Create HMM File": "placeholder.md",
-          "Generate Genotype Mask": "placeholder.md",
-          "Run Marker QC Metrics": "placeholder.md",
-          "Run Further Analysis QC": "placeholder.md",
-          "Identify Mosaic Chromosomal Arms": "placeholder.md",
-          "Identify Problematic Markers": "placeholder.md",
-          "Generate Principal Components": "placeholder.md",
-          "Create PC-Corrected Project": "placeholder.md",
-          "Create Mitochondrial Copy-Number Estimates File": "placeholder.md",
-          "Create VCF Files for Imputation": "placeholder.md"
+          "Compute GCMODEL File": "compute-gcmodel-file.md",
+          "Compute SampleQC Metrics": "compute-sample-qc-metrics.md",
+          "Identify Excluded Samples": "identify-excluded-samples.md",
+          "Run Sex Checks": "run-sex-checks.md",
+          "Generate AB Lookup File": "generate-ab-lookup-file.md",
+          "Create PLINK Genotype Files": "create-plink-genotype-files.md",
+          "Run GWAS QC": "run-gwas-qc.md",
+          "Run Ancestry Checks": "run-ancestry-checks.md",
+          "Annotate Sample Data File": "annotate-sample-data-file.md",
+          "Compute Population BAF Files": "compute-population-baf-files.md",
+          "Create Sex-Specific Centroids and Filter PFB File": "create-sex-specific-centroids.md",
+          "Call CNVs": "call-cnvs.md",
+          "Filter CNVs": "filter-cnvs.md",
+          "Process CNVs and Create HMM File": "process-cnvs-and-create-hmm-file.md",
+          "Generate Genotype Mask": "generate-genotype-mask.md",
+          "Run Marker QC Metrics": "run-marker-qc-metrics.md",
+          "Run Further Analysis QC": "run-further-analysis-qc.md",
+          "Identify Mosaic Chromosomal Arms": "identify-mosaic-chromosomal-arms.md",
+          "Identify Problematic Markers": "identify-problematic-markers.md",
+          "Generate Principal Components": "generate-principal-components.md",
+          "Create PC-Corrected Project": "create-pc-corrected-project.md",
+          "Create Mitochondrial Copy-Number Estimates File": "create-mitochondrial-copy-number-estimates-file.md",
+          "Create VCF Files for Imputation": "create-vcf-files-for-imputation.md"
         }
       ]
     }
   ],
   "Run a PC-Corrected Project": [
     {
-      "Overview": "placeholder.md",
+      "Overview": "overview.md",
       "Workflow": "placeholder.md"
     }
   ],
@@ -96,14 +96,14 @@
       "CNV Analysis Visuals": "placeholder.md",
     }
   ],
-  "Scripting": "placeholder.md",
-  "Command Line": "placeholder.md",
+  "Scripting": "scripting.md",
+  "Command Line": "command-line.md,
   "Resources Directory": "placeholder.md",
   "Menu": "placeholder.md",
   "Toolbar": [
     {
-      "Introduction to the Toolbar": "placeholder.md",
-      "Properties Editor": "placeholder.md",
+      "Introduction to the Toolbar": "introduction-to-the-toolbar.md",
+      "Properties Editor": "project-properties-editor.md",
       "Project Workflow": "placeholder.md"
     }
   ],
