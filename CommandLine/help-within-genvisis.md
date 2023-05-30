@@ -1,4 +1,4 @@
-## Command Line
+## Help Within Genvisis
 
 Help for specific Genvisis steps can be found by running:
 
