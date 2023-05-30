@@ -75,8 +75,11 @@ Run the CNV Analysis Pipeline
 %Visualizing Results
 
 Scripting
+%Running Genvisis Via Script
 
 Command Line
+%Help Within Genvisis
+%Commands in Genvisis
 
 Resources
 
