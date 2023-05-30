@@ -77,11 +77,11 @@
     {"CNV Analysis Visuals": "placeholder.md"}
   ]},
   {"Scripting": [
-    {"Running Genvisis via Script": "running-genvisis-via-script.md"}
+    {"Running Genvisis via Script": "Scripting/running-genvisis-via-script.md"}
   ]},
   {"Command Line": [
-    {"Help Within Genvisis": "help-within-genvisis.md"},
-    {"Commands in Genvisis": "commands-in-genvisis.md"}
+    {"Help Within Genvisis": "CommandLine/help-within-genvisis.md"},
+    {"Commands in Genvisis": "CommandLine/commands-in-genvisis.md"}
   ]},
   {"Resources Directory": "placeholder.md"},
   {"Menu": "placeholder.md"},
