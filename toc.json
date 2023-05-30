@@ -25,34 +25,34 @@
       {"Run Marker BLAST Annotation": "RunTheGenvisisWorkflow/run-marker-blast-annotation-affymetrix.md"}
     ]},
     {"All Data Sets": [
-      {"Compute GCMODEL File": "compute-gcmodel-file.md"},
-      {"Compute SampleQC Metrics": "compute-sample-qc-metrics.md"},
-      {"Identify Excluded Samples": "identify-excluded-samples.md"},
-      {"Run Sex Checks": "run-sex-checks.md"},
-      {"Generate AB Lookup File": "generate-ab-lookup-file.md"},
-      {"Create PLINK Genotype Files": "create-plink-genotype-files.md"},
-      {"Run GWAS QC": "run-gwas-qc.md"},
-      {"Run Ancestry Checks": "run-ancestry-checks.md"},
-      {"Annotate Sample Data File": "annotate-sample-data-file.md"},
-      {"Compute Population BAF Files": "compute-population-baf-files.md"},
-      {"Create Sex-Specific Centroids and Filter PFB File": "create-sex-specific-centroids.md"},
-      {"Call CNVs": "call-cnvs.md"},
-      {"Filter CNVs": "filter-cnvs.md"},
-      {"Process CNVs and Create HMM File": "process-cnvs-and-create-hmm-file.md"},
-      {"Generate Genotype Mask": "generate-genotype-mask.md"},
-      {"Run Marker QC Metrics": "run-marker-qc-metrics.md"},
-      {"Run Further Analysis QC": "run-further-analysis-qc.md"},
-      {"Identify Mosaic Chromosomal Arms": "identify-mosaic-chromosomal-arms.md"},
-      {"Identify Problematic Markers": "identify-problematic-markers.md"},
-      {"Generate Principal Components": "generate-principal-components.md"},
-      {"Create PC-Corrected Project": "create-pc-corrected-project.md"},
-      {"Create Mitochondrial Copy-Number Estimates File": "create-mitochondrial-copy-number-estimates-file.md"},
-      {"Create VCF Files for Imputation": "create-vcf-files-for-imputation.md"}
+      {"Compute GCMODEL File": "RunTheGenvisisWorkflow/compute-gcmodel-file.md"},
+      {"Compute SampleQC Metrics": "RunTheGenvisisWorkflow/compute-sample-qc-metrics.md"},
+      {"Identify Excluded Samples": "RunTheGenvisisWorkflow/identify-excluded-samples.md"},
+      {"Run Sex Checks": "RunTheGenvisisWorkflow/run-sex-checks.md"},
+      {"Generate AB Lookup File": "RunTheGenvisisWorkflow/generate-ab-lookup-file.md"},
+      {"Create PLINK Genotype Files": "RunTheGenvisisWorkflow/create-plink-genotype-files.md"},
+      {"Run GWAS QC": "RunTheGenvisisWorkflow/run-gwas-qc.md"},
+      {"Run Ancestry Checks": "RunTheGenvisisWorkflow/run-ancestry-checks.md"},
+      {"Annotate Sample Data File": "RunTheGenvisisWorkflow/annotate-sample-data-file.md"},
+      {"Compute Population BAF Files": "RunTheGenvisisWorkflow/compute-population-baf-files.md"},
+      {"Create Sex-Specific Centroids and Filter PFB File": "RunTheGenvisisWorkflow/create-sex-specific-centroids.md"},
+      {"Call CNVs": "RunTheGenvisisWorkflow/call-cnvs.md"},
+      {"Filter CNVs": "RunTheGenvisisWorkflow/filter-cnvs.md"},
+      {"Process CNVs and Create HMM File": "RunTheGenvisisWorkflow/process-cnvs-and-create-hmm-file.md"},
+      {"Generate Genotype Mask": "RunTheGenvisisWorkflow/generate-genotype-mask.md"},
+      {"Run Marker QC Metrics": "RunTheGenvisisWorkflow/run-marker-qc-metrics.md"},
+      {"Run Further Analysis QC": "RunTheGenvisisWorkflow/run-further-analysis-qc.md"},
+      {"Identify Mosaic Chromosomal Arms": "RunTheGenvisisWorkflow/identify-mosaic-chromosomal-arms.md"},
+      {"Identify Problematic Markers": "RunTheGenvisisWorkflow/identify-problematic-markers.md"},
+      {"Generate Principal Components": "RunTheGenvisisWorkflow/generate-principal-components.md"},
+      {"Create PC-Corrected Project": "RunTheGenvisisWorkflow/create-pc-corrected-project.md"},
+      {"Create Mitochondrial Copy-Number Estimates File": "RunTheGenvisisWorkflow/create-mitochondrial-copy-number-estimates-file.md"},
+      {"Create VCF Files for Imputation": "RunTheGenvisisWorkflow/create-vcf-files-for-imputation.md"}
     ]}
   ]},
   {"Run a PC-Corrected Project": [
-    {"Overview": "overview.md"},
-    {"Workflow": "placeholder.md"}
+    {"Overview": "RunAPCCorrectedProject/overview.md"},
+    {"Workflow": "RunAPCCorrectedProject/placeholder.md"}
   ]},
   {"Interpret Workflow Results": [
     {"Illumina Data Sets": "placeholder.md"},
@@ -76,13 +76,18 @@
     {"CNV Analysis Output Files": "placeholder.md"},
     {"CNV Analysis Visuals": "placeholder.md"}
   ]},
-  {"Scripting": "scripting.md"},
-  {"Command Line": "command-line.md"},
+  {"Scripting": [
+    {"Running Genvisis via Script": "running-genvisis-via-script.md"}
+  ]},
+  {"Command Line": [
+    {"Help Within Genvisis": "help-within-genvisis.md"},
+    {"Commands in Genvisis": "commands-in-genvisis.md"}
+  ]},
   {"Resources Directory": "placeholder.md"},
   {"Menu": "placeholder.md"},
   {"Toolbar": [
-    {"Introduction to the Toolbar": "introduction-to-the-toolbar.md"},
-    {"Properties Editor": "project-properties-editor.md"},
+    {"Introduction to the Toolbar": "Toolbar/introduction-to-the-toolbar.md"},
+    {"Properties Editor": "Toolbar/project-properties-editor.md"},
     {"Project Workflow": "placeholder.md"}
   ]},
   {"Amazon S3": "placeholder.md"}
