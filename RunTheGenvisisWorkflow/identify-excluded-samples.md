@@ -10,7 +10,4 @@ The default value is 0.32. For Phase 2 (SNP) analysis, set to 0.5 for SNP analys
 #### 3: Callrate Threshold
 The default value is 0.95. Use 0.98 for Illumina data and 0.95 for Affymetrix data.
 
-#### 4: BAF SD Threshold Multiplier
-The default value is 3, which is appropriate for most projects.
-
-#### 5: (optional) File of additional samples to exclude regardless of quality
+#### 4: (optional) File of additional samples to exclude regardless of quality
