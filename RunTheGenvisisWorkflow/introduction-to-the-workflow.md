@@ -4,7 +4,7 @@ Genvisis data processing is run from a workflow of steps that automate best prac
 
 <p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-![enter image description here](Images/WorkflowShort.png)
+![enter image description here](/Images/WorkflowShort.png)
 
 **Image of the Genvisis toolbar with Workflow icon highlighted**
 
@@ -12,7 +12,7 @@ The Workflow window lists all available steps. To run a step, check the box next
 
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-![enter image description here](Images/GenvisisToolBarHighlight.png)
+![enter image description here](/Images/GenvisisToolBarHighlight.png)
 
 **Image of the Genvisis Project Workflow dialog box. Green text indicates steps that are ready to be run, while red text indicates steps for which prerequisites have not been met.**
 
