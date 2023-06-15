@@ -25,5 +25,4 @@ This command yields:
     Option 5) Print out the target key and default arguments, which can be customized and added to a config file
 ```
 
-
-[CONFIG FILE] is a .toml file.
+where config file is a .toml file.
