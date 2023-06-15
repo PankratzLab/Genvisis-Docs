@@ -2,24 +2,23 @@
 
 Help for specific Genvisis steps can be found by running:
 
-
 ```
     java -jar genvisis.jar org.genvisis.cnv.filesys.[stepName] -h 
-    # or
+```
+or
+```
     java -jar genvisis.jar org.genvisis.cnv.filesys.[stepName]
 ```
 
 
-To view what commands Genvisis can use from the command line, run:
 
+To view what commands Genvisis can use from the command line, run:
 
 ```
     java -jar genvisis.jar org.genvisis.cnv.workflow.GenvisisWorkflow
 ```
 
-
 This command yields:
-
 
 ```
     1)  java -jar ~/genvisis.jar org.genvisis.cnv.workflow.GenvisisWorkflow [CONFIG FILE]
@@ -35,5 +34,4 @@ This command yields:
     Option 5) Print out the target key and default arguments, which can be customized and added to a config file
 ```
 
-
-[CONFIG FILE] is a .toml file.
+where config file is a .toml file.
