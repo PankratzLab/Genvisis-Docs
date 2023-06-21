@@ -5,36 +5,31 @@ _<span style="text-decoration:underline;">Underlined steps are required for CNV 
 
 
 1. _<span style="text-decoration:underline;">Transpose Marker Files to Sample Files</span>_
-    * Will create **sampRAF** iles in **/samples**
+    * Will create **sampRAF** files in **/samples**
 2. Run Marker BLAST Annotation
     * **Output Already Exists!**
-3. _<span style="text-decoration:underline;">Compute Sample QC Metrics</span>_
-4. _<span style="text-decoration:underline;">Identify Excluded Samples</span>_
-5. Generate AB Lookup File
+3. Compute GCMODEL File
     * **Output Already Exists!**
+4. _<span style="text-decoration:underline;">Compute Sample QC Metrics</span>_
+5. _<span style="text-decoration:underline;">Identify Excluded Samples</span>_
 6. Run Sex Checks
-7. Create PLINK Genotype Files
+7. Generate AB Lookup File
     * **Output Already Exists!**
-8. Run GWAS QC
-    * **Output Already Exists!**
-9. _<span style="text-decoration:underline;">Annotate Sample Data File</span>_
-10. Identify Mosaic Chromosomal Arms
-11. _<span style="text-decoration:underline;">Compute Population BAF files</span>_
-12. _<span style="text-decoration:underline;">Create Sex-Specific Centroids; Filter PFB file</span>_
-13. Compute GCMODEL File 
-    * **Output Already Exists!**
+8. _<span style="text-decoration:underline;">Create PLINK Genotype Files</span>_
+9. _<span style="text-decoration:underline;">Run GWAS QC</span>_
+10. Run Ancestry Checks
+11. _<span style="text-decoration:underline;">Annotate Sample Data File</span>_
+12. _<span style="text-decoration:underline;">Compute Population BAF files</span>_
+13. _<span style="text-decoration:underline;">Create Sex-Specific Centroids; Filter PFB file</span>_
 14. _<span style="text-decoration:underline;">Call CNVs</span>_
-    * Change **8. Output filename** to **cnvs/genvisisPC#.cnv**
 15. _<span style="text-decoration:underline;">Filter CNVs</span>_
-    * Change 1.1 to **cnvs/genvisisPC#.cnv**
-    * Change 9 to **cnvs/filteredPC#.cnv**
 16. _<span style="text-decoration:underline;">Process CNVs and Create HMM File</span>_
-    * Part 2.2 defaults to **cnvs/genvisis.cnv**. Change to **cnvs/filteredPC#.cnv**.
-    * Part 6: Output HMM filename change to **hmm/genvisisPC#.hmm**
-17. Generate Genotype Mask
-18. Run Marker QC Metrics
-19. Run Ancestry Checks
-20. Run Further Analysis QC
-21. Identify Problematic Markers
-22. Create Mitochondrial Copy-Number Estimates File
-23. Create VCF Files for Imputation
+17. _<span style="text-decoration:underline;">Calls CNVs</span>_
+18. _<span style="text-decoration:underline;">Filter CNVs</span>_
+19. Generate Genotype Mask
+20. Run Marker QC Metrics
+21. Run Further Analysis QC
+22. Identify Mosaic Chromosomal Arms
+23. Identify Problematic Markers
+24. Create Mitochondrial Copy-Number Estimates File
+25. Create VCF Files for Imputation
