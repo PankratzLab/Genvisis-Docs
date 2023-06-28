@@ -90,3 +90,6 @@ Toolbar
 %Project Properties Editor
 %Refresh
 %Genvisis Project Workflow
+
+Appendix A: Genome Studio
+Appendix B: S3
