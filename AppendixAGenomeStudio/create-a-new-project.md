@@ -1,12 +1,12 @@
 # Create a New Project From .gtc and .idat Files
 
-Follow these instructions if you are starting from scratch with .idat files. Use the instructions below if this step has already been done.
+Follow these instructions if you are starting from scratch with .idat files. 
 
-1. Go to File -> New Project -> Genotyping.
-2. A pop-up window will explain which assays are supported. Click Next.
-3. In the Projects Repository text field, choose a folder for the project.
-4. Under Project Name, select the Create option and name the project.
-5. Click Next.
+1. Go to *File > New Project > Genotyping*.
+2. A pop-up window will explain which assays are supported. Click **Next**.
+3. In **Projects Repository**, choose a folder for the project.
+4. Under **Project Name**, select **Create** and name the project.
+5. Click **Next**.
 6. There will be two options for delineating files with sample intensities:
     * Use sample sheet to load sample intensities
     * Load sample intensities by selecting directories with intensity files
