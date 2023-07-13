@@ -1,10 +1,7 @@
 [
   {"Get Started": [
-    {"Download Genvisis": "GetStarted/download-genvisis.md"},
-    {"Find Required Raw Data Files": [
-      {"For Affymetrix Data (Affy6/Axiom)": "GetStarted/for-affymetrix-data.md"},
-      {"For Illumina GWAS Array Data": "GetStarted/for-illumina-gwas-array-data.md"}
-    ]},
+    {"Introduction": "GetStarted/introduction.md"},
+    {"Find Required Raw Data Files": "find-required-raw-data-files.md"},
     {"Set Up Required Files for a New Genvisis Project": "GetStarted/set-up-required-files-for-a-new-genvisis-project.md"},
     {"Set Up Pedigree and Linker": "GetStarted/set-up-pedigree-and-linker.md"},
     {"Create a New Project": "GetStarted/create-a-new-project.md"},
