@@ -49,7 +49,7 @@
   ]},
   {"Run a PC-Corrected Project": [
     {"Overview": "RunAPCCorrectedProject/overview.md"},
-    {"Workflow": "RunAPCCorrectedProject/placeholder.md"}
+    {"Workflow": "RunAPCCorrectedProject/workflow.md"}
   ]},
   {"Interpret Workflow Results": [
     {"Illumina Data Sets": "placeholder.md"},
