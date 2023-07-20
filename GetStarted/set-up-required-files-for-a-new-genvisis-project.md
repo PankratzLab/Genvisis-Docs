@@ -2,10 +2,10 @@
 
 ## **00src/** 
     * Directory containing GenomeStudio Final Report files for Illumina data or CEL files for Affymetrix data
-## **data/[pedigree.txt](#bookmark=id.3wqz7fyhw1k7)** 
+## **data/[pedigree.txt](set-up-pedigree-and-linker.md)** 
     * Identical to a plink.fam file
     * For some projects everyone will be listed as unrelated
-## **data/[linker.txt ](#bookmark=id.3wqz7fyhw1k7)**
+## **data/[linker.txt ](set-up-pedigree-and-linker.md)**
     * Text file that maps the Sample ID in Illumina’s GenomeStudio or Affymetrix Power Tools to a family ID (FID) and individual ID (IID)
     * Also delineates who is a duplicate
 ## **data/batch.txt** 
