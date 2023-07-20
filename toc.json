@@ -1,6 +1,6 @@
 [
+  {"Introduction": "GetStarted/introduction.md"},
   {"Get Started": [
-    {"Introduction": "GetStarted/introduction.md"},
     {"Find Required Raw Data Files": "GetStarted/find-required-raw-data-files.md"},
     {"Set Up Required Files for a New Genvisis Project": "GetStarted/set-up-required-files-for-a-new-genvisis-project.md"},
     {"Set Up Pedigree and Linker": "GetStarted/set-up-pedigree-and-linker.md"},
