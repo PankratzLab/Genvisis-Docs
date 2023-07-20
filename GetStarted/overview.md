@@ -6,9 +6,9 @@ First [download Genvisis](https://genvisis.org/#/download) if you have not yet d
 
 Next [obtain raw Illumina or Affymetrix data files that are correctly formatted for Genvisis](find-required-raw-data-files.md). 
 
-After obtaining your raw data files, [set up several files required by Genvisis](set-up-required-files-for-a-new-genvisis-project.md). 
+After obtaining your raw data files, [set up your pedigree and linker files](set-up-pedigree-and-linker.md).
 
-Next [set up your pedigree and linker files](set-up-pedigree-and-linker.md). 
+Next [set up your source directory](set-up-required-files-for-a-new-genvisis-project.md). 
 
 Finally, within Genvisis, [create a new project](create-a-new-project.md).
 
