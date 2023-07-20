@@ -1,6 +1,6 @@
 # Find Required Raw Data Files
 
-Genvisis requires different raw data files depending on which platform your raw data originated.
+Genvisis requires different raw data files depending on the original platform of your raw data.
 
 ## For Affymetrix Data (Affy6/Axiom)
 
@@ -31,4 +31,3 @@ Genvisis requires different raw data files depending on which platform your raw 
     * B allele frequency (optional, but helpful)
     * Log R ratio (optional, but helpful)
 * The corresponding manifest file for the array (.bpm or .csv format)
-
