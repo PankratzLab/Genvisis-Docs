@@ -1,5 +1,5 @@
 [
-  {"Introduction": "GetStarted/introduction.md"},
+  {"Introduction": "introduction.md"},
   {"Get Started": [
     {"Find Required Raw Data Files": "GetStarted/find-required-raw-data-files.md"},
     {"Set Up Required Files for a New Genvisis Project": "GetStarted/set-up-required-files-for-a-new-genvisis-project.md"},
