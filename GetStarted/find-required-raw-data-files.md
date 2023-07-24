@@ -1,6 +1,6 @@
 # Find Required Raw Data Files
 
-Genvisis requires different raw data files depending on the original platform of your raw data.
+Genvisis requires appropriately formatted raw data files.
 
 ## For Illumina GWAS Array Data
 
@@ -28,7 +28,7 @@ Genvisis requires different raw data files depending on the original platform of
 
 ## For Affymetrix Data (Affy6/Axiom)
 
-For Affymetrix data, 
+For Affymetrix data, Genvisis requires the following:
 * .CEL files (one per sample, may be gzipped as .CEL.gz)
 * Affymetrix Annotation file (*.annot.csv) aka Manifest
 * (optional) Affymetrix Probe Set file (*.probe_tab)
