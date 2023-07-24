@@ -8,7 +8,7 @@ Next [obtain raw Illumina or Affymetrix data files that are correctly formatted 
 
 After obtaining your raw data files, [set up your pedigree and linker files](set-up-pedigree-and-linker.md).
 
-Next [set up your source directory](set-up-required-files-for-a-new-genvisis-project.md). 
+Next [set up your project directory](set-up-required-files-for-a-new-genvisis-project.md). 
 
 Finally, within Genvisis, [create a new project](create-a-new-project.md).
 
