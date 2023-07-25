@@ -8,7 +8,7 @@ Genvisis projects require a **pedigree.txt** file containing unique subject ids 
     * **FID** and **IID** are the family and individual IDs.
     * **FA** is the **IID** of the sample’s father (**0** if parent not in dataset).
     * **MO** is the **IID** of the sample’s mother (**0** if parent not in dataset).
-    * **SEX** is 1 for male or 2 for female (if GenomeStudio can’t determine sex and you don’t have phenotype data, use **0** then update the pedigree manually after running the **[Sex Checks](#bookmark=id.ffdnn8hxfe09)** step in Genvisis).
+    * **SEX** is 1 for male or 2 for female (if GenomeStudio can’t determine sex and you don’t have phenotype data, use **0** then update the pedigree manually after running the **[Sex Checks](../rRunTheGenvisisWorkflow/run-sex-checks.md)** step in Genvisis).
     * **AFF** or **PHENO **(Affected or Phenotype)** is 2 (for a case), 1 (for a control), or either 0 or -9 (for unknown); this column is not used much except for PLINK/VCF export and for filtering out markers that have a call rate that differs by this affected status.
     * **mzTwinID** (monozygotic twins) is an optional final column (any additional columns beyond this will be ignored). The ID number in this column should be the same for both/all samples in a given mzTwin set (e.g. the first set both coded as 1, the second set coded all as 2, etc). For non-mzTwins the column should contain a period.
     * If siblings are present in the dataset, but not their parents, dummy IDs can be created in the **IID** column that share **FID** with the siblings. The dummy IDs can then be listed under **FA** and **MO** for the siblings. The dummy IDs do not need to be included in the Linker file.
