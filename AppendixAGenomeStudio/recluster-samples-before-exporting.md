@@ -1,23 +1,20 @@
 # Recluster Samples Before Exporting to Genvisis
 
-1. To create reports for use in Genvisis projects, first recluster SNPs based only on “high quality” samples.
-    * High quality is determined from the Callrate in the Samples Table
-2. Click on the Callrate column (it will highlight yellow), and then Sort column option on the toolbar directly above.
-3. Highlight low quality samples to exclude (click on the first row to exclude, hold down shift, and then click on the last row).
-    * For Illumina data, choose samples < 0.98
-    * These are hard cutoffs. 0.97999 call rates will be excluded.
-    * The one exception to these values is if < 0.98 will exclude a large percentage of samples. If this is the case then consider a lower threshold, perhaps 0.95. This is especially appropriate if you have markers that have been zeroed out in GenomeStudio (i.e., everyone has a missing genotype)
-4. Right click on the highlighted samples > Exclude Selected Samples
-5. A pop-up window will ask Do you wish to update statistics for all SNPs? Choose No
-6. Now you can recluster SNPs using only the high quality samples.
-    * On the toolbar, choose Analysis > Cluster all snps
-    * Tip: Reclustering snps can take many hours or even days depending on the size of the dataset. GenomeStudio can’t be minimized during this. To keep working on the same machine, you can create new Desktops on Windows by clicking Task View next to the search bar.
-    * If you only need to recluster individual SNPs and not all of them, you can right click in the Full Data Table > Cluster Selected SNP
-    * Clicking in the Full Data Table will also cause the SNP Graph to appear in the upper left, showing where all the samples fall for a particular SNP.
-7. After all SNPs have been reclustered, you’ll need to recluster the Y chromosome
-In the Samples Table, the Gender column will list all samples as Unknown.
-Highlight all samples > Right click > Estimate gender for selected samples > "Would you like to populate the Gender column (as well as the GenderEst column) with the result of the calculation?" > Yes
-Explanation of how GenomeStudio determines sex
+To create reports for use in Genvisis projects, first recluster SNPs based on only high quality samples (as determined by the **Callrate** in the **Samples Table**).
+
+1. Click on the **Callrate** column (it will be highlighted yellow) and then the **Sort column** option on the toolbar directly above.
+2. Highlight low quality samples to exclude (click on the first row to exclude, hold down shift, and then click on the last row).
+    * For Illumina data, choose samples **<0.98**.
+    * These are hard cutoffs. For example, a sample with a call rate of 0.97999 will be excluded.
+    * The one exception to these values is if **<0.98** will exclude a large percentage of samples. If this is the case then consider a lower threshold, perhaps **0.95**. This is especially appropriate if you have markers that have been zeroed out in GenomeStudio (i.e., everyone has a missing genotype).
+3. Right click on the highlighted samples and then select **Exclude Selected Samples**.
+4. A pop-up window will ask **Do you wish to update statistics for all SNPs?** Choose **No**.
+5. Now you can recluster SNPs using only the high quality samples. On the toolbar, choose **Analysis > Cluster all snps**.
+    * Tip: Reclustering SNPs can take hours or even days depending on the size of the dataset. GenomeStudio cannot be minimized during this process. To keep working on the same (Windows) machine, you can create a new Desktop by clicking **Task View** (next to the search bar).
+    * Tip: If you need to recluster only individual SNPs (not all SNPs), right click in the **Full Data Table > Cluster Selected SNP**.
+    * Tip: Click in the full data table to see the SNP graph in the upper left. This graph shows where all samples fall for a particular SNP.
+6. After all SNPs have been reclustered, you need to recluster the Y chromosome. In the **Samples Table**, the **Gender** column will list all samples as **Unknown**. Highlight all samples, then right click, and then select **Estimate gender for selected samples**. For **Would you like to populate the Gender column (as well as the GenderEst column) with the result of the calculation?**, select **Yes**.
+   * Tip: Explanation of how GenomeStudio determines sex
 Go to the central table and choose the SNP Table tab
 Sort column (Ascending) by Call Freq
 Click on any Y chromosome marker
