@@ -2,17 +2,11 @@
 
 You must ensure that all samples are included in the Samples Table; otherwise, they will not be included in the final report files.
 
-Analysis > Reports > Report Wizard
-Final Report > Next >
-There are two options with two choices each
-Visible SNPs in the SNP Table
-Include all SNPs in the report, regardless of whether or not they are visible
-Remove SNPs that are not visible
-Intensity only SNPs
-Include Intensity only SNPs
-Exclude Intensity only SNPs
-Most of the time, you will export all SNPs. Choose the first option for each (Include all SNPs… and Include Intensity only SNPs)
-If you are exporting a subset of SNPs, use Remove SNPs that are not visible. You will still use the Include Intensity only SNPs option
+Go to *Analysis > Reports > Report Wizard*.
+Select *Final Report > Next*, and then there are two options with two choices each. Most of the time, you will export all SNPs; if so, choose the first option for each (*Visible SNPs in the SNP Table > Include all SNPs in the report, regardless of whether or not they are visible* and *Intensity only SNPs > Include Intensity only SNPs*).
+
+If you are exporting a subset of SNPs, use *Visible SNPs in the SNP Table > Remove SNPs that are not visible*. You will still use the *Intensity only SNPs > Include Intensity only SNPs*.
+
 Include all of the columns that Genvisis requires:
 SNP Name
 Sample ID
