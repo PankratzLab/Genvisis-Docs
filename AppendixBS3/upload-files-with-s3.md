@@ -1,37 +1,37 @@
-# Upload Files with S3
+## Upload Files with S3
 
-# view list of commands
+### view list of commands
 s3cmd -h
 
-# make a bucket
+### make a bucket
 s3cmd mb s3://myNewBucket/
 
-# list contents of bucket
+### list contents of bucket
 s3cmd ls s3://myNewBucket/
 
-# upload a file to the bucket
+### upload a file to the bucket
 s3cmd put ~/localFile.txt s3://myNewBucket/
 
-# upload a folder to the bucket
-# will place contents of localFolder into myNewBucket
+### upload a folder to the bucket
+### will place contents of localFolder into myNewBucket
 S3cmd -r put ~/localFolder/ s3://myNewBucket/
 
-# will create a folder in myNewBucket named remoteFolder and place contents of localFolder there
+### will create a folder in myNewBucket named remoteFolder and place contents of localFolder there
 s3cmd -r put ~/localFolder/ s3://myNewBucket/remoteFolder/
 
-# download file from bucket
+### download file from bucket
 s3cmd get s3://myNewBucket/localFile.txt ~/
 
-# delete a file from the bucket
+### delete a file from the bucket
 s3cmd del s3://myNewBucket/localFile.txt
 
-# delete a folder from the bucket
+### delete a folder from the bucket
 S3cmd -r del s3://myNewBucket/remoteFolder/
 
-# matching files will be downloaded/uploaded with the most recent version overwriting the older version
+### matching files will be downloaded/uploaded with the most recent version overwriting the older version
 s3cmd sync extras/ s3://myNewBucket/remoteFolder/
 
-# synchronize with verbose output and ignore md5 checksum errors
+### synchronize with verbose output and ignore md5 checksum errors
 s3cmd -v --no-check-md5 sync extras/ s3://myNewBucket/remoteFolder/
 
 	

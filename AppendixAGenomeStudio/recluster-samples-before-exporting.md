@@ -16,7 +16,7 @@ To create reports for use in Genvisis projects, first recluster SNPs based on on
 6. After all SNPs have been reclustered, you need to recluster the Y chromosome.
     1. In the **Samples Table**, the **Gender** column will list all samples as **Unknown**. Highlight all samples, right click, and then select **Estimate gender for selected samples**.
     2. For **Would you like to populate the Gender column (as well as the GenderEst column) with the result of the calculation?**, select **Yes**.
-         * Tip: [See below for an explanation of how GenomeStudio determines sex](sex-determination-explained.md)
+         * Tip: [See below for an explanation of how GenomeStudio determines sex](https://genvisis.org/#/documentation/AppendixAGenomeStudio--sex-determination-explained)
    3. Go to the central table and choose the **SNP Table** tab.
    4. Sort column (ascending) by **Call Freq**.
    5. Click on any Y chromosome marker.
