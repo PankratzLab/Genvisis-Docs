@@ -1,0 +1,12 @@
+[Header],,,,,,,,,,
+Institute Name,University of Minnesota,,,,,,,,,
+Investigator Name,Nathan Pankratz,,,,,,,,,
+Project Name,Genvisis Sample Project,,,,,,,,,
+Date,02-Aug-23,,,,,,,,,
+,,,,,,,,,,
+[Manifests],,,,,,,,,,
+A,InfiniumCore-24v1-2_A1,,,,,,,,,
+,,,,,,,,,,
+[Data],,,,,,,,,,
+Sample_ID,SentrixBarcode_A,SentrixPosition_A,Sample_Plate,Sample_Well,Sample_Group,Gender,Sample_Name,Replicate,Parent1,Parent2
+ABC1234,1234567890,R01C01,WG1234500-DNA,D01,,Female,ABC1234,,,
