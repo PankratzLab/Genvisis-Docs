@@ -13,7 +13,7 @@ _<span style="text-decoration:underline;">Underlined steps are required for CNV 
     * **Output Already Exists!**
 4. _<span style="text-decoration:underline;">Compute Sample QC Metrics</span>_
 5. _<span style="text-decoration:underline;">Identify Excluded Samples</span>_
-6. Run Sex Checks
+6. _<span style="text-decoration:underline;">Run Sex Checks</span>_
 7. Generate AB Lookup File
     * **Output Already Exists!**
 8. _<span style="text-decoration:underline;">Create PLINK Genotype Files</span>_
