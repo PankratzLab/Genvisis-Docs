@@ -87,5 +87,24 @@
     {"Properties Editor": "Toolbar/project-properties-editor.md"},
     {"Project Workflow": "placeholder.md"}
   ]},
-  {"Amazon S3": "placeholder.md"}
+  {"Appendix A - Genome Studio": [
+    {"Install GenomeStudio": "AppendixAGenomeStudio/install-genomestudio.md"},
+    {"Create a New Project": "AppendixAGenomeStudio/create-a-new-project.md"},
+    {"Open an Existing Project": "AppendixAGenomeStudio/open-an-existing-project.md"},
+    {"Add Samples to an Existing Project": "AppendixAGenomeStudio/add-samples-to-an-existing-project.md"},
+    {"Recluster Samples Before Exporting to Genvisis": "AppendixAGenomeStudio/recluster-samples-before-exporting.md"},
+    {"Export Reports for Further Analysis in Genvisis": "AppendixAGenomeStudio/export-reports-for-further-analysis.md"},
+    {"Exclude Samples": "AppendixAGenomeStudio/exclude-samples.md"},
+    {"Export Reports with a Subset of SNPs": "AppendixAGenomeStudio/export-reports-with-a-subset-of-snps.md"},
+    {"GenomeStudio Background": "AppendixAGenomeStudio/genomestudio-background.md"},
+    {"Sex Determination Explained": "AppendixAGenomeStudio/sex-determination-explained.md"},
+    {"Finding Illumina Manifest Files": "AppendixAGenomeStudio/finding-illumina-manifest-files.md"}
+  ]},
+  {"Appendix B - Amazon S3": [
+    {"Overview": "AppendixBS3/overview.md"},
+    {"Set Up Credentials for S3 Access": "AppendixBS3/set-up-credentials.md"},
+    {"Create a Bucket and Grant Users Access": "AppendixBS3/create-a-bucket.md"},
+    {"Upload Files with S3": "AppendixBS3/upload-files-with-s3.md"},
+    {"Link Genvisis to an S3 Environment": "AppendixBS3/link-genvisis-to-s3-environment.md"}
+  ]}
 ]
