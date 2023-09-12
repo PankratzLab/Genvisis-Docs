@@ -1,4 +1,4 @@
-# Set Up Required Files for a New Genvisis Project 
+# Set Up Directories
 
 Create a directory/folder in which your project will be stored. Inside, create two sub-directories named **00src** and **data**.
 Place your project files in these locations:
