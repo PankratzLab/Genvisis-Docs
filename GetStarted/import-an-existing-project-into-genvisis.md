@@ -1,4 +1,6 @@
-# Import an Existing Project Into Genvisis
+# Import an Existing Project
+
+If you already have a Genvisis project, you can import that project instead of creating a new project.
 
 1. In Genvisis, go to **File** → **Import Project**.
 2. The **Genvisis Project Import** pop-up window will appear. There will be a list of requirements each with a red x next to them
