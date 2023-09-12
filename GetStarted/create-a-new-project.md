@@ -7,7 +7,7 @@
     * (Illumina only) The **.csv** version of the project’s **manifest file** (with probe sequences)
     * [**pedigree.txt** and **linker.txt**](#bookmark=id.3wqz7fyhw1k7) (within a data subdirectory (i.e., **[ProjectDir]/data**))
     * If your samples were processed in batches, **batch.text** [within a data subdirectory (i.e., **[ProjectDir]/data**)] listing sample IDs and batch names (no header) so Genvisis can control for batch effects. For example:
-
+            
             ID001	California
             ID002 California
             ID003	NBS
