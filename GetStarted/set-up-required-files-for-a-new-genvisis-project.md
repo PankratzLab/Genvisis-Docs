@@ -8,8 +8,8 @@ Place your project files in these locations:
     * These will either be GenomeStudio Final Report files for Illumina data or .CEL files for Affymetrix data.
     * No other files should be included in this directory.
 * **data/**
-  * [pedigree.txt](../#/documentation/GetStarted--set-up-pedigree-and-linker.md)
-  * [linker.txt ](../#/documentation/GetStarted--set-up-pedigree-and-linker.md)
+  * [pedigree.txt](../#/documentation/GetStarted--set-up-pedigree-and-linker)
+  * [linker.txt ](../#/documentation/GetStarted--set-up-pedigree-and-linker)
   * Batch file (optional)
       * .txt file
       * If samples were genotyped in batches, this file allows you to specify the groups.

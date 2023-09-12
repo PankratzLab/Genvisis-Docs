@@ -4,14 +4,14 @@ Genvisis requires appropriately formatted raw data files.
 
 ## Illumina GWAS Array Data
 **Option 1 (best):** Start with raw intensity data and 
-[recluster using GenomeStudio](../#/documentation/AppendixAGenomeStudio--recluster-samples-before-exporting.md). 
+[recluster using GenomeStudio](../#/documentation/AppendixAGenomeStudio--recluster-samples-before-exporting). 
 This option requires both:
 * .idat files (several files per sample) and
 * The binary manifest file for the array that was used (.bpm format).
 * The plain text version of the manifest file for the array (.csv format).
 
 **Option 2 (next best):** Start with a pre-existing GenomeStudio Project and
-[recluster using GenomeStudio](../#/documentation/AppendixAGenomeStudio--recluster-samples-before-exporting.md). This option requires all of the following:
+[recluster using GenomeStudio](../#/documentation/AppendixAGenomeStudio--recluster-samples-before-exporting). This option requires all of the following:
 * A BeadStudio/GenomeStudio (.bsc) file,
 * The contents of the GenomeStudio **Data/** directory, and
 * The plain text version of the manifest file for the array (.csv format).
