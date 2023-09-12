@@ -2,10 +2,10 @@
   {"Introduction": "introduction.md"},
   {"Get Started": [
     {"Find Required Raw Data Files": "GetStarted/find-required-raw-data-files.md"},
-    {"Set Up Pedigree and Linker": "GetStarted/set-up-pedigree-and-linker.md"},
-    {"Set Up Required Files for a New Genvisis Project": "GetStarted/set-up-required-files-for-a-new-genvisis-project.md"},
+    {"Create Pedigree and Linker Files": "GetStarted/set-up-pedigree-and-linker.md"},
+    {"Set Up Directories": "GetStarted/set-up-required-files-for-a-new-genvisis-project.md"},
     {"Create a New Project": "GetStarted/create-a-new-project.md"},
-    {"Import an Existing Project into Genvisis": "GetStarted/import-an-existing-project-into-genvisis.md"}
+    {"Import an Existing Project": "GetStarted/import-an-existing-project-into-genvisis.md"}
   ]},
   {"Run the Genvisis Workflow": [
     {"Introduction to the Workflow": "RunTheGenvisisWorkflow/introduction-to-the-workflow.md"},
