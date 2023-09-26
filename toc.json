@@ -57,16 +57,16 @@
     {"All Data Sets": "placeholder.md"}
   ]},
   {"Visualize Workflow Results": [
-    {"Scatter Plot": "placeholder.md"},
-    {"Trailer Plot": "placeholder.md"},
-    {"Comp Plot": "placeholder.md"},
-    {"Mosaic Plot": "placeholder.md"},
-    {"Ancestry Plot": "placeholder.md"},
-    {"Sex Plot": "placeholder.md"},
-    {"2D Plot": "placeholder.md"},
-    {"QQ Plot": "placeholder.md"},
-    {"Forest Plot": "placeholder.md"},
-    {"Manhattan Plot": "placeholder.md"}
+    {"Scatter Plot": "VisualizeWorkflowResults/scatter-plot.md"},
+    {"Trailer Plot": "VisualizeWorkflowResults/trailer-plot.md"},
+    {"Comp Plot": "VisualizeWorkflowResults/comp-plot.md"},
+    {"Mosaic Plot": "VisualizeWorkflowResults/mosaic-plot.md"},
+    {"Ancestry Plot": "VisualizeWorkflowResults/ancestry-plot.md"},
+    {"Sex Plot": "VisualizeWorkflowResults/sex-plot.md"},
+    {"Custom Plot": "VisualizeWorkflowResults/custom-plot.md"},
+    {"QQ Plot": "VisualizeWorkflowResults/qq-plot.md"},
+    {"Forest Plot": "VisualizeWorkflowResults/forest-plot.md"},
+    {"Manhattan Plot": "VisualizeWorkflowResults/manhattan-plot.md"}
   ]},
   {"Analyze CNVs":[
     {"CNV Analysis Pipeline": "placeholder.md"},
