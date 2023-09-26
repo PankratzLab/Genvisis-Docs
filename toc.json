@@ -80,8 +80,8 @@
     {"Help Within Genvisis": "CommandLine/help-within-genvisis.md"},
     {"Commands in Genvisis": "CommandLine/commands-in-genvisis.md"}
   ]},
-  {"Resources Directory": "placeholder.md"},
-  {"Menu": "placeholder.md"},
+  {"Resources Directory": "resources-directory.md"},
+  {"Menu": "menu.md"},
   {"Toolbar": [
     {"Introduction to the Toolbar": "Toolbar/introduction-to-the-toolbar.md"},
     {"Properties Editor": "Toolbar/project-properties-editor.md"},
