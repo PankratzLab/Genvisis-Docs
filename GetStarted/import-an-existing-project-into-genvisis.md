@@ -9,5 +9,5 @@ local environment as follows:
 4. Choose the directory of the existing project and click **Select**
 5. **New Project Name** will now contain the name of the project. 
 6. The red X for each requirement will turn into a green checkmark if the file or directory is present.  If the requirement is missing, the project can still be created, but Genvisis features that rely on it will not work. You will need to rerun the relevant [Workflow](../#/documentation/RunTheGenvisisWorkflow--introduction-to-the-workflow) steps to regenerate the missing file or directory.
-7. Click **OK**.  This will create a properties file in your [resource directory](../#/documentation/resources-directory)  based on the data in the project's [ProjectDir]/data/import.ser file.
+7. Click **OK**.  This will create a properties file in your [resources directory](../#/documentation/resources-directory)  based on the data in the project's [ProjectDir]/data/import.ser file.
 8. The imported project will load in Genvisis and can now be used.

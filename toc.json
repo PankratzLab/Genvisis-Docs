@@ -69,9 +69,7 @@
     {"Manhattan Plot": "VisualizeWorkflowResults/manhattan-plot.md"}
   ]},
   {"Analyze CNVs":[
-    {"CNV Analysis Pipeline": "placeholder.md"},
-    {"CNV Analysis Output Files": "placeholder.md"},
-    {"CNV Analysis Visuals": "placeholder.md"}
+    {"CNV Analysis Pipeline": "placeholder.md"}
   ]},
   {"Scripting": [
     {"Running Genvisis via Script": "Scripting/running-genvisis-via-script.md"}
@@ -82,11 +80,7 @@
   ]},
   {"Resources Directory": "resources-directory.md"},
   {"Menu": "menu.md"},
-  {"Toolbar": [
-    {"Introduction to the Toolbar": "Toolbar/introduction-to-the-toolbar.md"},
-    {"Properties Editor": "Toolbar/project-properties-editor.md"},
-    {"Project Workflow": "placeholder.md"}
-  ]},
+  {"Toolbar": "toolbar.md"},
   {"Appendix A - Genome Studio": [
     {"Install GenomeStudio": "AppendixAGenomeStudio/install-genomestudio.md"},
     {"Create a New Project": "AppendixAGenomeStudio/create-a-new-project.md"},
