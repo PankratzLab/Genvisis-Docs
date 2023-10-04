@@ -38,7 +38,10 @@ Genvisis requires appropriately formatted raw data files.
 
 ## Affymetrix Data (Affy6/Axiom)
 For Affymetrix data, Genvisis requires the following:
-* .CEL files (one per sample, may be gzipped as .CEL.gz)
+* .CEL files (one per sample)
+* Affymetrix Power Tools
 * Affymetrix Annotation file (*.annot.csv) aka Manifest
-    * Genvisis comes with GenomeWideSNP_6.na35.annot.csv, which works for most Affymetrix projects
+    * Genvisis comes with **GenomeWideSNP_6.na35.annot.csv**, which works for most Affymetrix projects
 * (optional) Affymetrix Probe Set file (*.probe_tab)
+    * Found inside Affymetrix Power Tools
+    * /CD_GenomeWideSNP_6_rev3/Full/GenomeWideSNP_6/LibFiles/GenomeWideSNP_6.probe_tab

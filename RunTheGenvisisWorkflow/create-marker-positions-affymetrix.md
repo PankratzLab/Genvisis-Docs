@@ -2,11 +2,13 @@
 
 This step uses an Affymetrix manifest file to determine where probes lie in the genome.
 
-#### 1: An Affymetrix Manifest file
-This step uses an Affymetrix manifest file to determine where probes lie in the genome. The manifest file, *.genvisis/resources/Arrays/AffySnp6/GenomeWideSNP_6.na35.annot.csv*, will automatically load from the pre-existing Genvisis resources. This file uses an hg19 array.
+#### 1: An Affymetrix Annotation file
+The annotation file **.genvisis/resources/Arrays/AffySnp6/GenomeWideSNP_6.na35.annot.csv** will automatically load from the pre-existing Genvisis [resources directory](../#/documentation/resources-directory). This file uses an hg19 array.
 
-#### 2.1: (optional) Perform LiftOver to lift manifest positions to project build
-Check this option if your manifest is in a different genome build than the Genvisis project (e.g., if the manifest is hg37 but Genvisis was set to hg38 during project creation).
+#### 2.1: (optional) Perform LiftOver to lift annotation positions to project build
+This option will convert marker positions in the annotation file to the genome build Genvisis was set to at project creation. For example, if a project was set to hg38 and the annotation file is in hg19, the marker positions will be converted to hg38.
 
-#### 2.2: Genome Build of the specified manifest file
-Select the appropriate genome build of your manifest file. Select HG19 in option 2.2 if using **GenomeWideSNP_6.na35.annot.csv**.
+This option is automatically set to true.
+
+#### 2.2: Genome Build of the specified annotation file
+Select the appropriate genome build of your annotation file. The default is hg19.

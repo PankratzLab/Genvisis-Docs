@@ -1,17 +1,17 @@
 ## Run Marker BLAST Annotation
 
-BLAST (Basic Local Alignment Search Tool) determines if markers are useful by aligning the probe sequences to the genome. A marker is not useful if it aligns to multiple locations on a genome.
+[BLAST (Basic Local Alignment Search Tool)](https://blast.ncbi.nlm.nih.gov/Blast.cgi) determines if markers are useful by aligning the probe sequences to the genome. A marker is not useful if it aligns to multiple locations on a genome.
 
-BLAST will run on the marker positions in markerPositions.txt.
+BLAST will run on the marker positions in [markerPositions.txt](../#/documentation/RunTheGenvisisWorkflow--create-marker-positions-illumina).
 
 #### 1: Parse Sample Files step [parse-samples] must have been run already or must be selected
 This step uses the sampRAF files that were created in the Parse Sample Files step.
 
 #### 2: Word size (length of the smallest continuous match reported)
-[1-100, default 40; number of base pairs?; talk to John Lane]
+[1-100, default 40]
 Smaller word size-->more time to run
 Markers are 50 bp in length
-Checking is subunits of the marker have matches in the sample genome?
+Checks if subunits of the marker have matches in the sample genome?
 
 #### 3: Full path to an Illumina manifest file (e.g., HumanExome-12-v1-o-B.csv)
 You must provide a manifest with probe sequences.
