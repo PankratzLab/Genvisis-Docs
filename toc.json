@@ -68,8 +68,8 @@
     {"Forest Plot": "VisualizeWorkflowResults/forest-plot.md"},
     {"Manhattan Plot": "VisualizeWorkflowResults/manhattan-plot.md"}
   ]},
-  {"Analyze CNVs":[
-    {"CNV Analysis Pipeline": "placeholder.md"}
+  {"Interpret Results":[
+    {"CNV Analysis Results": "InterpretResults/cnv-analysis-results.md"}
   ]},
   {"Scripting": [
     {"Running Genvisis via Script": "Scripting/running-genvisis-via-script.md"}
