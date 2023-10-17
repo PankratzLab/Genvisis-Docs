@@ -3,46 +3,46 @@
 2. Click Run -> Genotype Imputation (Minimac4) at the top of the page
 3. You’ll be taken to the submission page:
 
-**Name**
-	
-An optional name for your submission
+        **Name**
 
-**Reference Panel**
+        An optional name for your submission
 
-The only option on the public server is TOPMed r2, which consists of 194,512 haplotypes from 97,256 samples.
-[https://topmedimpute.readthedocs.io/en/latest/reference-panels/](https://topmedimpute.readthedocs.io/en/latest/reference-panels/)
+        **Reference Panel**
 
-**Input Files (VCF)**
+        The only option on the public server is TOPMed r2, which consists of 194,512 haplotypes from 97,256 samples.
+        [https://topmedimpute.readthedocs.io/en/latest/reference-panels/](https://topmedimpute.readthedocs.io/en/latest/reference-panels/)
 
-Files sent to the TOPMed server must be .vcf. You can upload them from a local machine, point to an HTTP address, an SFTP address, or an Amazon S3 Bucket. Genvisis produces index (.vcf.gz.tbi) files along with the .vcf, but only the .vcf are needed. Only chromosomes 1-22 and X can be imputed. Don’t submit Y, XY, MT, or Unknown as they will cause the quality check to fail. And it won’t tell you why it failed.
+        **Input Files (VCF)**
 
-**Array Build**
+        Files sent to the TOPMed server must be .vcf. You can upload them from a local machine, point to an HTTP address, an SFTP address, or an Amazon S3 Bucket. Genvisis produces index (.vcf.gz.tbi) files along with the .vcf, but only the .vcf are needed. Only chromosomes 1-22 and X can be imputed. Don’t submit Y, XY, MT, or Unknown as they will cause the quality check to fail. And it won’t tell you why it failed.
 
-The project must be in either **GRCh37/hg19** or **GRCh38/hg38**
+        **Array Build**
 
-**rsq Filter**
+        The project must be in either **GRCh37/hg19** or **GRCh38/hg38**
 
-To minimize the file size, Michigan Imputation Server includes an r2 filter option, excluding all imputed SNPs with an r2-value (= imputation quality) smaller than the specified value. We will filter on r2 ourselves after the fact, so select **off** for this.
+        **rsq Filter**
 
-**Phasing**
+        To minimize the file size, Michigan Imputation Server includes an r2 filter option, excluding all imputed SNPs with an r2-value (= imputation quality) smaller than the specified value. We will filter on r2 ourselves after the fact, so select **off** for this.
 
-Our data is unphased, so select the Eagle v2.4 (phased output) option to phase the data during processing. Phased data identifies which chromosome of each pair is the source of the genome.
+        **Phasing**
 
-**Population**
+        Our data is unphased, so select the Eagle v2.4 (phased output) option to phase the data during processing. Phased data identifies which chromosome of each pair is the source of the genome.
 
-Run the **TOPMed r2 vs. TOPMed Panel** option (the only time this QC check is not relevant is if you have a very specific non-European population).
+        **Population**
 
-**Mode**
+        Run the **TOPMed r2 vs. TOPMed Panel** option (the only time this QC check is not relevant is if you have a very specific non-European population).
 
-Choose **Quality Control & Imputation.**
+        **Mode**
 
-**AES 256 encryption**
+        Choose **Quality Control & Imputation.**
 
-The imputation files produced will always be encrypted, but you have the choice to add an extra layer of security to your data by using Advanced Encryption Standard with a key length of 256 bits. This isn’t necessary if your data isn’t Protected Health Information (PHI).
+        **AES 256 encryption**
 
-**Generate Meta-imputation file**
+        The imputation files produced will always be encrypted, but you have the choice to add an extra layer of security to your data by using Advanced Encryption Standard with a key length of 256 bits. This isn’t necessary if your data isn’t Protected Health Information (PHI).
 
-A checkbox to produce meta-data about the imputation results.
+        **Generate Meta-imputation file**
+
+        A checkbox to produce meta-data about the imputation results.
 
 4. Finally, check the boxes agreeing to protect research participant privacy.
 5. After the job completes, you’ll receive an email with a password and a link to a webpage with links for the files that were created.
