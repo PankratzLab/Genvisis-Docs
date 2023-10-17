@@ -51,10 +51,10 @@
     {"Overview": "RunAPCCorrectedProject/overview.md"},
     {"Workflow": "RunAPCCorrectedProject/workflow.md"}
   ]},
-  {"Interpret Workflow Results": [
-    {"Illumina Data Sets": "placeholder.md"},
-    {"Affymetrix Data Sets": "placeholder.md"},
-    {"All Data Sets": "placeholder.md"}
+  {"Workflow Output": [
+    {"Illumina Data Sets": "WorkflowOutput/output-illumina.md"},
+    {"Affymetrix Data Sets": "WorkflowOutput/output-affymetrix.md"},
+    {"All Data Sets": "WorkflowOutput/output-all.md"}
   ]},
   {"Visualize Workflow Results": [
     {"Scatter Plot": "VisualizeWorkflowResults/scatter-plot.md"},
@@ -100,5 +100,8 @@
     {"Create a Bucket and Grant Users Access": "AppendixBS3/create-a-bucket.md"},
     {"Upload Files with S3": "AppendixBS3/upload-files-with-s3.md"},
     {"Link Genvisis to an S3 Environment": "AppendixBS3/link-genvisis-to-s3-environment.md"}
+  ]},
+  {"Appendix C - TOPMed Imputation Server": [
+    {"TOPMed Imputation Server": "AppendixCTOPMedImputation/topmed-imputation-server.md"}
   ]}
 ]
