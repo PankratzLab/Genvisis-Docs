@@ -143,17 +143,22 @@
     - Chromosome X male
   - cnvs/genvisis_24M.cnv
     - Chromosome Y
+- BOTH calling Scope
+  - genvisis_all.cnv
 
 ### 17. Filter CNVs
 - [ProjectDir]/cnvs/filtered.cnv
 - filtered.cnv.ind.ser.gz
   - An index used in [Trailer Plot](../#/documentation/VisualizeWorkflowResults--trailer-plot).
 - cnvs/cnvsByLrrSd/
-  - Contains genvisisCnvsByLrrSd.xln, filteredCnvsByLrrdSd.xln, genvisisCnvsByLrrSd.png, and filteredCnvsByLrrdSd.png
-  - These files list the LRR_SD, LRR_SD_-2.0_2.0, and CNV count for each sample. The .xln files can be loaded into [Custom Plot](../#/documentation/VisualizeWorkflowResults--custom-plot) to visualize the relationship between LRR_SD and number of CNVs called per sample.
-  - The .png files are 2D Plots of the CNV counts by LRR_SD for quick reference. Use 2D Plot for higher resolution.
-  - As the number of CNV calls increases, more are being identified, but there is a tipping point where too many CNV calls are most likely false positives (a rule of thumb is to treat CNV counts < 100 as real).
-  - The filtered CNV counts can be used to refine the LRR_SD threshold in Step 8: Identify Excluded samples, to further improve CNV calling.
+  - genvisisCnvsByLrrSd.xln
+  - genvisisCnvsByLrrSd.png
+  - filteredCnvsByLrrdSd.xln
+  - filteredCnvsByLrrdSd.png
+    - These files list the LRR_SD, LRR_SD_-2.0_2.0, and CNV count for each sample. The .xln files can be loaded into [Custom Plot](../#/documentation/VisualizeWorkflowResults--custom-plot) to visualize the relationship between LRR_SD and number of CNVs called per sample.
+    - The .png files are 2D Plots of the CNV counts by LRR_SD for quick reference. Use 2D Plot for higher resolution.
+    - As the number of CNV calls increases, more are being identified, but there is a tipping point where too many CNV calls are most likely false positives (a rule of thumb is to treat CNV counts < 100 as real).
+    - The filtered CNV counts can be used to refine the LRR_SD threshold in Step 8: Identify Excluded samples, to further improve CNV calling.
 
 ### 18. Process CNVs and Create HMM File
 - [ProjectDir]\hmm\genvisis.hmm 
@@ -162,127 +167,157 @@
   - If 7: (optional) Call CNVs with new HMM file was checked
 
 ### 19. Call CNVs
+- AUTOSOMAL Calling Scope:
+  - [ProjectDir]/cnvs/genvisisHMM.cnv
+- SEX CHROMOSOMES Calling Scope:
+  - cnvs/genvisisHMM_23F.cnv
+    - Chromosome X female
+  - cnvs/genvisisHMM_23M.cnv
+    - Chromosome X male
+  - cnvs/genvisisHMM_24M.cnv
+    - Chromosome Y
+- BOTH calling Scope
+  - genvisisHMM_all.cnv
 
 ### 20. Filter CNVs
+  - [ProjectDir]/cnvs/filteredHMM.cnv
+  - cnvs/cnvsByLrrSd/
+    - genvisisHMM_allCnvsByLrrSd.xln
+    - genvisisHMM_allCnvsByLrrSd.png
+    - filteredHMMCnvsByLrrSd.xln
+    - filteredHMMCnvsByLrrSd.png
 
 ### 21. Identify Samples To Use In CNV Analysis
+- [ProjectDir]/output/cnv_analysis.fam 
 
 ### 22. Run CNV Analysis Pipeline
+- [ProjectDir]/cnv_analysis
+  - Large_Variants.cnv
+  - Giant_Variants.cnv
+  - All_Variants.cnv
+  - Deletions_Only.cnv
+  - Homozygous_Deletions_Only.cnv
+  - results/
+    - *.confPosition.out
+    - *.confWindow.out
+  - [FAM File Label]/
+    - [Model Label]/
+      - 28 files
 
 ### 23. Generate Genotype Mask
-[ProjectDir]/MendelZeroer/
-cnv.clst
-cnv.zero
-mosaic.clst
-mosaic.zero
-zeroMap.txt
+- [ProjectDir]/MendelZeroer/
+  - cnv.clst
+  - cnv.zero
+  - mosaic.clst
+  - mosaic.zero
+  - zeroMap.txt
 
 ### 24. Run Marker QC Metrics
-Produces output in [ProjectDir]/results
-results/markerQualityChecks.xln contains the quality metrics that were generated and can be used to filter markers as high quality or low quality
-These metrics are based on intensity data. In contrast, PLINK uses Hardy-Weinberg equilibrium.
-This file is useful to check for markers having batch effects
-The column BatchEffect_BATCH_n=# contains p-values from a test of batch effects for each sample
-Eg. If batches are found to have fundamentally different intensities, they can then be reclustered separately
-The column DuplicateErrors will be populated if you previously flagged duplicates, and can be used to see how many times a duplicate creates an error and inconsistency between duplicates.
-The column MendelianErrors is used if you have families flagged in the data set.
-results/markerQualityChecks_BATCH_ALLELIC_batchEffects.out 
-Only present if a batch file was used.
-Tests allelic batch effects.
-Tests whether frequency is different from one group to another. This performs logistic regression by batch/source (e.g. CBP=1 if not =0). 
-Column reports p-value for marker which indicates difference between the batch/source.
-If you find significant p-values, you can view the markers in Scatter Plot.
-File > New Marker List > … next to the field for File Name
-Chose a location and name for the marker list and hit Save
-Copy and paste marker names with significant p-values into the Marker names text box.
-The levels set in the Class=Batch/Source column will be present in the Color code by: toggles below the scatter plot. Samples can be excluded by clicking source name.
-When mixed colors in the middle X-Y plot > seeing a shift (not causing a problem).
-results/markerQualityChecks_BATCH_MISSINGNESS_batchEffects.out
-Only present if a batch file was used.
-Tests allelic batch effects.
-Tests if call rate is different by batch/source.
-markerQualityChecks.mendel
-combined.criteria
-exclusion.criteria
-review.criteria 
-markersToReview.out
-markersToExclude.out
-markersToReviewCombined.out
+- Produces output in [ProjectDir]/results
+  - results/markerQualityChecks.xln contains the quality metrics that were generated and can be used to filter markers as high quality or low quality
+    - These metrics are based on intensity data. In contrast, PLINK uses Hardy-Weinberg equilibrium.
+    - This file is useful to check for markers having batch effects
+      - The column BatchEffect_BATCH_n=# contains p-values from a test of batch effects for each sample
+        - Eg. If batches are found to have fundamentally different intensities, they can then be reclustered separately
+      - The column DuplicateErrors will be populated if you previously flagged duplicates, and can be used to see how many times a duplicate creates an error and inconsistency between duplicates.
+      - The column MendelianErrors is used if you have families flagged in the data set.
+  - results/markerQualityChecks_BATCH_ALLELIC_batchEffects.out 
+    - Only present if a batch file was used.
+    - Tests allelic batch effects.
+    - Tests whether frequency is different from one group to another. This performs logistic regression by batch/source (e.g. CBP=1 if not =0). 
+    - Column reports p-value for marker which indicates difference between the batch/source.
+    - If you find significant p-values, you can view the markers in Scatter Plot.
+      - File > New Marker List > … next to the field for File Name
+      - Chose a location and name for the marker list and hit Save
+      - Copy and paste marker names with significant p-values into the Marker names text box.
+      - The levels set in the Class=Batch/Source column will be present in the Color code by: toggles below the scatter plot. Samples can be excluded by clicking source name.
+    - When mixed colors in the middle X-Y plot > seeing a shift (not causing a problem).
+  - results/markerQualityChecks_BATCH_MISSINGNESS_batchEffects.out
+    - Only present if a batch file was used.
+    - Tests allelic batch effects.
+    - Tests if call rate is different by batch/source.
+  - markerQualityChecks.mendel
+  - combined.criteria
+  - exclusion.criteria
+  - review.criteria 
+  - markersToReview.out
+  - markersToExclude.out
+  - markersToReviewCombined.out
 
 ### 25. Run Further Analysis QC
-[ProjectDir]/plink/quality_control/further_analysis_QC/
+- [ProjectDir]/plink/quality_control/further_analysis_QC/
 
 ### 26. Identify Mosaic Chromosomal Arms
-[ProjectDir]/results/Mosaicism.xln
-Contains two rows per chromosome per sample, one for each arm (eg. chr6p, chr6q)
-If there are no markers on the arm, such as the acrocentric chromosomes (chr13, 14, 15, 21, and 22 p-arms), it won’t produce a row for that arm.
-LRR N - number of markers with a valid LRR value
-mean LRR
-BAF N - number of markers with a valid BAF value
-SD of BAF - 
-IQR of BAF - Interquartile range; difference between 25th and 75th percentiles
+- [ProjectDir]/results/Mosaicism.xln
+  - Contains two rows per chromosome per sample, one for each arm (eg. chr6p, chr6q)
+  - If there are no markers on the arm, such as the acrocentric chromosomes (chr13, 14, 15, 21, and 22 p-arms), it won’t produce a row for that arm.
+  - LRR N - number of markers with a valid LRR value
+  - mean LRR
+  - BAF N - number of markers with a valid BAF value
+  - SD of BAF - 
+  - IQR of BAF - Interquartile range; difference between 25th and 75th percentiles
 Both BAF columns are measures of dispersion/variance
-%Homo - percentage of homozygosity. Usually high (above 60%), but very high can indicate uniparental disomy or inbreeding leading to runs of homozygosity
-ForcedCallArmPercentMosaicism - the result of assuming an entire arm is mosaic and then calculating what percentage of cells have the mosaic event
+  - %Homo - percentage of homozygosity. Usually high (above 60%), but very high can indicate uniparental disomy or inbreeding leading to runs of homozygosity
+  - ForcedCallArmPercentMosaicism - the result of assuming an entire arm is mosaic and then calculating what percentage of cells have the mosaic event
 -1 value if not enough data to make a determination
-NumberRegionsDetected - Number of mosaic events identified
-ProportionArmCalledMosaic - mosaicism calls are made using the BAF and the detailed results are in results/Mosaicism.agnostic.xln 
-BpCalledMosaic and BpInArm are the numerator and denominator for ProportionArmCalledMosaic
-results/Mosaicism.agnostic.xln 
-Contains results from calling mosaicism on chromosomes based on the B allele frequency
-results/Mosaicism.agnostic.xln.filtered
-The mosaic calls from Mosaicism.agnostic.xln filtered with a minimum size of 1,000,000, a minimum score of 0.5, and a maximum score of 0.8.
-results/Mosaicism.forceCall.xlnc
-results/Mosaicism.genomeSummary.xln
-results/aneuploidyEvaluation.xln
-This data is visualized with Mosaic Plot.
+  - NumberRegionsDetected - Number of mosaic events identified
+  - ProportionArmCalledMosaic - mosaicism calls are made using the BAF and the detailed results are in results/Mosaicism.agnostic.xln 
+    - BpCalledMosaic and BpInArm are the numerator and denominator for ProportionArmCalledMosaic
+- results/Mosaicism.agnostic.xln 
+  - Contains results from calling mosaicism on chromosomes based on the B allele frequency
+- results/Mosaicism.agnostic.xln.filtered
+  - The mosaic calls from Mosaicism.agnostic.xln filtered with a minimum size of 1,000,000, a minimum score of 0.5, and a maximum score of 0.8.
+- results/Mosaicism.forceCall.xlnc
+- results/Mosaicism.genomeSummary.xln
+- results/aneuploidyEvaluation.xln
+- This data is visualized with [Mosaic Plot](../#/documentation/VisualizeWorkflowResults--mosaic-plot).
 
 ### 27. Identify Problematic Markers
-data/drops.dat
+- [ProjectDir]/data/drops.dat
 
 ### 28. Generate Principal Components
-[ProjectDir]/PCA/PCA_GENVISIS
+- [ProjectDir]/PCA/PCA_GENVISIS
 
 ### 29. Create PC-Corrected Project
-[ProjectDir]/pcCorrected_#PCs_[correction type]_[sex chr strategy]
-Eg. pcCorrected_20PCs_XY_BIOLOGICAL
-This subdirectory contains a new Genvisis project with a /transposed dir containing the PC corrected samples.
-X and Y are transformed based on the nearest genotype cluster using the number of principal components specified by the user. LRR and BAF are recomputed based on the new X and Y values.
-This new project will appear in the upper right corner of the Genvisis GUI.
-You can now run this new project up to cnv calling and optimization a second time.
+- [ProjectDir]/pcCorrected_#PCs_[correction type]_[sex chr strategy]
+  - Eg. pcCorrected_20PCs_XY_BIOLOGICAL
+- This subdirectory contains a new Genvisis project with a /transposed dir containing the PC corrected samples.
+  - X and Y are transformed based on the nearest genotype cluster using the number of principal components specified by the user. LRR and BAF are recomputed based on the new X and Y values.
+- This new project will appear in the upper right corner of the Genvisis GUI.
+  - [You can now run this new project up to cnv calling and optimization a second time](../#/documentation/RunAPCCorrectedProject--overview).
 
 ### 30. Create Mitochondrial Copy-Number Estimates File
-[ProjectDir]/
-PCA_MITO_wGC.MitoMarkers.RawValues.txt
-PCA_MITO_wGC.MitoMarkers.MarkersUsed.txt
-AllMitoMarkers.txt
-[ProjectDir]/PCA/PCA_MITO_wGC/
-PCA_MITO_wGC.PCs.extrapolated.txt
-PCA_MITO_wGC.PCs.SingularValues.png
-PCA_MITO_wGC.PCs.SingularValues.txt
-PCA_MITO_wGC.PCs.MarkerLoadings.txt
-PCA_MITO_wGC.PCs.txt
-PCA_MITO_wGC.PCs.MarkerReport.txt
-PCA_MITO_wGC.samples.USED_PC.txt
-PCA_MITO_wGC.samples.QC_Summary.txt
-PCA_MITO_wGC_lrr_sd.txt
-PCA_MITO_wGC_markers_ABCallRate.txt
-PCA_MITO_wGC_markerQC_BATCH_MISSINGNESS_batchEffects.out
-PCA_MITO_wGC_markerQC_BATCH_ALLELIC_batchEffects.out
-PCA_MITO_wGC_markerQC.txt
-PCA_MITO_wGC_markerQCtmp#.bonferroni.txt
-PCA_MITO_wGC_markers_to_QC.txt
-PCA_MITO_wGC_baselineMarkers.txt
-[ProjectDir]/PCA/PCA_MITO_wGC/PCA_MITO_wGC_GC_ADJUSTMENT
-default_gc_parameters.GENVISIS_GC.gc_Centroids.ser
-default_gc_parameters.GENVISIS_GC.gc_Centroids_TMP_BAK.ser
-default_gc_parameters.GENVISIS_GC.ser
-gc_Centroids.ser
-custom.gcmodel.ser
+- [ProjectDir]/
+  - PCA_MITO_wGC.MitoMarkers.RawValues.txt
+  - PCA_MITO_wGC.MitoMarkers.MarkersUsed.txt
+  - AllMitoMarkers.txt
+- [ProjectDir]/PCA/PCA_MITO_wGC/
+  - PCA_MITO_wGC.PCs.extrapolated.txt
+  - PCA_MITO_wGC.PCs.SingularValues.png
+  - PCA_MITO_wGC.PCs.SingularValues.txt
+  - PCA_MITO_wGC.PCs.MarkerLoadings.txt
+  - PCA_MITO_wGC.PCs.txt
+  - PCA_MITO_wGC.PCs.MarkerReport.txt
+  - PCA_MITO_wGC.samples.USED_PC.txt
+  - PCA_MITO_wGC.samples.QC_Summary.txt
+  - PCA_MITO_wGC_lrr_sd.txt
+  - PCA_MITO_wGC_markers_ABCallRate.txt
+  - PCA_MITO_wGC_markerQC_BATCH_MISSINGNESS_batchEffects.out
+  - PCA_MITO_wGC_markerQC_BATCH_ALLELIC_batchEffects.out
+  - PCA_MITO_wGC_markerQC.txt
+  - PCA_MITO_wGC_markerQCtmp#.bonferroni.txt
+  - PCA_MITO_wGC_markers_to_QC.txt
+  - PCA_MITO_wGC_baselineMarkers.txt
+- [ProjectDir]/PCA/PCA_MITO_wGC/PCA_MITO_wGC_GC_ADJUSTMENT
+  - default_gc_parameters.GENVISIS_GC.gc_Centroids.ser
+  - default_gc_parameters.GENVISIS_GC.gc_Centroids_TMP_BAK.ser
+  - default_gc_parameters.GENVISIS_GC.ser
+  - gc_Centroids.ser
+  - custom.gcmodel.ser
 
 ### 31. Create VCF Files for Imputation
-export/genvisis/
-.vcf.gz and .vcf.gz.tbi files for each chromosome selected.
-files that can be analyzed on the TOPMed Imputation Server.
+- [ProjectDir]/export/genvisis/
+  - .vcf.gz and .vcf.gz.tbi files for each chromosome selected.
+  - Files that can be analyzed on the [TOPMed Imputation Server](https://genvisis.org/#/documentation/AppendixCTOPMedImputation--topmed-imputation-server).
 
 
