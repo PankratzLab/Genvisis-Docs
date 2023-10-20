@@ -1,6 +1,6 @@
 # Introduction to the Workflow
 
-Genvisis data processing is run from a workflow of steps that automate best practices. The Genvisis Workflow can be opened from the toolbar (check the *Workflow* button) or from **Data > Genvisis Project Workflow**.
+Genvisis data processing is run from a workflow of steps that automate best practices. The Genvisis Workflow can be opened from the toolbar (click the *Project Workflow* button) or from **Data > Genvisis Project Workflow**.
 
 ![Image of the Genvisis toolbar with Workflow icon highlighted](/Images/GenvisisToolBarHighlight.png)
 
