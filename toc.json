@@ -36,6 +36,10 @@
       {"Call CNVs": "RunTheGenvisisWorkflow/call-cnvs.md"},
       {"Filter CNVs": "RunTheGenvisisWorkflow/filter-cnvs.md"},
       {"Process CNVs and Create HMM File": "RunTheGenvisisWorkflow/process-cnvs-and-create-hmm-file.md"},
+      {"Call CNVs Using Optimized HMM File": "RunTheGenvisisWorkflow/call-cnvs-using-optimized-hmm-file.md"},
+      {"Filter Optimized CNVs": "RunTheGenvisisWorkflow/filter-optimized-cnvs.md"},
+      {"Identify Samples To Use In CNV Analysis": "RunTheGenvisisWorkflow/identify-samples-to-use-in-cnv-analysis.md"},
+      {"Run CNV Analysis Pipeline": "RunTheGenvisisWorkflow/run-cnv-analysis-pipeline.md"},
       {"Generate Genotype Mask": "RunTheGenvisisWorkflow/generate-genotype-mask.md"},
       {"Run Marker QC Metrics": "RunTheGenvisisWorkflow/run-marker-qc-metrics.md"},
       {"Run Further Analysis QC": "RunTheGenvisisWorkflow/run-further-analysis-qc.md"},
@@ -48,8 +52,7 @@
     ]}
   ]},
   {"Run a PC-Corrected Project": [
-    {"Overview": "RunAPCCorrectedProject/overview.md"},
-    {"Workflow": "RunAPCCorrectedProject/workflow.md"}
+    {"Overview": "RunAPCCorrectedProject/overview.md"}
   ]},
   {"Workflow Output": [
     {"Illumina Data Sets": "WorkflowOutput/output-illumina.md"},

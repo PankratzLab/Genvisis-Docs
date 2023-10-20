@@ -166,7 +166,7 @@
 - cnvs\genvisisHMM.cnv and cnvs\filteredHMM.cnv
   - If 7: (optional) Call CNVs with new HMM file was checked
 
-### 19. Call CNVs
+### 19. Call CNVs Using Optimized HMM File
 - AUTOSOMAL Calling Scope:
   - [ProjectDir]/cnvs/genvisisHMM.cnv
 - SEX CHROMOSOMES Calling Scope:
@@ -179,7 +179,7 @@
 - BOTH calling Scope
   - genvisisHMM_all.cnv
 
-### 20. Filter CNVs
+### 20. Filter Optimized CNVs
   - [ProjectDir]/cnvs/filteredHMM.cnv
   - cnvs/cnvsByLrrSd/
     - genvisisHMM_allCnvsByLrrSd.xln
@@ -192,17 +192,40 @@
 
 ### 22. Run CNV Analysis Pipeline
 - [ProjectDir]/cnv_analysis
-  - Large_Variants.cnv
-  - Giant_Variants.cnv
-  - All_Variants.cnv
-  - Deletions_Only.cnv
-  - Homozygous_Deletions_Only.cnv
+  - [Model Label].cnv
   - results/
     - *.confPosition.out
     - *.confWindow.out
   - [FAM File Label]/
     - [Model Label]/
-      - 28 files
+      - conf.cnv
+      - conf.cnv.grp.summary
+      - conf.cnv.indiv
+      - conf.cnv.map
+      - conf.cnv.summary
+      - conf.cnv.summary.mperm
+      - conf.fam
+      - conf.log
+      - confPosition
+      - confPosition.cnv.indiv
+      - confPosition.cnv.summary
+      - confPosition.cnv.summary.mperm
+      - confPosition.hits
+      - confPosition.hits.regions.txt
+      - confPosition.log
+      - confPosition_manPlot.png
+      - confPosition.out
+      - confPosition.out.map
+      - confWindow
+      - confWindow.cnv.indiv
+      - confWindow.cnv.summary
+      - confWindow.cnv.summary.mperm
+      - confWindow.hits
+      - confWindow.hits.regions.txt
+      - confWindow.log
+      - confWindow_manPlot.png
+      - confWindow.out
+      - confWindow.out.map
 
 ### 23. Generate Genotype Mask
 - [ProjectDir]/MendelZeroer/

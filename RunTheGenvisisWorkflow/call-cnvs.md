@@ -20,11 +20,11 @@ In **hhall.hmm**, copy number 2 homozygous is turned off by being set to 100 bec
 
 #### 1.2 Use locally available array-specific Hidden Markov Model resource file
 
-#### 2.1 Computer Population BAF Files step [compute-pfb] must have been run already or must be selected
+#### 2.1 Compute Population BAF Files step [compute-pfb] must have been run already or must be selected
 
 #### 2.2 PFB File Must Exist
 
-#### 3.1 Comptuer GCMODEL File step [gcmodel] must have been run already or must be selected
+#### 3.1 Compute GCMODEL File step [gcmodel] must have been run already or must be selected
 
 #### 3.2 GCMODEL File Must Exist
 

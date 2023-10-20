@@ -1,10 +1,4 @@
-## Filter CNVs
-
-    * Default parameters are recommended
-        * Minimum number of probes for non-homozygous deletion: **15**
-        * Minimum number of probes for homozygous deletion: **3**
-        * Minimum score value: **10**
-        * Only use **Non-Excluded Samples**
+## Filter Optimized CNVs
 
 #### 1. *Source of CNV File*
 
@@ -30,6 +24,6 @@ Non-Excluded Samples
 All Samples
 
 #### 10. Output CNV file name
-Default: cnvs/filtered.cnv
+Default: cnvs/filteredHMM.cnv
 
 #### 11. (optional) Register output CNV file with the project (allows this output to load automatically in Trailer and CompPlot)

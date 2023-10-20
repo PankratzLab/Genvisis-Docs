@@ -22,4 +22,5 @@ Use this option if you want to BLAST on a different genome build than that of yo
 #### 5: Number of threads
 
 #### 6: Download remotely available BLAST program requirement
-Genvisis will download this program automatically when you check the Run Marker BLAST Annotation step. [VERIFY WITH ROSE]
+
+Genvisis is built to work with BLAST 2.13.0 and will automatically download it if it is not available in your local environment.
