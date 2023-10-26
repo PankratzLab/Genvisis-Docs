@@ -19,7 +19,10 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
      - This will create the directory **[ProjectDir]/medianLRR/**
    - When the computation has finished, click the **Custom Plot** button
    - This will plot each sample’s median LRR and MAD (median absolute difference) LRR for the region.
-   - Note: If MEDIAN is not on the x-axis and MAD is not on the y-axis, use the expandable menu on the left side of the plot.  The first option chosen will be plotted on the x-axis and the second on the y-axis.
+
+#### NOTE:
+
+            If MEDIAN is not on the x-axis and MAD is not on the y-axis, use the expandable menu on the left side of the plot.  The first option chosen will be plotted on the x-axis and the second on the y-axis.
 
    ![Image of a plot of median LRR vs median absolute difference with three distinct clusters and the copy number 2 cluster is off center from zero](/Images/cnv_interpretation_1.png)
 
@@ -52,9 +55,9 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
 
 ![Image of a plot of median LRR vs median absolute difference with three distinct clusters and the copy number 2 cluster is centered at zero](/Images/cnv_interpretation_5.png)
 
-13. In **[ProjectDir]/medianLRR/**, there will be a file named **LRR_MEDIAN_chr#_#-#_RECOMPUTE_LRR_ARTIFICIAL.xln**.  
+13. In **[ProjectDir]/medianLRR/**, there will be a file named **LRR\_MEDIAN\_chr#\_#-#\_RECOMPUTE\_LRR\_ARTIFICIAL.xln**.  
     - Append affliction status to this file, then conduct a linear regression between AFF and CN types.  
-    - The **ADJ_MEDIAN_chr#:#-#** column corresponds to the x-axis in Custom Plot.  In the example, we declare everything less than -0.2 a homozygous deletion based on the visualization.
+    - The **ADJ\_MEDIAN\_chr#:#-#** column corresponds to the x-axis in Custom Plot.  In the example, we declare everything less than -0.2 a homozygous deletion based on the visualization.
 
 14. Repeat steps 4 to 13 for each additional signficiant region.
 
