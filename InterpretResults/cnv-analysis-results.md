@@ -1,6 +1,6 @@
 # Interpret CNV Analysis Results
 
-After running the [CNV Analysis Pipeline](../#/documentation/RunTheGenvisisWorkflow--run-cnv-analysis-pipeline), the **[ProjectDir]/cnv_analysis/Filtered_Samples/** directory (Filtered_Samples may have a different name if you used a different label for the .fam file) contains 5 sub-directories, one for each model.  There are 28 output files in each of these, but the ones most relevant for analysis (**.confPosition.out** and **.confWindow.out.**) have copies in the **cnv_analysis/results/** directory.
+After running the [CNV Analysis Pipeline](../#/documentation/RunTheGenvisisWorkflow--run-cnv-analysis-pipeline), the **[ProjectDir]/cnv\_analysis/Filtered\_Samples/** directory (Filtered\_Samples may have a different name if you used a different label for the .fam file) contains 5 sub-directories, one for each model.  There are 28 output files in each of these, but the ones most relevant for analysis (**.confPosition.out** and **.confWindow.out.**) have copies in the **cnv_analysis/results/** directory.
 
 In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.  **EMP1** is the locus level p-value and **EMP2** is the genome wide p-value.  The CNVs have been compared against the breakpoints in the **.conf.cnv.map** file in each model directory.  If any **EMP2** values are less than 0.05, you will need to visualize the regions to verify if they're true positives or not:
 
