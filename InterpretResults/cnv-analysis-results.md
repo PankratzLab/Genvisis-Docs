@@ -20,7 +20,7 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
    - When the computation has finished, click the **Custom Plot** button
    - This will plot each sample’s median LRR and MAD (median absolute difference) LRR for the region.
 
-#### NOTE:
+  #### NOTE:
 
             If MEDIAN is not on the x-axis and MAD is not on the y-axis, use the expandable menu on the left side of the plot.  The first option chosen will be plotted on the x-axis and the second on the y-axis.
 
@@ -37,7 +37,7 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
             In Custom Plot, the most useful color code options are Heat Map and the option named after the CNV file.
 
 5. Back in Comp Plot, select one of the colored bars -> **To Trailer -> Selected**
-6. In Trailer **Actions -> To ScatterPlot**
+6. In Trailer, **Actions -> To ScatterPlot**
 7. On marker plots that are marked unknown, use heat map to identify clusters
 
 ![Image of Scatter Plot showing the heatmap view of a marker with user drawn boxes around genotype clusters](/Images/cnv_interpretation_3.png)
@@ -50,7 +50,7 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
 ![Image of Scatter Plot showing the Genotype view of a marker with user drawn boxes around genotype clusters](/Images/cnv_interpretation_4.png)
 
 10. Close **Scatterplot > New cluster filters have been created. Would you like to append them to the permanent file? > Yes, overwrite**
-11. Return to CompPlot and repeat **Median LRR**, but with **Recompute LRR** checked
+11. Return to Comp Plot and repeat **Median LRR**, but with **Recompute LRR** checked
 12. Custom Plot should now show the CN2 cluster centered around 0.0
 
 ![Image of a plot of median LRR vs median absolute difference with three distinct clusters and the copy number 2 cluster is centered at zero](/Images/cnv_interpretation_5.png)

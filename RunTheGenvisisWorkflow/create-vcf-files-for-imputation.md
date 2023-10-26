@@ -1,4 +1,4 @@
-### Create VCF Files for Imputation
+## Create VCF Files for Imputation
     * Export project data in the form of .vcf files that can be imputed on the [TOPMed Imputation Server](https://docs.google.com/document/d/1BMu1zp8er9NY-QFRh-7ZOeX1HnGj_yAYYh3BarASwPY/edit?pli=1#bookmark=kix.ao1b7evi7f7z).
     * 1: Chose which samples to export
         * 1.1: All samples

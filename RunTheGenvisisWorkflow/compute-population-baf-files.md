@@ -1,4 +1,4 @@
- ### Compute Population BAF files
+## Compute Population BAF files
 
 Requires samples to have been parsed.
 

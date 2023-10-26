@@ -1,4 +1,4 @@
-### Run Further Analysis QC
+## Run Further Analysis QC
     * Requires PLINK files to have been created
     * Requires either GWAS QC to have been run, or a file of unrelated FID/IID pairs.
     * Requires either Ancestry Step to have been run, or a list of samples of European ancestry

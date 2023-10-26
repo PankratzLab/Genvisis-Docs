@@ -27,9 +27,9 @@ This is an option only after you have already run a project in Genvisis. This is
     * numChrsWithEventGreaterThan4
     * NumberMosaicEventsDetected
     * ProportionGenomeMosaic
-    * PCA/PCA_GENVISIS/PCA_GENVISISLRR_SD
-    * PCA/PCA_GENVISIS/PCA_GENVISISGenotype_callrate
-    * PCA/PCA_GENVISIS/PCA_GENVISISCLASS=Exclude
+    * PCA/PCA\_GENVISIS/PCA\_GENVISISLRR\_SD
+    * PCA/PCA\_GENVISIS/PCA\_GENVISISGenotype\_callrate
+    * PCA/PCA\_GENVISIS/PCA\_GENVISISCLASS=Exclude
   * samples.ser
 * samples/
     * Empty. The first step of the PC-Corrected workflow Transpose Marker Files to Samples Files will populate this directory.
@@ -39,8 +39,8 @@ This is an option only after you have already run a project in Genvisis. This is
   * Appears if Create script with steps to process corrected data and call CNVs? option is checked in the Create PC-Corrected Project step.
 * transposed/
     * Marker dominant .mdRAF files with recalculated X, Y, LRR, and BAF values.
-* #_markersThatFailedCorrection.txt
+* #\_markersThatFailedCorrection.txt
     * List of markers that could not be PC-corrected
-* AB_lookup_parsed.dat
+* AB\_lookup\_parsed.dat
 * .csv manifest (Illumina projects only)
 * markerPositions.txt

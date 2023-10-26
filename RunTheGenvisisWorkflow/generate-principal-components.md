@@ -1,4 +1,4 @@
-### Generate Principal Components
+## Generate Principal Components
     * _Step 4: Output File Path_ allows the user to choose what suffix the files this step creates will have
         * The default value is **PCA_GENVISIS**
         *  For example, files:

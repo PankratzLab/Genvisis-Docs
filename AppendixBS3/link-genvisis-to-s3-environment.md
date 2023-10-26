@@ -1,11 +1,11 @@
-  # Link Genvisis to an S3 Environment
+# Link Genvisis to an S3 Environment
 
   .sampRAF and .mdRAF files can be stored in an S3 environment and still read by Genvisis.
 Since samples/ and transposed/ account for the majority of space used by a project, storing sample data with S3 is a useful way to free up space in your working environment while still being able to run projects.
 Open the properties file of your Genvisis project and edit the sample and marker data directories to point to the S3 environment:
 
-SAMPLE_DIRECTORY=s3://myNewBucket/remoteFolder/Samples/./
-MARKER_DATA_DIRECTORY=s3://myNewBucket/remoteFolder/Transposed/./
+SAMPLE\_DIRECTORY=s3://myNewBucket/remoteFolder/Samples/./
+MARKER\_DATA\_DIRECTORY=s3://myNewBucket/remoteFolder/Transposed/./
 
 
 Note the ./ at the end of the path.  This is necessary to establish the connection.
