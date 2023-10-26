@@ -6,10 +6,10 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
 
 1. In **.confPosition.out**, create a list of significant regions using the first and last SNPs on a chr that are EMP2 < 0.05 and store them in a new text file. For example:
 
-       chr7:31550705-31552108
-       chr10:18550421-18572274
-       chr11:54804507-54898271
-       chr12:5928665-5930039
+            chr7:31550705-31552108
+            chr10:18550421-18572274
+            chr11:54804507-54898271
+            chr12:5928665-5930039
 
 2. Open Comp Plot and load the regions with
    - **File -> Load Region File**
