@@ -202,6 +202,7 @@
       - conf.cnv.grp.summary
       - conf.cnv.indiv
       - conf.cnv.map
+        - lists CNV breakpoints. It matches the structure of the first four columns of a .bim file (chromosome, variant identifier, position in morgans or centimorgans [0 is a dummy value], and base-pair coordinate). The coordinates in the fourth column are the break points, or start and end points of cnvs provided to the analysis.
       - conf.cnv.summary
       - conf.cnv.summary.mperm
       - conf.fam
@@ -210,6 +211,7 @@
       - confPosition.cnv.indiv
       - confPosition.cnv.summary
       - confPosition.cnv.summary.mperm
+        - lists the chromosome and start position of each cnv call along with a locus specific p-value (EMP1) and a genomewide p-value (EMP2). The p-values indicate if the CNV is seen by chance anywhere in the genome. Only the values of EMP2 should be considered for analysis.
       - confPosition.hits
       - confPosition.hits.regions.txt
       - confPosition.log

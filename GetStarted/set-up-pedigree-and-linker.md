@@ -27,6 +27,6 @@ Genvisis projects require a **pedigree.txt** file containing unique subject IDs 
        
     * Each **DNA** ID in a linker file must be unique. Only **FID IID** should have duplicate values.
 
-    ### NOTE:
+    #### NOTE:
 
             If making a linker.txt file in Excel, set the format of the columns to Text before adding the IDs (the default is General, where Excel will guess the format of each value). IDs that are solely numbers will have leading zeros removed by Excel in this situation, which will lead to Genvisis not being able to match those rows in the Linker.txt file with the corresponding .sampRAFs. It is best to copy Sample IDs directly from the GenomeStudio project and not the Sample_Map.csv that is produced with reports, as opening Sample_Map.csv in Excel automatically removes leading zeros.
