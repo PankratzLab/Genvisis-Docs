@@ -41,7 +41,7 @@
         * CEL files
         * APT results
             * Must have the same name as the **Project Name**
-14. **Genome Build** allows you to specify which version of the human genome to run the project in (e.g., **[Genome Reference Consortium Human Build 38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/)** aka **GRCh38**). 
+14. **Genome Build** allows you to specify which version of the human genome to run the project in (e.g., **[Genome Reference Consortium Human Build 38](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26/)** (external link) aka **GRCh38**). 
     * Unless there is a specific need to use an older version of the genome, set **Genome Build** to **HG38**, even if the manifest is in an older build. Genvisis can remap marker positions to **hg38** in the [Create Marker Positions](../#/documentation/RunTheGenvisisWorkflow--create-marker-positions-illumina) step of the Workflow.
     * To determine which version of the genome your data is in, check the **GenomeBuild** column of your Illumina manifest, or the header of your Affymetrix manifest.
 15. Select the locations for the following files:

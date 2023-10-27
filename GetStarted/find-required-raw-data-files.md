@@ -44,4 +44,4 @@ For Affymetrix data, Genvisis requires the following:
     * Genvisis comes with **GenomeWideSNP_6.na35.annot.csv**, which works for most Affymetrix projects
 * (optional) Affymetrix Probe Set file (*.probe_tab)
     * Found inside Affymetrix Power Tools
-    * /CD_GenomeWideSNP_6_rev3/Full/GenomeWideSNP_6/LibFiles/GenomeWideSNP_6.probe_tab
+    * /CD\_GenomeWideSNP\_6\_rev3/Full/GenomeWideSNP\_6/LibFiles/GenomeWideSNP\_6.probe\_tab

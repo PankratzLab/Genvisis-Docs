@@ -4,7 +4,7 @@ Genvisis projects require a **pedigree.txt** file containing unique subject IDs 
 
 ## Pedigree
 * Create **pedigree.txt**. This file must contain a header and the following columns: **FID IID	FA	MO	SEX	AFF**
-    * The structure is identical to the [plink.fam](https://www.cog-genomics.org/plink2/formats#fam) file format.
+    * The structure is identical to the [plink.fam](https://www.cog-genomics.org/plink2/formats#fam) (external link) file format.
     * **FID** and **IID** are the family and individual IDs.
     * **FA** is the **IID** of the sample’s father (**0** if the parent is not in the dataset).
     * **MO** is the **IID** of the sample’s mother (**0** if the parent is not in the dataset).
@@ -27,4 +27,4 @@ Genvisis projects require a **pedigree.txt** file containing unique subject IDs 
        
     * Each **DNA** ID in a linker file must be unique. Only **FID IID** should have duplicate values.
 
-NOTE: If making a linker.txt file in Excel, set the format of the columns to Text before adding the IDs (the default is General, where Excel will guess the format of each value). IDs that are solely numbers will have leading zeros removed by Excel in this situation, which will lead to Genvisis not being able to match those rows in the Linker.txt file with the corresponding .sampRAFs. It is best to copy Sample IDs directly from the GenomeStudio project and not the Sample_Map.csv that is produced with reports, as opening Sample_Map.csv in Excel automatically removes leading zeros.
+NOTE: If making pedigree and linker files in Excel, set the format of the columns to **Text** before adding the IDs (the default is **General**, where Excel will guess the format of each value). Excel will strip leading zeroes from numerical IDs (eg. 0000034 becomes 34), which will lead to Genvisis not being able to match the pedigree and linker IDs with the IDs in the report files. In Illumina projects, it is best to copy Sample IDs directly from the GenomeStudio project and not the Sample\_Map.csv that is produced with reports, as opening Sample\_Map.csv in Excel automatically removes leading zeros.
