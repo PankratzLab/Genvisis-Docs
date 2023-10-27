@@ -12,7 +12,7 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
             chr12:5928665-5930039
 
 2. Open Comp Plot and load the regions with
-   - **File -> Load Region File**
+    - **File -> Load Region File**
 3. Only display cnvs from the file used to make the calls.
 4. Compute the median log R ratio for the first region and view the results in Custom Plot
    - **Actions -> Median LRR -> Compute**
