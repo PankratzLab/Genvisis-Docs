@@ -25,7 +25,7 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
 
     - We want to see a plot like this with clear clusters for copy number 2, heterozygous deletion, and homozygous deletion. Note that CN2 is not centered on 0.0 in this example. We can attempt to correct this in the steps below.
 
-![Image of a plot of median LRR vs median absolute difference with one noisy cluster](/Images/cnv_interpretation_2.png)
+   ![Image of a plot of median LRR vs median absolute difference with one noisy cluster](/Images/cnv_interpretation_2.png)
 
     - This example has an EMP2 of 0.0008, but there is no clear separation in the data. This is a false positive.
     - NOTE: In Custom Plot, the most useful color code options are Heat Map and the option named after the CNV file.
