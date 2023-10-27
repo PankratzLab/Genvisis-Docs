@@ -1,4 +1,4 @@
-### Run Ancestry Checks
+## Run Ancestry Checks
 
 This step performs homogeneity tests to make sure that the analysis doesn’t pick up on allele frequency differences simply due to the array being used.
 

@@ -1,4 +1,4 @@
-### Run GWAS QC
+## Run GWAS QC
 
 This step runs the PLINK software on the files created in Step 12. It requires a path to a PLINK executable. This could be plink, plink 1.9, or plink2 depending on what version of PLINK you are running.
 

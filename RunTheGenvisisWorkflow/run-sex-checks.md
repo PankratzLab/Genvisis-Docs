@@ -1,4 +1,4 @@
-### Run Sex Checks
+## Run Sex Checks
 
 We want to avoid regions on chrX that have homologies on chrY (beyond the pseudoautosomal regions that are already known to be homologous).
 

@@ -1,4 +1,4 @@
-### Generate AB Lookup File
+## Generate AB Lookup File
 
 This step parses the AB alleles from the original genotype. For each of the variants, it matches what nucleotide it predicts the A allele is and what nucleotide the B allele is to determine what is the reference allele and what is the alternate allele.
 

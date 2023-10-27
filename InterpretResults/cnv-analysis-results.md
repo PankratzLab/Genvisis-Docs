@@ -30,7 +30,7 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
 
 ![Image of a plot of median LRR vs median absolute difference with one noisy cluster](/Images/cnv_interpretation_2.png)
 
-    - This example has an EMP2 of 0.0008, but there is no clear separation in the data. This is a false positive.
+   - This example has an EMP2 of 0.0008, but there is no clear separation in the data. This is a false positive.
   
   #### NOTE:
 

@@ -1,4 +1,4 @@
-### Create PLINK Genotype Files
+## Create PLINK Genotype Files
 
 Option 3.1 uses the **pedigree.txt** file identified during project creation.
 
