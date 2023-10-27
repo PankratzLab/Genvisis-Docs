@@ -15,10 +15,10 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
     - **File -> Load Region File**
 3. Only display cnvs from the file used to make the calls.
 4. Compute the median log R ratio for the first region and view the results in Custom Plot
-   - **Actions -> Median LRR -> Compute**
-     - This will create the directory **[ProjectDir]/medianLRR/**
-   - When the computation has finished, click the **Custom Plot** button
-   - This will plot each sample’s median LRR and MAD (median absolute difference) LRR for the region.
+    - **Actions -> Median LRR -> Compute**
+        - This will create the directory **[ProjectDir]/medianLRR/**
+    - When the computation has finished, click the **Custom Plot** button
+    - This will plot each sample’s median LRR and MAD (median absolute difference) LRR for the region.
 
   #### NOTE:
 
@@ -30,7 +30,7 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
 
 ![Image of a plot of median LRR vs median absolute difference with one noisy cluster](/Images/cnv_interpretation_2.png)
 
-   - This example has an EMP2 of 0.0008, but there is no clear separation in the data. This is a false positive.
+    - This example has an EMP2 of 0.0008, but there is no clear separation in the data. This is a false positive.
   
   #### NOTE:
 
@@ -43,7 +43,7 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
 ![Image of Scatter Plot showing the heatmap view of a marker with user drawn boxes around genotype clusters](/Images/cnv_interpretation_3.png)
 
 8. Examine the Hardy-Weinberg value for each marker
-   - Hardy-Weinberg is non-significant if percentages are 0.25, 0.5, 0.25 for AA, AB, BB.  Significance usually indicates noise, measurement error, or biased data (however, sickle cell is a scenario where significant deviation from HW is biologically real).
+    - Hardy-Weinberg is non-significant if percentages are 0.25, 0.5, 0.25 for AA, AB, BB.  Significance usually indicates noise, measurement error, or biased data (however, sickle cell is a scenario where significant deviation from HW is biologically real).
 
 9. Manually modify clusters for a marker until Hardy-Weinberg becomes non-significant. Set clusters to AA (x-axis), AB, or BB (y-axis).
 
@@ -63,7 +63,7 @@ In **.confPosition.out**, sort the columns by **EMP2** from smallest to largest.
 
 15. Recall CNVs
     - Add false positive regions to the problematic regions file for the relevant genome build
-      - Eg. [.genvisis/resources/Genome/hg38/problematicRegions_hg38.dat](../#/documentation/resources-directory)
+        - Eg. [.genvisis/resources/Genome/hg38/problematicRegions_hg38.dat](../#/documentation/resources-directory)
     - In the main Genvisis window, run **Tools > Compute custom centroids file**
-      - This creates **data/custom.cent**
+        - This creates **data/custom.cent**
     - Call and filter CNVs a second time. The custom centroids file and updated problematic regions file should remove the false positive calls and correctly center the true positives.
