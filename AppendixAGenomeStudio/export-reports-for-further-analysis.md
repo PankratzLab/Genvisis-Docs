@@ -30,3 +30,5 @@ Next > leave the default settings here > Finish (can take hours to days to run d
 The FinalReport files can now be used in a Genvisis project
 
 Genvisis can read .gz files, so the finished reports should be gzipped to save storage space.
+
+NOTE: Strand designation terminology explained: The design allele is on the probe. The alternate alleles (A/B) are on the DNA molecule. +/-: Plus is the strand with 5' end at the tip of the short arm. TOP: adenine is the A allele; BOT: thymine is the A allele. Forward/Reverse: The forward strand is the longest flanking strand for a reference SNP in the NCBI database.
