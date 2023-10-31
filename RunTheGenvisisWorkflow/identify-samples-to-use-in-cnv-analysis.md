@@ -1,6 +1,6 @@
 ## Identify Samples To Use In CNV Analysis
 
-#### 1. Compute Sample QC Metrics step [sample-qc] must have been run already of must be selected
+#### 1. Compute Sample QC Metrics step [sample-qc] must have been run already or must be selected
 
 #### 2. Run Sex Checks step [sex-checks] must have been run already or must be selected
 
