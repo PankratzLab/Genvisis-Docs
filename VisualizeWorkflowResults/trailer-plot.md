@@ -1,4 +1,4 @@
-# Trailer Plot
+# TrailerPlot
 
 Trailer displays data for all markers for one individual and allows you to differentiate between good and bad copy number variant (CNV) calls, overlay the results from different CNV callers, and visualize different transformations of the data (e.g., GC correction). You can also interrogate aneuploidies, large mosaic events, and contamination and sample quality.
 
