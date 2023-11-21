@@ -1,7 +1,7 @@
 # Create a New Project
 
 1. Once the directories are set up and the necessary files are in place, run **genvisis.jar**.
-    * Linux/Mac
+    * Linux/Mac/Running remotely on Linux
         * Open a terminal and run **java -Xmx#g -jar [path]/genvisis.jar**
          * **#g** is the number of gigabytes of memory to use
          * [path] is the location of the genvisis.jar file
