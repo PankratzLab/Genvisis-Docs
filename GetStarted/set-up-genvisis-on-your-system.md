@@ -4,7 +4,6 @@
 1. Download [XQuartz](https://www.xquartz.org/).
 2. Restart your computer.
 3. Set up ssh connections. Contact your system administrator if you need assistance. (NO DETAIL BECAUSE SOME PARTS ARE SYSTEM-DEPENDENT?)
-
 4. Set up ssh config with X11 forwarding.
 
 create or modify ~/.ssh/config with the following information: (“vi ~/.ssh/config) and ensure file permissions are set (“chmod 600 ~/.ssh/config”)
@@ -25,7 +24,7 @@ Note for Apple silicon users: when running Genvisis on MSI with X11 forwarding, 
 
 
 **Windows**
-1. Download Xming and PuTTY.
+1. Download [Xming](https://xming.en.softonic.com/download) and [PuTTY](https://www.putty.org/).
 2. In PuTTY, set up your ssh connection and X11 forwarding. Create a saved session with these instructions and the following settings:
 Session > Host Name: (your host name here, e.g., mesabi.msi.umn.edu)
 -Connection>Proxy (NOT SURE IF THIS IS STILL NEEDED? ASK NATHAN)
@@ -37,8 +36,3 @@ Connection>SSH>X11
 Ensure Enable X11 forwarding is checked
 We recommend that you save session as something you will remember to access next time you login. 
 For convenience, you can set up puTTY to Automatically Load a Session. (ADD LINK)
-
-
-
-
-
