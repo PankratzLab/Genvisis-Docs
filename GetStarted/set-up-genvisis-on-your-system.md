@@ -27,14 +27,14 @@ Note for Apple silicon users: When running Genvisis on MSI with X11 forwarding, 
 **Windows**
 1. Download [Xming](https://xming.en.softonic.com/download) and [PuTTY](https://www.putty.org/).
 2. In PuTTY, set up your ssh connection and X11 forwarding. Create a saved session with these instructions and the following settings:
-  -Session > Host Name: (your host name here, e.g., mesabi.msi.umn.edu)
-  -Connection>Proxy (NOT SURE IF THIS IS STILL NEEDED? ASK NATHAN)
-    Proxy hostname: login.msi.umn.edu
-    Telnet command, or local proxy command  relies on having plink.exe (the TTY client, not the genetics PLINK) on your path. Renaming this to plink_ssh.exe or something of the sort and then modifying the command to match may be advisable.
-  -Connection>SSH
-    Check box for Share SSH connections if possible
-  -Connection>SSH>X11
-    Ensure Enable X11 forwarding is checked
+  * Session > Host Name: (your host name here, e.g., mesabi.msi.umn.edu)
+  * Connection>Proxy (NOT SURE IF THIS IS STILL NEEDED? ASK NATHAN)
+    * Proxy hostname: login.msi.umn.edu
+    * Telnet command, or local proxy command relies on having plink.exe (the TTY client, not the genetics toolset PLINK) on your path. Renaming this to plink_ssh.exe or something similar and then modifying the command to match may be advisable.
+  * Connection>SSH
+    * Check box for Share SSH connections if possible
+  * Connection>SSH>X11
+    * Ensure Enable X11 forwarding is checked
 
-We recommend that you save your session as something you will remember to access next time you login. 
-For convenience, you can set up PuTTY to Automatically Load a Session. (ADD LINK)
+3. We recommend that you save your session as something you will remember to access next time you log in.
+4. For convenience, you can set up PuTTY to Automatically Load a Session. (ADD LINK)
