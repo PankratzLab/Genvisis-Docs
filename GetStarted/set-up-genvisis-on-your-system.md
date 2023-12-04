@@ -7,13 +7,22 @@
   -Create or modify ~/.ssh/config with the following information: (“vi ~/.ssh/config)
   -Ensure file permissions are set (“chmod 600 ~/.ssh/config”)
 
-In your ssh config, set **XAuthoLocation** (MAYBE NOT REQUIRED???) and **ForwardX11**. ?????
-XAuthLocation /opt/X11/bin/xauth (THIS IS THE PATH FOR MAC; APPEARS TO BE NOT REQUIRED FOR LINUX.) ?????
-
-5. Add the following line to each host in your ssh config file (not to the generic host * section):
+3b. Add the following line to each host in your ssh config file (not to the general Host * section):
   ForwardX11 yes
+  For example,
 
-(add example from James' file)
+EXAMPLE (FYI, the Host * section might be different on your system or might not be required)
+
+Host *
+        ControlMaster auto
+        ControlPath /tmp/%r@%h:%p
+        ControlPersist 12h
+        
+Host yourshortcuthere
+        HostName yourhostname.example.edu
+        User exampleuser001
+        IdentityFile ~/.ssh/youridentityfilename
+        ForwardX11 yes
 
 Note: X11Forwarding yes applies forwarding to ALL ssh commands. If you think this is too aggressive, you can also pass the “-X” flag to ssh. However, it is not sufficient to pass it in the ProxyCommand, but an alias such as [my shortcut]=ssh -X [server name] should work.
 
