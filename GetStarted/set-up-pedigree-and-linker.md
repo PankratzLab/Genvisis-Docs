@@ -1,6 +1,6 @@
 # Create Pedigree and Linker Files
 
-Genvisis projects require a **pedigree.txt** file containing unique subject IDs and a **linker.txt** file that identifies duplicate subjects.
+Genvisis requires a **pedigree.txt** file containing unique subject IDs and a **linker.txt** file that identifies duplicate subjects.
 
 ## Pedigree
 * Create **pedigree.txt**. This file must contain a header and the following columns: **FID IID	FA	MO	SEX	AFF**
