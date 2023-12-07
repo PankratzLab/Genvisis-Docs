@@ -1,4 +1,4 @@
-# TrailerPlot
+# Trailer
 
 Trailer displays data for all markers for one individual and allows you to differentiate between good and bad copy number variant (CNV) calls, overlay the results from different CNV callers, and visualize different transformations of the data (e.g., GC correction). You can also interrogate aneuploidies, large mosaic events, and contamination and sample quality.
 
@@ -10,7 +10,7 @@ Red points are heterozygous calls and black points are homozygous.
 
 The B Allele Frequency plot shows if there are 0, 1, or 2 copies of the B allele. This is presented as a frequency, or 0, 0.5, or 1. Only those 3 bands are expected in a diploid genotype (AA, AB, or BB). An individual with a deletion will only have a marker at 0 or 1 (either only one B allele or only one A allele). A duplication will appear as 0, 0.33, 0.66, or 1 (AAA, AAB, ABB, or BBB). If more than 4 bands appear, this is probably due to contamination. Two samples mixed together would lead to 4 alleles at each locus, or 5 bands at 0, 0.25, 0.5, 0.75, and 1. More than 5 bands means contamination from more than 2 samples. A weird CNV can cause multiple banding, but if you see the same number of bands genome wide, then it’s contamination.
 
-We’re not interested in markers near 0 or 1 on the BAF plot, but in between the two. Anything between 0.15 and 0.85 is considered a heterozygous call.
+We are not interested in markers near 0 or 1 on the BAF plot, but in between the two. Anything between 0.15 and 0.85 is considered a heterozygous call.
 
 The BAF and LRR plots should be read in conjunction with each other. If the BAF plot has only two bands at 0 and 1 and the LRR plot shows markers below the median at that location, it’s a deletion. If the LRR plot is centered at the median instead, this is more likely a run of homozygosity and an indication that the subject’s parents were closely related, such as cousins. If the BAF plot shows a split pattern, but the two bands aren’t near 0.33 and 0.66, this can be a mosaic duplication, deletion, or uniparental disomy (UPD), where the subject inherited two chromosomes from the same parent. The alteration is UPD if the median LRR is centered on the line, and mosaic duplication or deletion if above or below. The more cells that have the alteration, the further the two BAF bands will be apart and the easier it will be to tell if the LRR markers are above, on, or below the median line.
 
