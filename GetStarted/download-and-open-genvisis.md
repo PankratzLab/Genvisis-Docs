@@ -1,6 +1,6 @@
 ## Download and Open Genvisis
 
-1. [Download Genvisis and a Genvisis starter project](https://genvisis.org/#/download).
+1. [Download Genvisis and, optionally, a Genvisis starter project](https://genvisis.org/#/download).
 2. Run **genvisis.jar**.
     * For Linux or Mac, or if you are running remotely on Linux:
         * Open a terminal and run **java -Xmx#g -jar [path]/genvisis.jar**
@@ -17,3 +17,5 @@
         * Double-click **vis.bat**
 
 ![Image of Genvisis opened for the first time](/Images/GenvisisOpened.png)
+
+3. You may wish to [load a starter project in Genvisis](../#/documentation/GetStarted--import-an-existing-project-into-Genvisis)**.
