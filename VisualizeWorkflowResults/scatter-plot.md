@@ -1,4 +1,4 @@
-# Scatter Plot
+# ScatterPlot
 
 ScatterPlot displays data for all individuals for a single marker and allows you to annotate and triage markers. For instance, those markers failing a QC metric such as call rate or Hardy-Weinberg equilibrium can be reviewed to see if they could be manually reclustered to rescue the marker. In addition, you can explore and correct batch effects, rescuing many markers with lower-quality data.
 
@@ -10,7 +10,7 @@ Point colors change between autosomal and sex chromosomes for quick identificati
 
 Marker lists can be created, loaded, edited, and deleted under File.
 
-The first time scatterplot is opened, Genvisis will generate the file **data/exampleScatterPlotMarkers.txt** with the first 10 markers in order to have something to display.
+When you first open ScatterPlot, Genvisis will generate the file **data/exampleScatterPlotMarkers.txt** with the first 10 markers in order to have something to display.
 
 On the right hand side, under **View Controls**, the option **Display Mendelian Errors** will draw lines between samples that have Mendelian errors. Blue is used for mother-offspring and green for father-offspring errors.
 
@@ -18,7 +18,7 @@ In the upper right hand corner of the screen is a window with four tabs: **Contr
 
 In the **Annotation** tab, you can enter a description in the “enter new annotation here” box. It will then be entered into the list of existing annotations with the first letter of the annotation now available as a hotkey, e.g., Monomorphic and Extra heterozygote clusters are default annotations. When viewing a marker, if you hit ‘m’ or ‘e’, the marker will be flagged for that annotation and you’ll automatically move to the next marker. In this way, you can very quickly move through markers, hitting only the annotation shortcuts on the keyboard.
 
-High quality markers have tight clusters with A/A on the X-axis, B/B on the Y-axis, and A/B in the middle of the plot.
+High-quality markers have tight clusters with A/A on the X-axis, B/B on the Y-axis, and A/B in the middle of the plot.
 
 Once Marker BLAST Annotation has been run, the **BLAST Metrics** tab in the lower right hand corner of the window will include data about the marker. This Includes the metrics **Has Perfect Match?**, **# Off-Target Alignments**, and **# On-Target (mismatched) Alignments (>80.0% match)**.
 1. Click the button **Show BLAST Results** to load the **BlastViewer**
