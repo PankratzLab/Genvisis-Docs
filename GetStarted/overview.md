@@ -2,7 +2,7 @@
 
 This section explains how to get started with Genvisis. 
 
-First [download Genvisis](https://genvisis.org/#/download) if you have not yet done so. 
+First download the software [download Genvisis and a starter project](https://genvisis.org/#/download). 
 
 Next [obtain raw Illumina or Affymetrix data files that are correctly formatted for Genvisis](find-required-raw-data-files.md). 
 
