@@ -1,4 +1,4 @@
-# Sex Plot
+# SexPlot
 
 SexPlot displays the median log R ratio for the X chromosome on the x-axis and for the Y chromosome on the y-axis. Genvisis will categorize each individual as XX, XY, XO, XXX, XXY, XXYY, or XYY (including mosaic versions of each of these), and clicking on an individual will link to [Trailer Plot](../#/documentation/VisualizeWorkflowResults--trailer-plot) so you can visually confirm these assignments.
 
