@@ -1,6 +1,6 @@
-## PC Corrected Project Overview
+## Overview
 
-This is an option only after you have already run a project in Genvisis. This is a copy of the original project, but where X and Y are transformed based on the nearest genotype cluster using the number of principal components specified by the user. LRR and BAF are recomputed based on the new X and Y values.
+Running a PC-corrected project is an option only after you have already run a project in Genvisis. The PC-corrected project is a copy of the original project in which X and Y are transformed based on the nearest genotype cluster using a user-specified number of principal components. Genvisis recomputes LRR and BAF on the new X and Y values.
 
 ### Creates files:
 * data/
