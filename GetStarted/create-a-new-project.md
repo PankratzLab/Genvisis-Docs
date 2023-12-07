@@ -1,8 +1,8 @@
 # Create a New Project in Genvisis
 
-![Image of Genvisis opened for the first time](/Images/GenvisisOpened.png)
-
 To create a new project, open Genvisis and then go to **File** → **New Project**.
+
+![Image of Genvisis opened for the first time](/Images/GenvisisOpened.png)
 
 ![Image of the Genvisis project creation window](/Images/NewProjectCreationWindow.png)
 
