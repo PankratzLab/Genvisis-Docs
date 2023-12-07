@@ -2,7 +2,7 @@
   {"Introduction": "introduction.md"},
   {"Get Started": [
     {"Set Up X11 Forwarding": "GetStarted/set-up-x11-forwarding.md"},
-    {"Download and Open Genvisis": "download-and-open-genvisis.md"},
+    {"Download and Open Genvisis": "GetStarted/download-and-open-genvisis.md"},
     {"Find Required Raw Data Files": "GetStarted/find-required-raw-data-files.md"},
     {"Create Pedigree and Linker Files": "GetStarted/set-up-pedigree-and-linker.md"},
     {"Set Up Directories": "GetStarted/set-up-required-files-for-a-new-genvisis-project.md"},
