@@ -9,7 +9,7 @@ If you will be running Genvisis on a remote Linux system, you need to set up X11
    - Ensure file permissions are set: chmod 600 ~/.ssh/config
 3. Add the following line to each host in your ssh config file (not to the general **Host** section): ForwardX11 yes
 
-Example file (note that the Host * section might be different on your system or might not be required):
+Here is an example file (note that the Host * section might be different on your system or might not be required):
 
    ```
 Host *
