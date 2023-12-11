@@ -36,9 +36,6 @@ Note for Apple silicon users: When running Genvisis with X11 forwarding on your 
 1. Download [Xming](https://xming.en.softonic.com/download) and [PuTTY](https://www.putty.org/).
 2. In PuTTY, set up your ssh connection and X11 forwarding. Create a saved session with the following settings:
    - Session > Host Name: [your host name here, e.g., mesabi.msi.umn.edu]
-   - Connection > Proxy (not necessary on all systems)
-      - Proxy hostname: [your login node, if you have one]
-      - Telnet command, or local proxy command relies on having plink.exe (the TTY client, not the genetics toolset PLINK) on your path. Renaming this plink_ssh.exe or something similar and then modifying the command to match may be advisable.
    - Connection > SSH
       - Check box for **Share SSH connections** if possible
    - Connection > SSH > X11
