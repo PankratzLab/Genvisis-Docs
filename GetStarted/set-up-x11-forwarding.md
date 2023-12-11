@@ -2,8 +2,8 @@
 
 If you will be running Genvisis on a remote Linux system, you need to set up X11 forwarding on your machine.
 
-## Mac/Linux 
-1. Download [XQuartz](https://www.xquartz.org/) and restart your computer (Mac only; this step does not apply to Linux users).
+## Mac 
+1. Download [XQuartz](https://www.xquartz.org/) and restart your computer.
 2. Set up your ssh config file with X11 forwarding:
    - Create or modify ~/.ssh/config as follows: vi ~/.ssh/config
    - Ensure file permissions are set: chmod 600 ~/.ssh/config
