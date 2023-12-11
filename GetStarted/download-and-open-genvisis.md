@@ -6,8 +6,7 @@
         * Open a terminal and run **java -Xmx#g -jar [path]/genvisis.jar**
          * **#g** is the number of gigabytes of memory to use
          * [path] is the location of the genvisis.jar file
-         * Example
-             * **java -Xmx24g -jar ~/genvisis.jar** (if **genvisis.jar** is saved in your home directory)
+         * Example: **java -Xmx24g -jar ~/genvisis.jar** (if **genvisis.jar** is saved in your home directory)
         * Alternatively, locate **genvisis.jar** within a file manager and double-click on the Genvisis icon
     * For Windows:
         * Open a text file and write inside **java -Xmx#g -jar genvisis.jar**
