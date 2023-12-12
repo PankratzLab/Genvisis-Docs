@@ -7,6 +7,7 @@ If you will be running Genvisis on a remote Linux system, you need to set up X11
 2. Set up your ssh config file with X11 forwarding:
    - Create or modify ~/.ssh/config as follows: vi ~/.ssh/config
    - Ensure file permissions are set: chmod 600 ~/.ssh/config
+
 3. Add the following line to each host in your ssh config file (not to the general **Host** section): ForwardX11 yes
 
 Here is an example file (note that the Host * section might be different on your system or might not be required):
@@ -39,5 +40,6 @@ Note for Apple silicon users: When running Genvisis with X11 forwarding on your 
       - Check box for **Share SSH connections** if possible
    - Connection > SSH > X11
       - Ensure **Enable X11 forwarding** is checked
+
 3. We recommend that you save your session as something you will remember to access next time you log in.
 4. For convenience, you can set up PuTTY to [automatically load a saved session](https://documentation.help/PuTTY/using-cmdline-load.html).
