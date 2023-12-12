@@ -1,6 +1,6 @@
 # Create a New Project From .gtc and .idat Files
 
-Follow these instructions if you are starting from scratch with .idat files. Otherwise you can open an existing project.
+Follow these instructions if you are starting from scratch with .idat files. Otherwise you can [open an existing project](../#/documentation/AppendixAGenomeStudio--open-an-existing-project).
 
 1. Go to *File > New Project > Genotyping*.
 2. A pop-up window will explain which assays are supported. Click **Next**.
