@@ -17,4 +17,4 @@
 
 ![Image of Genvisis opened for the first time](/Images/GenvisisOpened.png)
 
-3. You may wish to [load a starter project in Genvisis](../#/documentation/GetStarted--import-an-existing-project-into-Genvisis)**.
+3. You may wish to [load a starter project in Genvisis](../#/documentation/GetStarted--import-an-existing-project-into-genvisis).
