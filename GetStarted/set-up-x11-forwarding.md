@@ -1,6 +1,6 @@
-# Set Up X11 Forwarding 
+# Set Up X11 Forwarding
 
-If you will be running Genvisis on a remote Linux system, you need to set up X11 forwarding on your machine.
+If you will be running Genvisis on a remote Linux system, you need to set up X11 forwarding on your machine. Otherwise skip this step.
 
 ## Mac 
 1. Download [XQuartz](https://www.xquartz.org/) and restart your computer.
