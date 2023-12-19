@@ -1,6 +1,7 @@
 [
   {"Introduction": "introduction.md"},
   {"Get Started": [
+    {"Overview": "GetStarted/get-started-overview.md"},
     {"Set Up X11 Forwarding": "GetStarted/set-up-x11-forwarding.md"},
     {"Download and Open Genvisis": "GetStarted/download-and-open-genvisis.md"},
     {"Find Required Raw Data Files": "GetStarted/find-required-raw-data-files.md"},
