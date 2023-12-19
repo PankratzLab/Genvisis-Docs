@@ -17,4 +17,4 @@
 
 ![Image of Genvisis opened for the first time](/Images/GenvisisOpened.png)
 
-3. You may wish to [load a starter project in Genvisis](../#/documentation/GetStarted--import-an-existing-project-into-genvisis).
+3. Once you have opened Genvisis, you may want to [load a starter project in Genvisis](../#/documentation/GetStarted--import-an-existing-project-into-genvisis). We recommend using this starter project to familiarize yourself with some of the options in Genvisis before you create your own project in Genvisis.
