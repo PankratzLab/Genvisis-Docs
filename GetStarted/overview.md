@@ -12,4 +12,4 @@ After obtaining your raw data files, [set up your pedigree and linker files](../
 
 [Set up your project directory](../#/documentation/GetStarted--set-up-directories). 
 
-Within Genvisis, [create a new project](create-a-new-project.md), or, if you already have a Genvisis project, [import it into Genvisis](../#/documentation/GetStarted--import-an-existing-project-into-genvisis).
+Within Genvisis, [create a new project](../#/documentation/GetStarted--create-a-new-project), or, if you already have a Genvisis project, [import it into Genvisis](../#/documentation/GetStarted--import-an-existing-project-into-genvisis).
