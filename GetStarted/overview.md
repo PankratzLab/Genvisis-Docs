@@ -2,14 +2,14 @@
 
 This section explains how to get started with Genvisis. 
 
-If you will be running Genvisis on a remote Linux system, [set up X11 forwarding](set-up-x11-forwarding.md). Otherwise skip this step.
+If you will be running Genvisis on a remote Linux system, [set up X11 forwarding](../#/documentation/GetStarted--set-up-x11-forwarding). Otherwise skip this step.
 
 [Download Genvisis and a starter project](https://genvisis.org/#/download). 
 
-Next [obtain raw Illumina or Affymetrix data files that are correctly formatted for Genvisis](find-required-raw-data-files.md). 
+Next [obtain raw Illumina or Affymetrix data files that are correctly formatted for Genvisis](../#/documentation/GetStarted--find-required-raw-data-files). 
 
-After obtaining your raw data files, [set up your pedigree and linker files](set-up-pedigree-and-linker.md).
+After obtaining your raw data files, [set up your pedigree and linker files](../#/documentation/GetStarted--set-up-pedigree-and-linker).
 
-[Set up your project directory](set-up-required-files-for-a-new-genvisis-project.md). 
+[Set up your project directory](../#/documentation/GetStarted--set-up-directories). 
 
-Within Genvisis, [create a new project](create-a-new-project.md), or, if you already have a Genvisis project, [import it into Genvisis](import-an-existing-project-into-genvisis.md).
+Within Genvisis, [create a new project](create-a-new-project.md), or, if you already have a Genvisis project, [import it into Genvisis](../#/documentation/GetStarted--import-an-existing-project-into-genvisis).
