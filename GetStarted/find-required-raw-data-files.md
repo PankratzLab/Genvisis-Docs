@@ -4,7 +4,7 @@ Genvisis requires appropriately formatted raw data files.
 
 ## Illumina GWAS Array Data
 **Option 1 (best):** 
-* [Create a new GenomeStudio project from raw intensity data](../#/documentation/AppendixAGenomeStudio--create-a-new-project) 
+* [Create a new GenomeStudio project from raw intensity data](../#/documentation/AppendixAGenomeStudio--create-a-new-project).
 * [Recluster the data in GenomeStudio](../#/documentation/AppendixAGenomeStudio--recluster-samples-before-exporting) using only the high-quality samples as seeds. 
     * Best practices recommend reclustering the data even if the project was previously processed through GenomeStudio.
 * This option requires:
@@ -13,7 +13,7 @@ Genvisis requires appropriately formatted raw data files.
     * The plain text version of the manifest file for the array (.csv format)
 
 **Option 2 (next best):** 
-* Start with a [pre-existing GenomeStudio Project](../#/documentation/AppendixAGenomeStudio--open-an-existing-project)
+* Open a [previously created GenomeStudio Project](../#/documentation/AppendixAGenomeStudio--open-an-existing-project).
 * [Recluster using GenomeStudio](../#/documentation/AppendixAGenomeStudio--recluster-samples-before-exporting) using only the high-quality samples as seeds. 
     * Best practices recommend reclustering the data even if the project was previously processed through GenomeStudio.
 * This option requires:
