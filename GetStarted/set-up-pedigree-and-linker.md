@@ -20,10 +20,10 @@ Create **linker.txt**. This file must contain a header and the following columns
 * The purpose of the linker file is to identify duplicates. If the same subject is present multiple times in a study, list each of its unique sample ids under the **DNA** column, with the same **FID IID** for each sample.
 * Example
      
-            DNA FID IID 
-            ID001 NA1 NA8
-            ID002 NA1 NA8
-            ID003 NA1 NA8
+            DNA    FID  IID 
+            ID001  NA1  NA8
+            ID002  NA1  NA8
+            ID003  NA1  NA8
        
 * Each **DNA** ID in a linker file must be unique. Only **FID IID** should have duplicate values.
 
