@@ -9,7 +9,7 @@ This step uses the sampRAF files that were created in the Parse Sample Files ste
 
 #### 2: Word size (length of the smallest continuous match reported)
 [1-100, default 40]
-Smaller word size-->more time to run
+A smaller value lengthens the runtime
 Markers are 50 bp in length
 Checks if subunits of the marker have matches in the sample genome?
 
@@ -22,5 +22,4 @@ Use this option if you want to BLAST on a different genome build than that of yo
 #### 5: Number of threads
 
 #### 6: Download remotely available BLAST program requirement
-
 Genvisis is built to work with BLAST 2.13.0 and will automatically download it if it is not available in your local environment.
