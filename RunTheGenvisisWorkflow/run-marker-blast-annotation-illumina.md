@@ -5,7 +5,7 @@
 BLAST will run on the marker positions in [markerPositions.txt](../#/documentation/RunTheGenvisisWorkflow--create-marker-positions-illumina).
 
 #### 1: Parse Sample Files step [parse-samples] must have been run already or must be selected
-This step uses the sampRAF files that were created in the Parse Sample Files step.
+This step uses the sampRAF files that were created in the [Parse Samples Files](../#/documentation/RunTheGenvisisWorkflow--parse-sample-files-illumina) step.
 
 #### 2: Word size (length of the smallest continuous match reported)
 [1-100, default 40]
