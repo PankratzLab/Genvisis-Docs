@@ -34,10 +34,10 @@ Note for Apple silicon users: When running Genvisis with X11 forwarding on your 
 ## Windows
 1. Download [Xming](https://xming.en.softonic.com/download) and [PuTTY](https://www.putty.org/).
 2. In PuTTY, set up your ssh connection and X11 forwarding. Create a saved session with the following settings:
-   - Session > Host Name: [your host name here, e.g., mesabi.msi.umn.edu]
-   - Connection > SSH
+    - Session > Host Name: [your host name here, e.g., mesabi.msi.umn.edu]
+    - Connection > SSH
       - Check box for **Share SSH connections** if possible
-   - Connection > SSH > X11
+    - Connection > SSH > X11
       - Ensure **Enable X11 forwarding** is checked
 3. We recommend that you save your session as something you will remember to access next time you log in.
 4. For convenience, you can set up PuTTY to [automatically load a saved session](https://documentation.help/PuTTY/using-cmdline-load.html).
