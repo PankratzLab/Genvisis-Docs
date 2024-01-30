@@ -14,20 +14,20 @@ To create reports for use in Genvisis projects, first recluster SNPs based on on
     * Tip: If you need to recluster only individual SNPs (not all SNPs), right click in the **Full Data Table > Cluster Selected SNP**.
     * Tip: Click in the full data table to see the SNP graph in the upper left. This graph shows where all samples fall for a particular SNP.
 6. After all SNPs have been reclustered, you need to recluster the Y chromosome.
-    1. In the **Samples Table**, the **Gender** column will list all samples as **Unknown**. Highlight all samples, right click, and then select **Estimate gender for selected samples**.
-    2. For **Would you like to populate the Gender column (as well as the GenderEst column) with the result of the calculation?**, select **Yes**.
-         * Tip: [See below for an explanation of how GenomeStudio determines sex](https://genvisis.org/#/documentation/AppendixAGenomeStudio--sex-determination-explained)
-   3. Go to the central table and choose the **SNP Table** tab.
-   4. Sort column (ascending) by **Call Freq**.
-   5. Click on any Y chromosome marker.
-      * You will notice a large clump of samples along the x-axis in the SNP Graph. These are females, who do not provide a value when chrY is measured.
-      * It is possible that one of the clusters may be centered around the females. This is a problem. Females and samples of unknown sex need to be temporarily excluded and chrY reclustered.
-   7. In the **Samples Table**, sort by **Gender** and then exclude females, unknowns, and low call rate males.
-   8. Back in the **SNP Table**, filter to show only chrY.
-      1. Click the **Filter rows** icon on the toolbar (below the **SNP Table** tab).
-      2. In the pop-up window, set **Column** to **Chr**, set **Operation** to **=**, set **Value** to **Y**, and click **==>**.
-      3. If a value is already in the **Filter Tree View**, clear **Clear All** at the bottom to remove the old value. Click **OK**.
-   9. Back in the **SNP Table**, only rows for chrY will now be listed.
-      1. Highlight all SNPs for chrY, right click in the SNP Table, and cluster selected SNPs.
-      2. A pop-up window will ask **“Do you wish to update SNP statistics for the selected SNPs?”** Choose **No**.
-   10. Check the **SNP Graph** for various SNPs on chrY. Now you should see one or two proper clusters without influence from the females and unknowns.
+    A. In the **Samples Table**, the **Gender** column will list all samples as **Unknown**. Highlight all samples, right click, and then select **Estimate gender for selected samples**.
+    B. For **Would you like to populate the Gender column (as well as the GenderEst column) with the result of the calculation?**, select **Yes**.
+        * Tip: [See below for an explanation of how GenomeStudio determines sex](https://genvisis.org/#/documentation/AppendixAGenomeStudio--sex-determination-explained)
+    C. Go to the central table and choose the **SNP Table** tab.
+    D. Sort column (ascending) by **Call Freq**.
+    E. Click on any Y chromosome marker.
+        * You will notice a large clump of samples along the x-axis in the SNP Graph. These are females, who do not provide a value when chrY is measured.
+        * It is possible that one of the clusters may be centered around the females. This is a problem. Females and samples of unknown sex need to be temporarily excluded and chrY reclustered.
+7. In the **Samples Table**, sort by **Gender** and then exclude females, unknowns, and low call rate males.
+8. Back in the **SNP Table**, filter to show only chrY.
+    A. Click the **Filter rows** icon on the toolbar (below the **SNP Table** tab).
+    B. In the pop-up window, set **Column** to **Chr**, set **Operation** to **=**, set **Value** to **Y**, and click **==>**.
+    C. If a value is already in the **Filter Tree View**, clear **Clear All** at the bottom to remove the old value. Click **OK**.
+9. Back in the **SNP Table**, only rows for chrY will now be listed.
+    A. Highlight all SNPs for chrY, right click in the SNP Table, and cluster selected SNPs.
+    B. A pop-up window will ask **“Do you wish to update SNP statistics for the selected SNPs?”** Choose **No**.
+10. Check the **SNP Graph** for various SNPs on chrY. Now you should see one or two proper clusters without influence from the females and unknowns.
