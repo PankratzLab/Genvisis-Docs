@@ -88,6 +88,7 @@
   {"Menu": "menu.md"},
   {"Toolbar": "toolbar.md"},
   {"Appendix A - Genome Studio": [
+    {"GenomeStudio Background": "AppendixAGenomeStudio/genomestudio-background.md"},
     {"Install GenomeStudio": "AppendixAGenomeStudio/install-genomestudio.md"},
     {"Create a New Project": "AppendixAGenomeStudio/create-a-new-project.md"},
     {"Open an Existing Project": "AppendixAGenomeStudio/open-an-existing-project.md"},
@@ -96,7 +97,6 @@
     {"Export Reports for Further Analysis in Genvisis": "AppendixAGenomeStudio/export-reports-for-further-analysis.md"},
     {"Exclude Samples": "AppendixAGenomeStudio/exclude-samples.md"},
     {"Export Reports with a Subset of SNPs": "AppendixAGenomeStudio/export-reports-with-a-subset-of-snps.md"},
-    {"GenomeStudio Background": "AppendixAGenomeStudio/genomestudio-background.md"},
     {"Sex Determination Explained": "AppendixAGenomeStudio/sex-determination-explained.md"},
     {"Finding Illumina Manifest Files": "AppendixAGenomeStudio/finding-illumina-manifest-files.md"}
   ]},
