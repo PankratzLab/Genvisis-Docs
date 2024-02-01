@@ -1,7 +1,7 @@
 # Explanation of Sex Determination
 
 ## GenomeStudio 2.0.3+
-Genome Studio counts all autosomal loci and Y loci; if there are fewer than 100 autosomal loci or fewer than 20 Y loci, Genome Studio defaults to older Gender Est algorithm (see below). Otherwise, if the call rate of the autosomal loci is less than 0.97, the sex call is unknown. If the median Y intensity is greater than 0.3, the sex call is male; otherwise, Genome Studio goes to the next step. If the median X intensity is less than 0.9, the sex call is unknown; otherwise, the sex call is female.
+GenomeStudio counts all autosomal loci and Y loci; if there are fewer than 100 autosomal loci or fewer than 20 Y loci, GenomeStudio defaults to older Gender Est algorithm (see below). Otherwise, if the call rate of the autosomal loci is less than 0.97, the sex call is unknown. If the median Y intensity is greater than 0.3, the sex call is male; otherwise, GenomeStudio goes to the next step. If the median X intensity is less than 0.9, the sex call is unknown; otherwise, the sex call is female.
 
 Genvisis will more accurately estimate sex, including delineating which samples have aneuploidies (Klinefelter syndrome (47,XXY), Triple X syndrome (47,XXX), and Turner syndrome (45,X), including mosaic versions thereof). Thus it is not critical that the GenomeStudio determination be completely accurate.
 
