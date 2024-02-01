@@ -1,15 +1,13 @@
 # Set Up Credentials For S3 Access
 
 1. In your home directory, create the sub directory .aws/ and enter it from a terminal.
-   
-    * Linux / Mac: $HOME/.aws
-
+    * Linux/Mac: $HOME/.aws
     * Windows: C:\Users\username\.aws
 
 2. Run **s3cmd --configure** to be taken through configuration details, most of which should be left as-is.
 3. The previous step will create the file **~/.s3cfg**. Rename this file **credentials** (no file extension).
-4. Inside the file, rename **access_key** and **secret_key** to **aws_access_key_id** and **aws_secret_access_key**, respectively.
-5. If you receive an error when creating **.s3cfg**, copy this text into a new file named credentials instead:
+4. Inside the **credentials** file, rename **access_key** and **secret_key** to **aws_access_key_id** and **aws_secret_access_key**, respectively.
+5. If you receive an error when creating **.s3cfg**, copy the following text into a new file named **credentials** instead:
 
 [default]
 delete_removed = False
