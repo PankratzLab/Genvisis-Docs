@@ -9,6 +9,7 @@
 4. Inside the **credentials** file, rename **access_key** and **secret_key** to **aws_access_key_id** and **aws_secret_access_key**, respectively.
 5. If you receive an error when creating **.s3cfg**, copy the following text into a new file named **credentials** instead:
 
+   ```
 [default]
 delete_removed = False
 dry_run = False
@@ -46,7 +47,7 @@ aws_access_key_id=
 aws_secret_access_key=
 
 sharing_address=
-
+   ```
 
 6. Edit **host_base** and **host_bucket** 
 When running **s3cmd --configure**, you will see
