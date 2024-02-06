@@ -1,13 +1,13 @@
 # Set Up Credentials For S3 Access
 
-1. In your home directory, create the sub directory .aws/ and enter it from a terminal.
+1. In your home directory, create the sub directory .aws/ and enter it from a terminal:
     * Linux/Mac: $HOME/.aws
     * Windows: C:\Users\username\.aws
 
 2. Run **s3cmd --configure** to be taken through configuration details, most of which should be left as-is.
 3. The previous step will create the file **~/.s3cfg**. Rename this file **credentials** (no file extension).
 4. Inside the **credentials** file, rename **access_key** and **secret_key** to **aws_access_key_id** and **aws_secret_access_key**, respectively.
-5. If you receive an error when creating **.s3cfg**, copy the following text into a new file named **credentials** instead:
+5. If you receive an error when creating **.s3cfg**, instead copy the following text into a new file named **credentials**:
 
    ```
 [default]
@@ -55,10 +55,10 @@ When running **s3cmd --configure**, you will see
 Use "s3.amazonaws.com" for S3 Endpoint and not modify it to the target Amazon S3.
 S3 Endpoint [s3. …]:
 
-Use "%(bucket)s.s3.amazonaws.com" to the target Amazon S3. "%(bucket)s" and "%(location)s" vars can be used
-if the target S3 system supports dns based buckets.
-DNS-style bucket+hostname:port template for accessing a bucket [%(bucket)s.s3. …]:
+Use **%(bucket)s.s3.amazonaws.com** to the target Amazon S3. The **%(bucket)s** and **%(location)s** vars can be used
+if the target S3 system supports DNS-based buckets.
 
+DNS-style bucket+hostname:port template for accessing a bucket [%(bucket)s.s3. …]:
     a. Set **host_base** to the value in brackets for **S3 Endpoint**.
     b. Set **host_bucket** to the value in brackets for **DNS-style bucket+hostname:port template for accessing a bucket**.
     c. Edit **aws_access_key_id** and **aws_secret_access_key**, both of which will be displayed when running **s3cmd --configure** or can be found with the command **s3info**.
