@@ -4,7 +4,7 @@
     * Import Project
     * Select Project
     * Delete Project
-    * Project Properties Editor
+    * Properties Editor
     * Open Project Directory
     * Preferences
     * Check for updates
@@ -14,24 +14,24 @@
     * Audit Samples and Markers (generate paragraph)
     * Map .csv files to IDs
     * Add data to SampleData
-    * Genvisis Project Workflow
+    * Project Workflow
 * Quality
     * Scan for CNPs
     * Filter marker metrics
     * Tally marker annotations
     * Tally without determining dropped markers (much faster)
-    * Tally all clustered markers
+    * Tally all reclustered markers
 * Plots
-    * Scatter Plot
-    * Trailer Plot
-    * Comp Plot
-    * Mosaic Plot
-    * Ancestry Plot
-    * Sex Plot
-    * 2D Plot
-    * QQ Plot
-    * Forest Plot
-    * Manhattan Plot
+    * Scatter
+    * Trailer
+    * Comp
+    * Mosaic
+    * Ancestry
+    * Sex
+    * Custom
+    * QQ
+    * Forest
+    * Manhattan
 * Tools
     * Export to PLINK format
         * Generates PLINK files using the FID/IID IDs in linker.txt
