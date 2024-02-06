@@ -68,10 +68,10 @@
     * Export CNVs to Pedfile format
     * Parse workbench files
     * Principal Components
-        * Generate Manhattan Plots
+        * Generate manhattan plots
         * Generate PC crosstabs
         * Generate data column matrix
-    * Generate a demo package
+    * Rebuild marker details files
 * Help
     * Contents
     * Search
