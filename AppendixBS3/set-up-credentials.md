@@ -49,17 +49,16 @@ aws_secret_access_key=
 sharing_address=
    ```
 
-6. Edit **host_base** and **host_bucket** 
+6. Edit **host\_base** and **host\_bucket**. 
 When running **s3cmd --configure**, you will see
 
 Use "s3.amazonaws.com" for S3 Endpoint and not modify it to the target Amazon S3.
 S3 Endpoint [s3. …]:
 
-Use **%(bucket)s.s3.amazonaws.com** to the target Amazon S3. The **%(bucket)s** and **%(location)s** vars can be used
-if the target S3 system supports DNS-based buckets.
+Use **%(bucket)s.s3.amazonaws.com** to the target Amazon S3. The **%(bucket)s** and **%(location)s** vars can be used if the target S3 system supports DNS-based buckets.
 
 DNS-style bucket+hostname:port template for accessing a bucket [%(bucket)s.s3. …]:
-    a. Set **host_base** to the value in brackets for **S3 Endpoint**.
-    b. Set **host_bucket** to the value in brackets for **DNS-style bucket+hostname:port template for accessing a bucket**.
-    c. Edit **aws_access_key_id** and **aws_secret_access_key**, both of which will be displayed when running **s3cmd --configure** or can be found with the command **s3info**.
-    d. Edit **sharing_address**, which is your user id for the local environment where you are storing the credentials file.
+    1. Set **host_base** to the value in brackets for **S3 Endpoint**.
+    2. Set **host_bucket** to the value in brackets for **DNS-style bucket+hostname:port** template for accessing a bucket**.
+    3. Edit **aws_access_key_id** and **aws_secret_access_key**, both of which will be displayed when running **s3cmd --configure** or can be found with the command **s3info**.
+    4. Edit **sharing_address**, which is your user id for the local environment where you are storing the credentials file.
