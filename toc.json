@@ -9,6 +9,7 @@
     {"Set Up Directories": "GetStarted/set-up-directories.md"},
     {"Create a New Project": "GetStarted/create-a-new-project.md"},
     {"Import an Existing Project": "GetStarted/import-an-existing-project-into-genvisis.md"}
+    {"Resources Directory": "GetStarted/resources-directory.md"}
   ]},
   {"Run the Genvisis Workflow": [
     {"Introduction to the Workflow": "RunTheGenvisisWorkflow/introduction-to-the-workflow.md"},
