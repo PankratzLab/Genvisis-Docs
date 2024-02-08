@@ -1,16 +1,13 @@
 # Toolbar
 
 ## Properties Editor
-
-1. All of the parameters for a project are stored in the project properties file.
-2. This editor allows project properties to be changed.
-3. **[.genvisis/projects/](../#/documentation/resources-directory)** contains **.properties** files for all projects. Project properties can be edited in these files in addition to using the **Project Properties Editor**.
+Each Genvisis project has its own project properties file; these files are stored in **[.genvisis/projects/](../#/documentation/resources-directory)**. You can edit those files directly, or you can click **Properties Editor** to launch the Project Properties Editor. Use this editor change project properties for a Genvisis project.
 
 ## Project Workflow
-Launches the [Genvisis Workflow](../#/documentation/RunTheGenvisisWorkflow--introduction-to-the-workflow).
+Click on this button to launch the [Genvisis Workflow](../#/documentation/RunTheGenvisisWorkflow--introduction-to-the-workflow).
 
 ## Plots
-Genvisis can produce 10 different kinds of visualizations:
+Genvisis can produce 10 different kinds of visualizations. Click on any of the plot buttons to open the corresponding plotting feature.
 * [Scatter](../#/documentation/VisualizeWorkflowResults--scatter-plot)
 * [Trailer](../#/documentation/VisualizeWorkflowResults--trailer-plot)
 * [Comp](../#/documentation/VisualizeWorkflowResults--comp-plot)
