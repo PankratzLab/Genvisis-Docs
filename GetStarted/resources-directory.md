@@ -15,5 +15,5 @@ The **.genvisis/** directory contains the following sub-directories and files.
 * custom_path (the full path of **.genvisis/**)
 * Launch.bat (running this file will launch Genvisis on Windows)
 * Launch.command (running this file will launch Genvisis on Linux/Mac)
-* launch.properties (contains properties used by all Genvisis projects, for example, the path to PLINK, the location of resources/, the location of projects/, record of the last project opened, etc.
+* launch.properties (contains properties used by all Genvisis projects, for example, the path to PLINK and the locations of resources/ and projects/) 
 * Launch.sh (running this file will launch Genvisis on Linux/Mac)
