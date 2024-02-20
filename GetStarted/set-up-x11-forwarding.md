@@ -28,8 +28,7 @@ Note: **ForwardX11 yes** applies forwarding to *all* ssh commands. If you think 
 
 Note: If you open an ssh connection without X11 forwarding, you must close it before you can open a new terminal that does have X11 forwarding.
 
-Note for Apple silicon users: When running Genvisis with X11 forwarding on your server, set the following option to prevent odd rendering issues: **-Dsun.java2d.xrender=false**. For example, the full command might be **java -Dsun.java2d.xrender=false -jar genvisis.jar**.
-
+Note for Apple silicon users: When running Genvisis with X11 forwarding on your server, set the following option to prevent odd rendering issues: **-Dsun.java2d.xrender=false** (for example, the full command might be as follows: **java -Dsun.java2d.xrender=false -jar genvisis.jar**).
 
 ## Windows
 1. Download [Xming](https://xming.en.softonic.com/download) and [PuTTY](https://www.putty.org/).
