@@ -2,10 +2,10 @@
 
 Create a directory in which your project will be stored (this main diretory will be referred to as **[ProjectDir]** for the rest of the documentation). Inside, create two sub-directories named **00src** and **data**.
 
-## **00src/** (or another name of your choosing)
+### **00src/** (or another name of your choosing)
 This is the directory for your raw/source data files (GenomeStudio Final Report files for Illumina data [either **.csv** or **.csv.gz** format] or .CEL files for Affymetrix data). No other files should be included in this directory.
 
-## **data/** (this name is required)
+### **data/** (this name is required)
 - **[pedigree.txt](../#/documentation/GetStarted--set-up-pedigree-and-linker)**
 - **[linker.txt ](../#/documentation/GetStarted--set-up-pedigree-and-linker)**
 - **Batch file** (optional; allows Genvisis to detect whether a batch has such significant batch effects that it should be reclustered by itself)
@@ -26,7 +26,7 @@ This is the directory for your raw/source data files (GenomeStudio Final Report 
     the manifest, this file can be used to specify the shared subset of markers between the manifest and source files that Genvisis should use.
     - With no header, list marker names in a single column, one marker per line.
 
-## **Manifest** (Illumina data only)
+### **Manifest** (Illumina data only)
 - .csv version with probe sequences.
 - Stored in **[ProjectDir]**.
 - This file unlocks many important features, but a GenomeStudio **SNP_Map.csv** file (which is created alongside the final reports) can be used instead if a manifest is not available, or your manifest does not contain probe sequences.
