@@ -4,7 +4,7 @@ In Genvisis, data processing is run from a workflow of steps that automate best 
 
 ![Image of the Genvisis toolbar with Workflow icon highlighted](/Images/GenvisisToolBarHighlight.png)
 
-The Workflow window is organized into groups based on what type of analysis you wish to perform.  Checking the box for a group will display the steps required to perform that analysis. The six workflow groups are:
+The Workflow window is organized into groups based on what type of analysis you wish to perform. Checking the box for a group will display the steps required to perform that analysis. The six workflow groups are:
 - Explore Samples
 - Detect Mosaic Chromosomal Alterations (mCAs)
 - Impute Genotype Data to a Reference Panel
