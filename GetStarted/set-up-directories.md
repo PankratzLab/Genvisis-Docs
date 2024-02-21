@@ -19,7 +19,7 @@ Save your batch file (optional) in this sub-directory. If your samples were geno
                 ID006 Batch3
    ```
 
-Save your **marker subset file** (optional) in this sub-directory. If your source data files do not contain every marker present in the manifest, or if they contain markers that are not in the manifest, this file can be used to specify the markers that are shared between the manifest and source files (i.e., the markers that Genvisis should use). The marker subset file is a **.txt** file that lists the marker names in a single column with one marker for line. There is no header.
+Save your marker subset file (optional) in this sub-directory. If your source data files do not contain every marker present in the manifest, or if they contain markers that are not in the manifest, this file can be used to specify the markers that are shared between the manifest and source files (i.e., the markers that Genvisis should use). The marker subset file is a **.txt** file that lists the marker names in a single column with one marker for line. There is no header.
 
 ### **Manifest** (Illumina data only)
 For Illumina data, store the manifest file (the **.csv** version with probe sequences) in your **[ProjectDir]**. The manifest file unlocks many important features; if a manifest is not available or does not contain probe sequences, a GenomeStudio **SNP_Map.csv** file (which is created alongside the final reports) can be used instead.
