@@ -2,7 +2,7 @@
 
 Genvisis requires appropriately formatted raw data files.
 
-## Illumina GWAS Array Data
+### Illumina GWAS Array Data
 
 **Option 1 (best)** 
 - [Create a new GenomeStudio project from raw intensity data](../#/documentation/AppendixAGenomeStudio--create-a-new-project).
@@ -28,7 +28,7 @@ Genvisis requires appropriately formatted raw data files.
 
 The final report files must include several columns: SNP name, Sample ID, GC score, Allele1 - AB, Allele2 - AB, X, and Y. Two optional but helpful columns are B allele frequency and Log R ratio.
 
-## Affymetrix Data (Affy6/Axiom)
+### Affymetrix Data (Affy6/Axiom)
 For Affymetrix data, Genvisis requires the following:
 - **.CEL** files (one per sample)
 - Affymetrix Power Tools
