@@ -2,7 +2,7 @@
 
 If you will be running Genvisis on a remote Linux system, you need to set up X11 forwarding on your machine. Otherwise skip this step.
 
-## Mac 
+### Mac 
 1. Download [XQuartz](https://www.xquartz.org/) and restart your computer.
 2. Set up your ssh config file with X11 forwarding:
     - Create or modify ~/.ssh/config as follows: vi ~/.ssh/config
@@ -30,7 +30,7 @@ Note: If you open an ssh connection without X11 forwarding, you must close it be
 
 Note for Apple silicon users: When running Genvisis with X11 forwarding on your server, set the following option to prevent odd rendering issues: **-Dsun.java2d.xrender=false** (for example, the full command might be as follows: **java -Dsun.java2d.xrender=false -jar genvisis.jar**).
 
-## Windows
+### Windows
 1. Download [Xming](https://xming.en.softonic.com/download) and [PuTTY](https://www.putty.org/).
 2. In PuTTY, set up your ssh connection and X11 forwarding. Create a saved session with the following settings:
     - Session > Host Name: [your host name here, e.g., mesabi.msi.umn.edu]
