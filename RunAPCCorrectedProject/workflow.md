@@ -1,12 +1,11 @@
 ## PC Corrected Project Workflow
-The PC Corrected Project has a slightly different Workflow layout than a baseline Genvisis project.
 
-Some steps will be flagged as already completed. These are noted below with **Output Already Exists!**
+The PC Corrected Project has a slightly different workflow layout than a baseline Genvisis project.
 
-_<span style="text-decoration:underline;">Underlined steps are required for CNV calling.</span>_ Other steps are optional.
+Some steps will be flagged as already completed. These are noted below with **Output Already Exists!** _<span style="text-decoration:underline;">Underlined steps are required for CNV calling.</span>_ All other steps are optional.
 
 1. _<span style="text-decoration:underline;">Transpose Marker Files to Sample Files</span>_
-    * Will create **sampRAF** files in **/samples**
+    - Will create **sampRAF** files in **/samples**
 2. Run Marker BLAST Annotation
     * **Output Already Exists!**
 3. Compute GCMODEL File
