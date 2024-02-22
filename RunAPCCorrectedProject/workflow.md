@@ -7,14 +7,14 @@ Some steps will be flagged as already completed. These are noted below with **Ou
 1. _<span style="text-decoration:underline;">Transpose Marker Files to Sample Files</span>_
     - Will create **sampRAF** files in **/samples**
 2. Run Marker BLAST Annotation
-    * **Output Already Exists!**
+    - **Output Already Exists!**
 3. Compute GCMODEL File
-    * **Output Already Exists!**
+    - **Output Already Exists!**
 4. _<span style="text-decoration:underline;">Compute Sample QC Metrics</span>_
 5. _<span style="text-decoration:underline;">Identify Excluded Samples</span>_
 6. _<span style="text-decoration:underline;">Run Sex Checks</span>_
 7. Generate AB Lookup File
-    * **Output Already Exists!**
+    - **Output Already Exists!**
 8. _<span style="text-decoration:underline;">Create PLINK Genotype Files</span>_
 9. _<span style="text-decoration:underline;">Run GWAS QC</span>_
 10. Run Ancestry Checks
