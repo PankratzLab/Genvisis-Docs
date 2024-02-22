@@ -56,7 +56,8 @@
     ]}
   ]},
   {"Run a PC-Corrected Project": [
-    {"Overview": "RunAPCCorrectedProject/overview.md"}
+    {"Overview": "RunAPCCorrectedProject/overview.md"},
+    {"Workflow": "RunAPCCorrectedProject/workflow.md"}
   ]},
   {"Workflow Output": [
     {"Illumina Data Sets": "WorkflowOutput/output-illumina.md"},
