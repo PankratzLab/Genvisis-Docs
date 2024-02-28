@@ -26,7 +26,7 @@ Genvisis requires appropriately formatted raw data files.
     - final report files with one or more samples per file (see below)
     - the plain text version of the manifest file for the array (.csv format)
 
-The final report files must include several columns: SNP name, Sample ID, GC score, Allele1 - AB, Allele2 - AB, X, and Y. Two optional but helpful columns are B allele frequency and Log R ratio.
+    The final report files must include several columns: SNP name, Sample ID, GC score, Allele1 - AB, Allele2 - AB, X, and Y. Two optional but helpful columns are B allele frequency and Log R ratio.
 
 ### Affymetrix Data (Affy6/Axiom)
 For Affymetrix data, Genvisis requires the following:
