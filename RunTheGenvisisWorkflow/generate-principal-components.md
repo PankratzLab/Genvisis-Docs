@@ -6,3 +6,5 @@
             * PCA_GENVISIS_lrr_sd.txt
             * PCA_GENVISIS_markerQC_BATCH_ALLELIC_batchEffects.out
             * PCA_GENVISIS_markerQC_BATCH_MISSINGNESS_batchEffects.out
+
+Genvisis prefers to have the BLAST annotation file but will automatically use generalized mappability data instead when the project is set to Axiom.
