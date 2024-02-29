@@ -28,10 +28,17 @@ Genvisis requires appropriately formatted raw data files.
 
     The final report files must include several columns: SNP name, Sample ID, GC score, Allele1 - AB, Allele2 - AB, X, and Y. Two optional but helpful columns are B allele frequency and Log R ratio.
 
+
+Note that, for any of these options, the Illumina manifest file must contain probe sequences for Genvisis to be able to run the **[Run Marker BLAST Annotation](../#/documentation/RunTheGenvisisWorkflow--run-marker-blast-annotation-illumina)** workflow step. Generally it is possible to find a manifest file that contains probe sequences. We recommend contacting Illumina if you need assistance finding a manifest file that contains probe sequences.
+
 ### Affymetrix Data (Affy6/Axiom)
 For Affymetrix data, Genvisis requires the following:
 - **.CEL** files (one per sample)
 - Affymetrix Power Tools
 - Affymetrix Annotation file (*.annot.csv) aka Manifest (Genvisis comes with **GenomeWideSNP_6.na35.annot.csv**, which works for most Affymetrix projects)
 
-Optionally, you can include an Affymetrix Probe Set file (***.probe_tab**), which can be found inside Affymetrix Power Tools (**/CD\_GenomeWideSNP\_6\_rev3/Full/GenomeWideSNP\_6/LibFiles/GenomeWideSNP\_6.probe\_tab**).
+Optionally, you can include an Affymetrix Probe Set file (***.probe_tab**). This file is required for the **[Run Marker BLAST Annotation](../#/documentation/RunTheGenvisisWorkflow--run-marker-blast-annotation-affymetrix)** step of the Genvisis workflow. 
+
+The Affy6 probe set file is saved in the [Genvisis resources directory](../#/documentation/GetStarted--resources-directory). 
+
+ThermoFisher no longer shares Affymetrix probe sequences, so probe set files for Axiom arrays may be unavailable.
