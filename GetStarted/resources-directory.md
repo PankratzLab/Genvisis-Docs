@@ -18,3 +18,4 @@ The **.genvisis/** directory contains the following sub-directories and files.
 - Launch.command (running this file will launch Genvisis on Linux/Mac)
 - launch.properties (contains properties used by all Genvisis projects, for example, the path to PLINK and the locations of resources/ and projects/) 
 - Launch.sh (running this file will launch Genvisis on Linux/Mac)
+- GenomeWideSNP_6.probe_tab (this is the Affymetrix probe sequence file for Affy6)
