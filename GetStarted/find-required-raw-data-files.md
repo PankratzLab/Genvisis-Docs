@@ -29,7 +29,7 @@ Genvisis requires appropriately formatted raw data files.
     The final report files must include several columns: SNP name, Sample ID, GC score, Allele1 - AB, Allele2 - AB, X, and Y. Two optional but helpful columns are B allele frequency and Log R ratio.
 
 
-Note that, for any of these options, the Illumina manifest file must contain probe sequences for Genvisis to be able to run the **[Run Marker BLAST Annotation](../#/documentation/RunTheGenvisisWorkflow--run-marker-blast-annotation-illumina)** workflow step. Generally it is possible to find a manifest file that contains probe sequences. We recommend contacting Illumina if you need assistance finding a manifest file that contains probe sequences.
+Note that, for any of these options, the Illumina manifest file must contain probe sequences for Genvisis to be able to run the **[Run Marker BLAST Annotation](../#/documentation/RunTheGenvisisWorkflow--run-marker-blast-annotation-illumina)** workflow step. Generally it is possible to find a manifest file that contains probe sequences; we recommend contacting Illumina if you need assistance. As described in **[Run Marker BLAST Annotation](../#/documentation/RunTheGenvisisWorkflow--run-marker-blast-annotation-illumina)**, if you do not have a probe set file, uncheck the **[Run Marker BLAST Annotation](../#/documentation/RunTheGenvisisWorkflow--run-marker-blast-annotation-illumina)** box in the Genvisis workflow.
 
 ### Affymetrix Data (Affy6/Axiom)
 For Affymetrix data, Genvisis requires the following:
@@ -41,4 +41,4 @@ Optionally, you can include an Affymetrix Probe Set file (***.probe_tab**). This
 
 The Affy6 probe set file is saved in the [Genvisis resources directory](../#/documentation/GetStarted--resources-directory). 
 
-ThermoFisher no longer shares Affymetrix probe sequences, so probe set files for Axiom arrays may be unavailable.
+ThermoFisher no longer shares Affymetrix probe sequences, so probe set files for Axiom arrays may be unavailable. As described in **[Run Marker BLAST Annotation](../#/documentation/RunTheGenvisisWorkflow--run-marker-blast-annotation-affymetrix)**, if you do not have a probe set file, uncheck the **[Run Marker BLAST Annotation](../#/documentation/RunTheGenvisisWorkflow--run-marker-blast-annotation-affymetrix)** box in the Genvisis workflow.
