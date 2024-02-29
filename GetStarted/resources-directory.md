@@ -9,7 +9,7 @@ The **.genvisis/** directory contains the following sub-directories and files.
 - projects/ (contains **.properties** files for each project created)
 - resources/
     - Arrays/
-        * AffySnp6/ (contains Affymetrix arrays and support files)
+        - AffySnp6/ (contains Affymetrix arrays and support files)
     - CNV/ (contains Hidden Markov Model [**.hmm**] files used in CNV calling)
     - Genome/ (contains resource files for human genome builds hg18, hg19, and hg38)
     - HapMap/ (contains resource files for HapMap samples)
@@ -18,4 +18,4 @@ The **.genvisis/** directory contains the following sub-directories and files.
 - Launch.command (running this file will launch Genvisis on Linux/Mac)
 - launch.properties (contains properties used by all Genvisis projects, for example, the path to PLINK and the locations of resources/ and projects/) 
 - Launch.sh (running this file will launch Genvisis on Linux/Mac)
-- GenomeWideSNP_6.probe_tab (this is the Affymetrix probe sequence file for Affy6)
+- GenomeWideSNP\_6.probe\_tab (this is the Affymetrix probe sequence file for Affy6)
