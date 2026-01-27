@@ -6,6 +6,8 @@ By default, the **.idat** files that are loaded will use Sentrix ID and Position
 
 [Here is an example sample sheet](https://github.com/PankratzLab/Genvisis-Docs/blob/main/AppendixAGenomeStudio/GenomeStudio_Sample_Sheet.csv) (external link).
 
+Tip: Make sure that the Sample_ID or Sample_Name (whichever you merge into GenomeStudio) is unique. For example, if you have duplicate samples named NA12878, rename them NA12878_1 and NA12878_2 or NA12878 and NA12878_dup. If your sample names or IDs are not unique, projects can end up with one sample labeled with the ID (e.g., NA12878) and the other labeled with the SENTRIX_ID (e.g., 5434246082_R03C01), which can lead to significant confusion.
+
 Tip: If you receive an error message that the manifest in the sample sheet does not match the manifest in the existing project, delete the manifest name from the sample sheet (row #8 in the above example file). (Using the same manifest name in the sample sheet as that in the existing project has caused this error to occur in the past. GenomeStudio will import files with no manifest in the sample sheet, however.)
 
 Tip: If you created a sample sheet using Excel, open it in a program such as Notepad or Textpad to verify that there are no blank rows after the final sample. GenomeStudio will create a sample list with more samples than **.idat** files if the sample sheet contains blank rows.
