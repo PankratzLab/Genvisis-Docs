@@ -14,13 +14,13 @@ To create a new project, open Genvisis and then go to **File** → **New Project
 6. Genvisis will automatically detect the number of source files and the extension (e.g., **.csv**, **.csv.gz**, **.CEL**, etc.)
 7. Choose the **Array Type** with which the data was collected:
     - ILLUMINA
-    - AFFY_GW6
+    - AFFY\_GW6
         - Only SNP probesets
-    - AFFY_GW6_CN
+    - AFFY\_GW6\_CN
         - SNP probesets plus copy number probesets
-    - NGS_WES
-    - NGS_WGS
-    - AFFY_AXIOM
+    - NGS\_WES
+    - NGS\_WGS
+    - AFFY\_AXIOM
     - If you choose one of the Affymetrix arrays, there will be the additional option **Start From**:
         - CEL files
         - APT results (must have the same name as the **Project Name**)
