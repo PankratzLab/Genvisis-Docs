@@ -1,8 +1,8 @@
 # Resources Directory
 
 When you first create a Genvisis project, Genvisis will create a resources directory, **.genvisis/**, in your home directory. This directory contains files that are used across Genvisis projects.
-    - Linux/Mac: $HOME/.genvisis/
-    - Windows: C:\Users\[username]\.genvisis\
+- Linux/Mac: $HOME/.genvisis/
+- Windows: C:\Users\[username]\.genvisis\
 
 The **.genvisis/** directory contains the following sub-directories and files.
 - example/
