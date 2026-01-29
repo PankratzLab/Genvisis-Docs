@@ -58,7 +58,7 @@ S3 Endpoint [s3. …]:
 Use **%(bucket)s.s3.amazonaws.com** to the target Amazon S3. The **%(bucket)s** and **%(location)s** vars can be used if the target S3 system supports DNS-based buckets.
 
 DNS-style bucket+hostname:port template for accessing a bucket [%(bucket)s.s3. …]:
-    1. Set **host_base** to the value in brackets for **S3 Endpoint**.
-    2. Set **host_bucket** to the value in brackets for **DNS-style bucket+hostname:port** template for accessing a bucket**.
-    3. Edit **aws_access_key_id** and **aws_secret_access_key**, both of which will be displayed when running **s3cmd --configure** or can be found with the command **s3info**.
-    4. Edit **sharing_address**, which is your user id for the local environment where you are storing the credentials file.
+    1. Set **host\_base** to the value in brackets for **S3 Endpoint**.
+    2. Set **host\_bucket** to the value in brackets for **DNS-style bucket+hostname:port** template for accessing a bucket**.
+    3. Edit **aws\_access\_key\_id** and **aws\_secret\_access\_key**, both of which will be displayed when running **s3cmd --configure** or can be found with the command **s3info**.
+    4. Edit **sharing\_address**, which is your user id for the local environment where you are storing the credentials file.
