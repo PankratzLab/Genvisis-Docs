@@ -24,7 +24,7 @@ Genvisis requires appropriately formatted raw data files.
 - Use existing Illumina Final Report files. 
 - This option requires:
     - final report files with one or more samples per file (see below)
-    - the plain text version of the manifest file for the array (.csv format)
+    - the plain text version of the manifest file for the array (**.csv** format)
 
     The final report files must include several columns: SNP name, Sample ID, GC score, Allele1 - AB, Allele2 - AB, X, and Y. Two optional but helpful columns are B allele frequency and Log R ratio.
 
@@ -35,9 +35,9 @@ Note that, for any of these options, the Illumina manifest file must contain pro
 For Affymetrix data, Genvisis requires the following:
 - **.CEL** files (one per sample)
 - Affymetrix Power Tools
-- Affymetrix Annotation file (*.annot.csv) aka Manifest (Genvisis comes with **GenomeWideSNP_6.na35.annot.csv**, which works for most Affymetrix projects)
+- Affymetrix Annotation file (**.annot.csv**) aka manifest (Genvisis comes with **GenomeWideSNP_6.na35.annot.csv**, which works for most Affymetrix projects)
 
-Optionally, you can include an Affymetrix Probe Set file (***.probe_tab**). This file is required for the **[Run Marker BLAST Annotation](../#/documentation/RunTheGenvisisWorkflow--run-marker-blast-annotation-affymetrix)** step of the Genvisis workflow. 
+Optionally, you can include an Affymetrix Probe Set file (**.probe_tab**). This file is required for the **[Run Marker BLAST Annotation](../#/documentation/RunTheGenvisisWorkflow--run-marker-blast-annotation-affymetrix)** step of the Genvisis workflow. 
 
 The Affy6 probe set file is saved in the [Genvisis resources directory](../#/documentation/GetStarted--resources-directory). 
 
